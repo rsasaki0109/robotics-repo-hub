@@ -13,22 +13,28 @@ Each organization page lists top repos by stars with activity status and languag
 | [ROS 2](https://github.com/ros2) | Middleware | 92 | 14,691 | [View](orgs/ros2.md) |
 | [Autoware Foundation](https://github.com/autowarefoundation) | Autonomous Driving | 80 | 14,629 | [View](orgs/autowarefoundation.md) |
 | [Point Cloud Library (PCL)](https://github.com/PointCloudLibrary) | Perception / 3D | 9 | 11,387 | [View](orgs/PointCloudLibrary.md) |
+| [DJI SDK](https://github.com/dji-sdk) | Aerial / Drones | 43 | 8,002 | [View](orgs/dji-sdk.md) |
 | [ROBOTIS](https://github.com/ROBOTIS-GIT) | Hardware / Education | 111 | 7,032 | [View](orgs/ROBOTIS-GIT.md) |
 | [MoveIt](https://github.com/moveit) | Manipulation | 41 | 6,274 | [View](orgs/moveit.md) |
 | [ANYbotics](https://github.com/ANYbotics) | Legged Robots / Industry | 26 | 6,134 | [View](orgs/ANYbotics.md) |
 | [Drake (Robot Locomotion Group)](https://github.com/RobotLocomotion) | Planning / Simulation | 35 | 6,013 | [View](orgs/RobotLocomotion.md) |
 | [ros2_control](https://github.com/ros-controls) | Control | 29 | 4,750 | [View](orgs/ros-controls.md) |
 | [Nav2 (ROS Navigation)](https://github.com/ros-navigation) | Navigation | 10 | 4,748 | [View](orgs/ros-navigation.md) |
+| [StereoLabs](https://github.com/stereolabs) | Sensors / Industry | 41 | 3,997 | [View](orgs/stereolabs.md) |
 | [Gazebo](https://github.com/gazebosim) | Simulation | 46 | 3,465 | [View](orgs/gazebosim.md) |
+| [Universal Robots](https://github.com/UniversalRobots) | Manipulation / Industry | 33 | 2,977 | [View](orgs/UniversalRobots.md) |
 | [micro-ROS](https://github.com/micro-ROS) | Embedded / Middleware | 30 | 2,858 | [View](orgs/micro-ROS.md) |
+| [Boston Dynamics AI Institute](https://github.com/bdaiinstitute) | Legged Robots / Industry | 31 | 2,749 | [View](orgs/bdaiinstitute.md) |
 | [Open-RMF](https://github.com/open-rmf) | Fleet Management | 70 | 2,108 | [View](orgs/open-rmf.md) |
 | [Foxglove](https://github.com/foxglove) | Visualization / DevTools | 53 | 1,816 | [View](orgs/foxglove.md) |
+| [Franka Emika](https://github.com/frankaemika) | Manipulation / Industry | 1 | 1 | [View](orgs/frankaemika.md) |
+| [Intel RealSense](https://github.com/IntelRealSense) | Sensors / Industry | 0 | 0 | [View](orgs/IntelRealSense.md) |
 
 ## AI / Embodied AI
 
 | Organization | Domain | Repos | Stars | Catalog |
 |---|---|---|---|---|
-| [OpenAI](https://github.com/openai) | Foundation Models | 198 | 797,255 | [View](orgs/openai.md) |
+| [OpenAI](https://github.com/openai) | Foundation Models | 198 | 797,256 | [View](orgs/openai.md) |
 | [Hugging Face](https://github.com/huggingface) | Foundation Models | 308 | 654,244 | [View](orgs/huggingface.md) |
 | [Meta FAIR](https://github.com/facebookresearch) | Research | 545 | 492,853 | [View](orgs/facebookresearch.md) |
 | [Google DeepMind](https://github.com/google-deepmind) | Research | 315 | 201,228 | [View](orgs/google-deepmind.md) |

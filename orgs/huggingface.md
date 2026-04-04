@@ -13,7 +13,7 @@
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
 | [transformers](https://github.com/huggingface/transformers) | 158,832 | Python | Active | 🤗 Transformers: the model-definition framework for state-of-the-art machine lear |
-| [pytorch-image-models](https://github.com/huggingface/pytorch-image-models) | 36,598 | Python | Active | The largest collection of PyTorch image encoders / backbones. Including train, e |
+| [pytorch-image-models](https://github.com/huggingface/pytorch-image-models) | 36,599 | Python | Active | The largest collection of PyTorch image encoders / backbones. Including train, e |
 | [diffusers](https://github.com/huggingface/diffusers) | 33,266 | Python | Active | 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio gener |
 | [agents-course](https://github.com/huggingface/agents-course) | 27,578 | MDX | Active | This repository contains the Hugging Face Agents Course.  |
 | [smolagents](https://github.com/huggingface/smolagents) | 26,450 | Python | Active | 🤗 smolagents: a barebones library for agents that think in code. |
@@ -40,7 +40,7 @@
 | [notebooks](https://github.com/huggingface/notebooks) | 4,502 | Jupyter Notebook | Active | Notebooks using the Hugging Face libraries 🤗 |
 | [diffusion-models-class](https://github.com/huggingface/diffusion-models-class) | 4,305 | Jupyter Notebook | Active | Materials for the Hugging Face Diffusion Models Course |
 | [distil-whisper](https://github.com/huggingface/distil-whisper) | 4,066 | Python | Low | Distilled variant of Whisper for speech recognition. 6x faster, 50% smaller, wit |
-| [course](https://github.com/huggingface/course) | 3,820 | MDX | Active | The Hugging Face course on Transformers |
+| [course](https://github.com/huggingface/course) | 3,819 | MDX | Active | The Hugging Face course on Transformers |
 | [smollm](https://github.com/huggingface/smollm) | 3,698 | Python | Active | Everything about the SmolLM and SmolVLM family of models  |
 | [safetensors](https://github.com/huggingface/safetensors) | 3,678 | Python | Active | Simple, safe way to store and distribute tensors |
 | [huggingface_hub](https://github.com/huggingface/huggingface_hub) | 3,477 | Python | Active | The official Python client for the Hugging Face Hub. |
