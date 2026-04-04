@@ -91,6 +91,43 @@ ORGANIZATIONS = {
         "url": "https://micro.ros.org",
         "description": "ROS 2 on microcontrollers",
     },
+    # ── AI / Embodied AI ─────────────────────────────────────────
+    "huggingface": {
+        "display_name": "Hugging Face",
+        "domain": "AI / Foundation Models",
+        "url": "https://huggingface.co",
+        "description": "Open-source ML platform — Transformers, Diffusers, LeRobot",
+    },
+    "google-deepmind": {
+        "display_name": "Google DeepMind",
+        "domain": "AI / Research",
+        "url": "https://deepmind.google",
+        "description": "RT-2, PaLM-E, Gemini robotics, AlphaFold",
+    },
+    "facebookresearch": {
+        "display_name": "Meta FAIR",
+        "domain": "AI / Research",
+        "url": "https://ai.meta.com",
+        "description": "PyTorch, Habitat, Detic, SAM, Segment Anything",
+    },
+    "openai": {
+        "display_name": "OpenAI",
+        "domain": "AI / Foundation Models",
+        "url": "https://openai.com",
+        "description": "GPT, CLIP, Whisper, Gym, Safety Gym",
+    },
+    "NVIDIA-AI-IOT": {
+        "display_name": "NVIDIA AI-IOT",
+        "domain": "AI / Edge & Robotics",
+        "url": "https://developer.nvidia.com",
+        "description": "Isaac, Jetson inference, TensorRT demos, edge AI for robotics",
+    },
+    "Physical-Intelligence": {
+        "display_name": "Physical Intelligence (pi)",
+        "domain": "AI / Embodied Intelligence",
+        "url": "https://www.physicalintelligence.company",
+        "description": "pi0 — foundation models for physical intelligence and robot control",
+    },
     # ── Universities / Research Labs ──────────────────────────────
     "StanfordASL": {
         "display_name": "Stanford ASL",

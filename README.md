@@ -10,6 +10,12 @@ Each organization page lists top repos by stars with activity status and languag
 
 | Organization | Domain | Repos | Stars | Catalog |
 |---|---|---|---|---|
+| [NVIDIA AI-IOT](https://github.com/NVIDIA-AI-IOT) | AI / Edge & Robotics | 116 | 30,470 | [View](orgs/NVIDIA-AI-IOT.md) |
+| [Physical Intelligence (pi)](https://github.com/Physical-Intelligence) | AI / Embodied Intelligence | 5 | 11,559 | [View](orgs/Physical-Intelligence.md) |
+| [Hugging Face](https://github.com/huggingface) | AI / Foundation Models | 308 | 654,227 | [View](orgs/huggingface.md) |
+| [OpenAI](https://github.com/openai) | AI / Foundation Models | 198 | 797,212 | [View](orgs/openai.md) |
+| [Google DeepMind](https://github.com/google-deepmind) | AI / Research | 315 | 201,214 | [View](orgs/google-deepmind.md) |
+| [Meta FAIR](https://github.com/facebookresearch) | AI / Research | 545 | 492,834 | [View](orgs/facebookresearch.md) |
 | [Autoware Foundation](https://github.com/autowarefoundation) | Autonomous Driving | 80 | 14,629 | [View](orgs/autowarefoundation.md) |
 | [ros2_control](https://github.com/ros-controls) | Control | 29 | 4,750 | [View](orgs/ros-controls.md) |
 | [micro-ROS](https://github.com/micro-ROS) | Embedded / Middleware | 30 | 2,858 | [View](orgs/micro-ROS.md) |
@@ -24,7 +30,7 @@ Each organization page lists top repos by stars with activity status and languag
 | [Gazebo](https://github.com/gazebosim) | Simulation | 46 | 3,465 | [View](orgs/gazebosim.md) |
 | [HKUST Aerial Robotics](https://github.com/HKUST-Aerial-Robotics) | University / Aerial & SLAM | 68 | 33,655 | [View](orgs/HKUST-Aerial-Robotics.md) |
 | [Georgia Tech BORG Lab](https://github.com/borglab) | University / Factor Graphs | 16 | 4,242 | [View](orgs/borglab.md) |
-| [ETH RSL (Legged Robotics)](https://github.com/leggedrobotics) | University / Legged Robots | 124 | 22,270 | [View](orgs/leggedrobotics.md) |
+| [ETH RSL (Legged Robotics)](https://github.com/leggedrobotics) | University / Legged Robots | 124 | 22,271 | [View](orgs/leggedrobotics.md) |
 | [Kenji Koide (AIST / SLAM)](https://github.com/koide3) | University / LiDAR Registration | 61 | 13,184 | [View](orgs/koide3.md) |
 | [Giseop Kim (SNU / SLAM)](https://github.com/gisbi-kim) | University / LiDAR SLAM | 80 | 4,836 | [View](orgs/gisbi-kim.md) |
 | [Tixiao Shan (LIO-SAM)](https://github.com/TixiaoShan) | University / LiDAR SLAM | 13 | 7,653 | [View](orgs/TixiaoShan.md) |

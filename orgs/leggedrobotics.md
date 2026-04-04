@@ -6,7 +6,7 @@
 - **Website**: https://rsl.ethz.ch
 - **GitHub**: https://github.com/leggedrobotics
 - **Repos (non-fork)**: 124
-- **Total Stars**: 22,836
+- **Total Stars**: 22,837
 
 ## Notable Repositories
 
@@ -38,7 +38,7 @@
 | [SimBenchmark](https://github.com/leggedrobotics/SimBenchmark) | 224 | C++ | Inactive | Physics engine benchmark for robotics applications: RaiSim vs Bullet vs ODE vs M |
 | [art_planner](https://github.com/leggedrobotics/art_planner) | 220 | C++ | Inactive | Local Navigation Planner for Legged Robots |
 | [robotic_world_model_lite](https://github.com/leggedrobotics/robotic_world_model_lite) | 187 | Python | Active | Lightweight implementation of Robotic World Model (RWM) and Uncertainty-Aware Ro |
-| [sru-pytorch-spatial-learning](https://github.com/leggedrobotics/sru-pytorch-spatial-learning) | 181 | Python | Active | Spatially-Enhanced Recurrent Units (SRU) - PyTorch Implementation |
+| [sru-pytorch-spatial-learning](https://github.com/leggedrobotics/sru-pytorch-spatial-learning) | 182 | Python | Active | Spatially-Enhanced Recurrent Units (SRU) - PyTorch Implementation |
 | [holistic_fusion](https://github.com/leggedrobotics/holistic_fusion) | 154 | C++ | Active | Official repository for holistic fusion. |
 | [unity_ros_teleoperation](https://github.com/leggedrobotics/unity_ros_teleoperation) | 146 | C# | Active | Unity project for OpenXR control of ROS systems |
 | [perfectlyconstrained](https://github.com/leggedrobotics/perfectlyconstrained) | 126 | C++ | Moderate | Official implementations from the paper "Informed, Constrained, Aligned: A Field |
