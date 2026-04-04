@@ -183,6 +183,42 @@ ORGANIZATIONS = {
         "url": "https://www.anybotics.com",
         "description": "ANYmal quadruped — grid_map, elevation_mapping, kindr",
     },
+    "bdaiinstitute": {
+        "display_name": "Boston Dynamics AI Institute",
+        "domain": "Legged Robots / Industry",
+        "url": "https://theaiinstitute.com",
+        "description": "Boston Dynamics AI Institute — legged robots, manipulation, AI research",
+    },
+    "UniversalRobots": {
+        "display_name": "Universal Robots",
+        "domain": "Manipulation / Industry",
+        "url": "https://www.universal-robots.com",
+        "description": "Universal Robots — collaborative robot arms, ROS drivers",
+    },
+    "dji-sdk": {
+        "display_name": "DJI SDK",
+        "domain": "Aerial / Drones",
+        "url": "https://developer.dji.com",
+        "description": "DJI — drone SDKs, onboard computing, mobile integration",
+    },
+    "frankaemika": {
+        "display_name": "Franka Emika",
+        "domain": "Manipulation / Industry",
+        "url": "https://franka.de",
+        "description": "Franka Emika — Panda robot arm, libfranka, franka_ros2",
+    },
+    "IntelRealSense": {
+        "display_name": "Intel RealSense",
+        "domain": "Sensors / Industry",
+        "url": "https://www.intelrealsense.com",
+        "description": "Intel RealSense — depth cameras, librealsense SDK, ROS wrappers",
+    },
+    "stereolabs": {
+        "display_name": "StereoLabs",
+        "domain": "Sensors / Industry",
+        "url": "https://www.stereolabs.com",
+        "description": "StereoLabs — ZED stereo cameras, depth sensing, spatial mapping",
+    },
     "gisbi-kim": {
         "display_name": "Giseop Kim (SNU / SLAM)",
         "domain": "University / LiDAR SLAM",

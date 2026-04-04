@@ -6,7 +6,7 @@
 - **Website**: https://openai.com
 - **GitHub**: https://github.com/openai
 - **Repos (non-fork)**: 198
-- **Total Stars**: 824,580
+- **Total Stars**: 824,581
 
 ## Notable Repositories
 
@@ -15,7 +15,7 @@
 | [whisper](https://github.com/openai/whisper) | 97,184 | Python | Active | Robust Speech Recognition via Large-Scale Weak Supervision |
 | [codex](https://github.com/openai/codex) | 73,234 | Rust | Active | Lightweight coding agent that runs in your terminal |
 | [openai-cookbook](https://github.com/openai/openai-cookbook) | 72,576 | Jupyter Notebook | Active | Examples and guides for using the OpenAI API |
-| [gym](https://github.com/openai/gym) | 37,136 | Python | Active | A toolkit for developing and comparing reinforcement learning algorithms. |
+| [gym](https://github.com/openai/gym) | 37,137 | Python | Active | A toolkit for developing and comparing reinforcement learning algorithms. |
 | [CLIP](https://github.com/openai/CLIP) | 33,074 | Jupyter Notebook | Active | CLIP (Contrastive Language-Image Pretraining),  Predict the most relevant text s |
 | [openai-python](https://github.com/openai/openai-python) | 30,369 | Python | Active | The official Python library for the OpenAI API |
 | [gpt-2](https://github.com/openai/gpt-2) | 24,738 | Python | Low | Code for the paper "Language Models are Unsupervised Multitask Learners" |
