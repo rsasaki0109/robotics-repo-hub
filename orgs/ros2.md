@@ -6,13 +6,13 @@
 - **Website**: https://docs.ros.org
 - **GitHub**: https://github.com/ros2
 - **Repos (non-fork)**: 92
-- **Total Stars**: 15,064
+- **Total Stars**: 15,065
 
 ## Notable Repositories
 
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
-| [ros2](https://github.com/ros2/ros2) | 5,297 | — | Active | The Robot Operating System, is a meta operating system for robots. |
+| [ros2](https://github.com/ros2/ros2) | 5,298 | — | Active | The Robot Operating System, is a meta operating system for robots. |
 | [examples](https://github.com/ros2/examples) | 911 | C++ | Active | Example packages for ROS 2 |
 | [ros2_documentation](https://github.com/ros2/ros2_documentation) | 876 | Python | Active | ROS 2 docs repository |
 | [rclcpp](https://github.com/ros2/rclcpp) | 736 | C++ | Active | rclcpp (ROS Client Library for C++) |

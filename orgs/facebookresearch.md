@@ -6,27 +6,27 @@
 - **Website**: https://ai.meta.com
 - **GitHub**: https://github.com/facebookresearch
 - **Repos (non-fork)**: 545
-- **Total Stars**: 943,718
+- **Total Stars**: 943,738
 
 ## Notable Repositories
 
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
-| [segment-anything](https://github.com/facebookresearch/segment-anything) | 53,858 | Jupyter Notebook | Low | The repository provides code for running inference with the SegmentAnything Mode |
+| [segment-anything](https://github.com/facebookresearch/segment-anything) | 53,859 | Jupyter Notebook | Low | The repository provides code for running inference with the SegmentAnything Mode |
 | [faiss](https://github.com/facebookresearch/faiss) | 39,611 | C++ | Active | A library for efficient similarity search and clustering of dense vectors. |
-| [detectron2](https://github.com/facebookresearch/detectron2) | 34,279 | Python | Active | Detectron2 is a platform for object detection, segmentation and other visual rec |
+| [detectron2](https://github.com/facebookresearch/detectron2) | 34,280 | Python | Active | Detectron2 is a platform for object detection, segmentation and other visual rec |
 | [audiocraft](https://github.com/facebookresearch/audiocraft) | 23,151 | Jupyter Notebook | Active | Audiocraft is a library for audio processing and generation with deep learning.  |
-| [sam2](https://github.com/facebookresearch/sam2) | 18,853 | Jupyter Notebook | Active | The repository provides code for running inference with the Meta Segment Anythin |
+| [sam2](https://github.com/facebookresearch/sam2) | 18,855 | Jupyter Notebook | Active | The repository provides code for running inference with the Meta Segment Anythin |
 | [vggt](https://github.com/facebookresearch/vggt) | 12,780 | Python | Active | [CVPR 2025 Best Paper Award] VGGT: Visual Geometry Grounded Transformer |
-| [dinov2](https://github.com/facebookresearch/dinov2) | 12,634 | Jupyter Notebook | Active | PyTorch code and models for the DINOv2 self-supervised learning method. |
+| [dinov2](https://github.com/facebookresearch/dinov2) | 12,635 | Jupyter Notebook | Active | PyTorch code and models for the DINOv2 self-supervised learning method. |
 | [seamless_communication](https://github.com/facebookresearch/seamless_communication) | 11,770 | Jupyter Notebook | Active | Foundational Models for State-of-the-Art Speech and Text Translation |
 | [xformers](https://github.com/facebookresearch/xformers) | 10,406 | Python | Active | Hackable and optimized Transformers building blocks, supporting a composable con |
 | [hydra](https://github.com/facebookresearch/hydra) | 10,293 | Python | Active | Hydra is a framework for elegantly configuring complex applications |
-| [dinov3](https://github.com/facebookresearch/dinov3) | 10,022 | Jupyter Notebook | Active | Reference PyTorch implementation and models for DINOv3 |
+| [dinov3](https://github.com/facebookresearch/dinov3) | 10,023 | Jupyter Notebook | Active | Reference PyTorch implementation and models for DINOv3 |
 | [nougat](https://github.com/facebookresearch/nougat) | 9,885 | Python | Low | Implementation of Nougat Neural Optical Understanding for Academic Documents |
 | [pytorch3d](https://github.com/facebookresearch/pytorch3d) | 9,847 | Python | Active | PyTorch3D is FAIR's library of reusable components for deep learning with 3D dat |
 | [ImageBind](https://github.com/facebookresearch/ImageBind) | 9,005 | Python | Moderate | ImageBind One Embedding Space to Bind Them All |
-| [sam3](https://github.com/facebookresearch/sam3) | 8,740 | Python | Active | The repository provides code for running inference and finetuning with the Meta  |
+| [sam3](https://github.com/facebookresearch/sam3) | 8,742 | Python | Active | The repository provides code for running inference and finetuning with the Meta  |
 | [SlowFast](https://github.com/facebookresearch/SlowFast) | 7,335 | Python | Active | PySlowFast: video understanding codebase from FAIR for reproducing state-of-the- |
 | [sam-3d-objects](https://github.com/facebookresearch/sam-3d-objects) | 6,366 | Python | Active | SAM 3D Objects |
 | [Kats](https://github.com/facebookresearch/Kats) | 6,294 | Python | Active | Kats, a kit to analyze time series data, a lightweight, easy-to-use, generalizab |
@@ -49,7 +49,7 @@
 | [fairscale](https://github.com/facebookresearch/fairscale) | 3,405 | Python | Moderate | PyTorch extensions for high performance and large scale training. |
 | [map-anything](https://github.com/facebookresearch/map-anything) | 3,054 | Python | Active | MapAnything: Universal Feed-Forward Metric 3D Reconstruction |
 | [Pearl](https://github.com/facebookresearch/Pearl) | 2,984 | Jupyter Notebook | Active | A Production-ready Reinforcement Learning AI Agent Library brought by the Applie |
-| [habitat-lab](https://github.com/facebookresearch/habitat-lab) | 2,929 | Python | Active | A modular high-level library to train embodied AI agents across a variety of tas |
+| [habitat-lab](https://github.com/facebookresearch/habitat-lab) | 2,930 | Python | Active | A modular high-level library to train embodied AI agents across a variety of tas |
 | [sam-3d-body](https://github.com/facebookresearch/sam-3d-body) | 2,784 | Python | Active | The repository provides code for running inference with the SAM 3D Body Model (3 |
 | [omnilingual-asr](https://github.com/facebookresearch/omnilingual-asr) | 2,748 | Python | Moderate | Omnilingual ASR Open-Source Multilingual SpeechRecognition for 1600+ Languages |
 | [large_concept_model](https://github.com/facebookresearch/large_concept_model) | 2,345 | Python | Low | Large Concept Models: Language modeling in a sentence representation space |
