@@ -6,13 +6,13 @@
 - **Website**: https://sites.udel.edu/robot
 - **GitHub**: https://github.com/rpng
 - **Repos (non-fork)**: 41
-- **Total Stars**: 7,830
+- **Total Stars**: 7,829
 
 ## Notable Repositories
 
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
-| [open_vins](https://github.com/rpng/open_vins) | 2,828 | C++ | Moderate | An open source platform for visual-inertial navigation research. |
+| [open_vins](https://github.com/rpng/open_vins) | 2,827 | C++ | Moderate | An open source platform for visual-inertial navigation research. |
 | [R-VIO](https://github.com/rpng/R-VIO) | 885 | C++ | Inactive | Robocentric Visual-Inertial Odometry |
 | [MINS](https://github.com/rpng/MINS) | 684 | C++ | Low | An efficient and robust multisensor-aided inertial navigation system with online |
 | [sqrtVINS](https://github.com/rpng/sqrtVINS) | 328 | C++ | Moderate | Robust and Ultrafast Square-Root Filter-based 3D Motion Tracking |

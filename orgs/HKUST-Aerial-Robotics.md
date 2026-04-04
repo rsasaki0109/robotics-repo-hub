@@ -6,7 +6,7 @@
 - **Website**: https://uav.hkust.edu.hk
 - **GitHub**: https://github.com/HKUST-Aerial-Robotics
 - **Repos (non-fork)**: 68
-- **Total Stars**: 34,361
+- **Total Stars**: 34,362
 
 ## Notable Repositories
 
@@ -15,7 +15,7 @@
 | [VINS-Mono](https://github.com/HKUST-Aerial-Robotics/VINS-Mono) | 5,829 | C++ | Low | A Robust and Versatile Monocular Visual-Inertial State Estimator |
 | [VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion) | 4,463 | C++ | Low | An optimization-based multi-sensor state estimator |
 | [Fast-Planner](https://github.com/HKUST-Aerial-Robotics/Fast-Planner) | 3,249 | C++ | Low | A Robust and Efficient Trajectory Planner for Quadrotors |
-| [A-LOAM](https://github.com/HKUST-Aerial-Robotics/A-LOAM) | 2,379 | C++ | Inactive | Advanced implementation of LOAM |
+| [A-LOAM](https://github.com/HKUST-Aerial-Robotics/A-LOAM) | 2,380 | C++ | Inactive | Advanced implementation of LOAM |
 | [FUEL](https://github.com/HKUST-Aerial-Robotics/FUEL) | 1,373 | C++ | Low | An Efficient Framework for Fast UAV Exploration  |
 | [VINS-Mobile](https://github.com/HKUST-Aerial-Robotics/VINS-Mobile) | 1,352 | C++ | Inactive | Monocular Visual-Inertial State Estimator on Mobile Phones |
 | [Teach-Repeat-Replan](https://github.com/HKUST-Aerial-Robotics/Teach-Repeat-Replan) | 1,133 | C++ | Inactive | Teach-Repeat-Replan: A Complete and Robust System for Aggressive Flight in Compl |

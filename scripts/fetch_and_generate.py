@@ -313,6 +313,15 @@ def generate_org_md(org_key: str, org_info: dict, repos: list[dict]) -> str:
     return "\n".join(lines)
 
 
+def _section_key(domain: str) -> str:
+    """Map domain to a section heading."""
+    if domain.startswith("University /"):
+        return "University / Research Labs"
+    if domain.startswith("AI /"):
+        return "AI / Embodied AI"
+    return "Industry / OSS Projects"
+
+
 def generate_readme(org_data: dict[str, dict]) -> str:
     """Generate the top-level README."""
     lines = []
@@ -320,21 +329,44 @@ def generate_readme(org_data: dict[str, dict]) -> str:
     lines.append("A curated catalog of notable repositories from major robotics GitHub organizations.\n")
     lines.append("Each organization page lists top repos by stars with activity status and language breakdown.\n")
     lines.append("---\n")
-    lines.append("## Organizations\n")
-    lines.append("| Organization | Domain | Repos | Stars | Catalog |")
-    lines.append("|---|---|---|---|---|")
 
-    for org_key, info in sorted(ORGANIZATIONS.items(), key=lambda x: x[1]["domain"]):
-        data = org_data.get(org_key, {})
-        total = data.get("total", 0)
-        stars = data.get("stars", 0)
-        lines.append(
-            f"| [{info['display_name']}](https://github.com/{org_key}) "
-            f"| {info['domain']} | {total} | {stars:,} "
-            f"| [View](orgs/{org_key}.md) |"
-        )
+    # Group by section
+    sections: dict[str, list[tuple[str, dict]]] = {}
+    for org_key, info in ORGANIZATIONS.items():
+        sec = _section_key(info["domain"])
+        sections.setdefault(sec, []).append((org_key, info))
 
-    lines.append("")
+    # Display order
+    section_order = ["Industry / OSS Projects", "AI / Embodied AI", "University / Research Labs"]
+
+    for section in section_order:
+        orgs = sections.get(section, [])
+        if not orgs:
+            continue
+        lines.append(f"## {section}\n")
+        lines.append("| Organization | Domain | Repos | Stars | Catalog |")
+        lines.append("|---|---|---|---|---|")
+
+        # Sort by stars descending
+        orgs_sorted = sorted(orgs, key=lambda x: -org_data.get(x[0], {}).get("stars", 0))
+        for org_key, info in orgs_sorted:
+            data = org_data.get(org_key, {})
+            total = data.get("total", 0)
+            stars = data.get("stars", 0)
+            # Strip section prefix from domain for cleaner display
+            domain_short = info["domain"]
+            for prefix in ("University / ", "AI / "):
+                if domain_short.startswith(prefix):
+                    domain_short = domain_short[len(prefix):]
+                    break
+            lines.append(
+                f"| [{info['display_name']}](https://github.com/{org_key}) "
+                f"| {domain_short} | {total} | {stars:,} "
+                f"| [View](orgs/{org_key}.md) |"
+            )
+
+        lines.append("")
+
     lines.append("---\n")
 
     lines.append("## How to Update\n")

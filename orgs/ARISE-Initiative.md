@@ -6,13 +6,13 @@
 - **Website**: https://arise-initiative.org
 - **GitHub**: https://github.com/ARISE-Initiative
 - **Repos (non-fork)**: 8
-- **Total Stars**: 3,858
+- **Total Stars**: 3,859
 
 ## Notable Repositories
 
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
-| [robosuite](https://github.com/ARISE-Initiative/robosuite) | 2,332 | Python | Active | robosuite: A Modular Simulation Framework and Benchmark for Robot Learning |
+| [robosuite](https://github.com/ARISE-Initiative/robosuite) | 2,333 | Python | Active | robosuite: A Modular Simulation Framework and Benchmark for Robot Learning |
 | [robomimic](https://github.com/ARISE-Initiative/robomimic) | 1,359 | Python | Active | robomimic: A Modular Framework for Robot Learning from Demonstration |
 | [robosuite-benchmark](https://github.com/ARISE-Initiative/robosuite-benchmark) | 69 | Jupyter Notebook | Inactive | Benchmarking Repository for robosuite + SAC |
 | [robosuite_models](https://github.com/ARISE-Initiative/robosuite_models) | 47 | Python | Low | A collection of robot models tailored to robosuite.  |
