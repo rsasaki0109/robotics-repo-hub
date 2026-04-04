@@ -91,28 +91,117 @@ ORGANIZATIONS = {
         "url": "https://micro.ros.org",
         "description": "ROS 2 on microcontrollers",
     },
+    # ── Universities / Research Labs ──────────────────────────────
+    "StanfordASL": {
+        "display_name": "Stanford ASL",
+        "domain": "University / Planning",
+        "url": "https://asl.stanford.edu",
+        "description": "Stanford Autonomous Systems Lab — motion planning, decision-making",
+    },
+    "ethz-asl": {
+        "display_name": "ETH Zurich ASL",
+        "domain": "University / SLAM & Mapping",
+        "url": "https://asl.ethz.ch",
+        "description": "ETH Autonomous Systems Lab — SLAM, mapping, aerial robotics",
+    },
+    "leggedrobotics": {
+        "display_name": "ETH RSL (Legged Robotics)",
+        "domain": "University / Legged Robots",
+        "url": "https://rsl.ethz.ch",
+        "description": "ETH Robotic Systems Lab — ANYmal, legged locomotion, elevation mapping",
+    },
+    "HKUST-Aerial-Robotics": {
+        "display_name": "HKUST Aerial Robotics",
+        "domain": "University / Aerial & SLAM",
+        "url": "https://uav.hkust.edu.hk",
+        "description": "HKUST — VINS-Mono/Fusion, FAST-LIO, autonomous UAV",
+    },
+    "MIT-SPARK": {
+        "display_name": "MIT SPARK Lab",
+        "domain": "University / Spatial Perception",
+        "url": "https://web.mit.edu/sparklab",
+        "description": "MIT — Kimera, Hydra, spatial perception and scene understanding",
+    },
+    "borglab": {
+        "display_name": "Georgia Tech BORG Lab",
+        "domain": "University / Factor Graphs",
+        "url": "https://borg.cc.gatech.edu",
+        "description": "Georgia Tech — GTSAM, factor graph optimization",
+    },
+    "robot-learning-freiburg": {
+        "display_name": "Univ. Freiburg Robot Learning",
+        "domain": "University / Robot Learning",
+        "url": "http://rl.uni-freiburg.de",
+        "description": "Freiburg — panoptic segmentation, robot learning, navigation",
+    },
+    "ARISE-Initiative": {
+        "display_name": "UT Austin ARISE (robosuite)",
+        "domain": "University / Manipulation & Sim",
+        "url": "https://arise-initiative.org",
+        "description": "UT Austin — robosuite, robomimic, manipulation benchmarks",
+    },
+    "ANYbotics": {
+        "display_name": "ANYbotics",
+        "domain": "Legged Robots / Industry",
+        "url": "https://www.anybotics.com",
+        "description": "ANYmal quadruped — grid_map, elevation_mapping, kindr",
+    },
+    "gisbi-kim": {
+        "display_name": "Giseop Kim (SNU / SLAM)",
+        "domain": "University / LiDAR SLAM",
+        "url": "https://github.com/gisbi-kim",
+        "description": "SC-LIO-SAM, LT-mapper, LiDAR place recognition",
+    },
+    "TixiaoShan": {
+        "display_name": "Tixiao Shan (LIO-SAM)",
+        "domain": "University / LiDAR SLAM",
+        "url": "https://github.com/TixiaoShan",
+        "description": "LIO-SAM, LeGO-LOAM — widely-used LiDAR-inertial SLAM",
+    },
+    "koide3": {
+        "display_name": "Kenji Koide (AIST / SLAM)",
+        "domain": "University / LiDAR Registration",
+        "url": "https://github.com/koide3",
+        "description": "small_gicp, ndt_omp, hdl_graph_slam, GLIM",
+    },
+    "rpng": {
+        "display_name": "UD RPNG (OpenVINS)",
+        "domain": "University / Visual-Inertial",
+        "url": "https://sites.udel.edu/robot",
+        "description": "Univ. Delaware — OpenVINS, visual-inertial navigation",
+    },
+    "UZ-SLAMLab": {
+        "display_name": "Univ. Zaragoza SLAM Lab",
+        "domain": "University / Visual SLAM",
+        "url": "https://github.com/UZ-SLAMLab",
+        "description": "ORB-SLAM3 — state-of-the-art visual/visual-inertial SLAM",
+    },
 }
 
 
 def fetch_repos(org: str) -> list[dict]:
-    """Fetch all repos from a GitHub organization via gh CLI."""
-    try:
-        result = subprocess.run(
-            [
-                "gh", "api", f"/orgs/{org}/repos",
-                "--paginate",
-                "--jq",
-                '.[] | {name,description,language,stargazers_count,forks_count,'
-                'open_issues_count,topics,fork,archived,pushed_at,updated_at,html_url,'
-                'license: .license.spdx_id}',
-            ],
-            capture_output=True, text=True, check=True
-        )
-        lines = [l for l in result.stdout.strip().split("\n") if l.strip()]
-        return [json.loads(l) for l in lines]
-    except subprocess.CalledProcessError as e:
-        print(f"  Warning: failed to fetch {org}: {e.stderr[:200]}", file=sys.stderr)
-        return []
+    """Fetch all repos from a GitHub organization or user via gh CLI."""
+    # Try org first, fall back to user
+    for endpoint in [f"/orgs/{org}/repos", f"/users/{org}/repos"]:
+        try:
+            result = subprocess.run(
+                [
+                    "gh", "api", endpoint,
+                    "--paginate",
+                    "--jq",
+                    '.[] | {name,description,language,stargazers_count,forks_count,'
+                    'open_issues_count,topics,fork,archived,pushed_at,updated_at,html_url,'
+                    'license: .license.spdx_id}',
+                ],
+                capture_output=True, text=True, check=True
+            )
+            lines = [l for l in result.stdout.strip().split("\n") if l.strip()]
+            if lines:
+                return [json.loads(l) for l in lines]
+        except subprocess.CalledProcessError:
+            continue
+    print(f"  Warning: failed to fetch {org}", file=sys.stderr)
+    return []
 
 
 def activity_badge(pushed_at: str) -> str:
