@@ -6,7 +6,7 @@
 - **Website**: https://huggingface.co
 - **GitHub**: https://github.com/huggingface
 - **Repos (non-fork)**: 308
-- **Total Stars**: 671,577
+- **Total Stars**: 671,579
 
 ## Perception
 
@@ -93,12 +93,12 @@
 
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
-| [transformers](https://github.com/huggingface/transformers) | 158,841 | Python | Active | 🤗 Transformers: the model-definition framework for state-of-the-art machine lear |
+| [transformers](https://github.com/huggingface/transformers) | 158,840 | Python | Active | 🤗 Transformers: the model-definition framework for state-of-the-art machine lear |
 | [pytorch-image-models](https://github.com/huggingface/pytorch-image-models) | 36,599 | Python | Active | The largest collection of PyTorch image encoders / backbones. Including train, e |
 | [diffusers](https://github.com/huggingface/diffusers) | 33,269 | Python | Active | 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio gener |
 | [peft](https://github.com/huggingface/peft) | 20,892 | Python | Active | 🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning. |
 | [sentence-transformers](https://github.com/huggingface/sentence-transformers) | 18,501 | Python | Active | State-of-the-Art Text Embeddings |
-| [trl](https://github.com/huggingface/trl) | 17,929 | Python | Active | Train transformer language models with reinforcement learning. |
+| [trl](https://github.com/huggingface/trl) | 17,930 | Python | Active | Train transformer language models with reinforcement learning. |
 | [transformers.js](https://github.com/huggingface/transformers.js) | 15,780 | JavaScript | Active | State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in yo |
 | [chat-ui](https://github.com/huggingface/chat-ui) | 10,629 | TypeScript | Active | The open source codebase powering HuggingChat |
 | [smol-course](https://github.com/huggingface/smol-course) | 6,621 | Jupyter Notebook | Active | A course on aligning smol models. |
@@ -180,7 +180,7 @@
 | [open-r1](https://github.com/huggingface/open-r1) | 25,964 | Python | Active | Fully open reproduction of DeepSeek-R1 |
 | [lerobot](https://github.com/huggingface/lerobot) | 22,960 | Python | Active | 🤗 LeRobot: Making AI for Robotics more accessible with end-to-end learning |
 | [candle](https://github.com/huggingface/candle) | 19,900 | Rust | Active | Minimalist ML framework for Rust |
-| [skills](https://github.com/huggingface/skills) | 10,055 | Python | Active | Give your agents the power of the Hugging Face ecosystem |
+| [skills](https://github.com/huggingface/skills) | 10,056 | Python | Active | Give your agents the power of the Hugging Face ecosystem |
 | [notebooks](https://github.com/huggingface/notebooks) | 4,502 | Jupyter Notebook | Active | Notebooks using the Hugging Face libraries 🤗 |
 | [distil-whisper](https://github.com/huggingface/distil-whisper) | 4,065 | Python | Low | Distilled variant of Whisper for speech recognition. 6x faster, 50% smaller, wit |
 | [blog](https://github.com/huggingface/blog) | 3,364 | Jupyter Notebook | Active | Public repo for HF blog posts |

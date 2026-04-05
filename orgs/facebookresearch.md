@@ -6,7 +6,7 @@
 - **Website**: https://ai.meta.com
 - **GitHub**: https://github.com/facebookresearch
 - **Repos (non-fork)**: 544
-- **Total Stars**: 943,829
+- **Total Stars**: 943,832
 
 ## SLAM / Localization
 
@@ -100,7 +100,7 @@
 
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
-| [xformers](https://github.com/facebookresearch/xformers) | 10,406 | Python | Active | Hackable and optimized Transformers building blocks, supporting a composable con |
+| [xformers](https://github.com/facebookresearch/xformers) | 10,407 | Python | Active | Hackable and optimized Transformers building blocks, supporting a composable con |
 | [watermark-anything](https://github.com/facebookresearch/watermark-anything) | 1,110 | Jupyter Notebook | Moderate | Official implementation of the paper "Watermark Anything with Localized Messages |
 | [audioseal](https://github.com/facebookresearch/audioseal) | 699 | Python | Active | Localized watermarking for AI-generated speech audios, with SOTA on robustness a |
 | [vrs](https://github.com/facebookresearch/vrs) | 417 | C++ | Active | VRS is a file format optimized to record & playback streams of sensor data, such |
@@ -162,14 +162,14 @@
 
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
-| [segment-anything](https://github.com/facebookresearch/segment-anything) | 53,859 | Jupyter Notebook | Low | The repository provides code for running inference with the SegmentAnything Mode |
+| [segment-anything](https://github.com/facebookresearch/segment-anything) | 53,858 | Jupyter Notebook | Low | The repository provides code for running inference with the SegmentAnything Mode |
 | [sam2](https://github.com/facebookresearch/sam2) | 18,857 | Jupyter Notebook | Active | The repository provides code for running inference with the Meta Segment Anythin |
 | [vggt](https://github.com/facebookresearch/vggt) | 12,781 | Python | Active | [CVPR 2025 Best Paper Award] VGGT: Visual Geometry Grounded Transformer |
 | [dinov2](https://github.com/facebookresearch/dinov2) | 12,636 | Jupyter Notebook | Active | PyTorch code and models for the DINOv2 self-supervised learning method. |
 | [seamless_communication](https://github.com/facebookresearch/seamless_communication) | 11,770 | Jupyter Notebook | Active | Foundational Models for State-of-the-Art Speech and Text Translation |
 | [dinov3](https://github.com/facebookresearch/dinov3) | 10,024 | Jupyter Notebook | Active | Reference PyTorch implementation and models for DINOv3 |
 | [pytorch3d](https://github.com/facebookresearch/pytorch3d) | 9,847 | Python | Active | PyTorch3D is FAIR's library of reusable components for deep learning with 3D dat |
-| [sam3](https://github.com/facebookresearch/sam3) | 8,748 | Python | Active | The repository provides code for running inference and finetuning with the Meta  |
+| [sam3](https://github.com/facebookresearch/sam3) | 8,749 | Python | Active | The repository provides code for running inference and finetuning with the Meta  |
 | [SlowFast](https://github.com/facebookresearch/SlowFast) | 7,335 | Python | Active | PySlowFast: video understanding codebase from FAIR for reproducing state-of-the- |
 | [sam-3d-objects](https://github.com/facebookresearch/sam-3d-objects) | 6,368 | Python | Active | SAM 3D Objects |
 | [mmf](https://github.com/facebookresearch/mmf) | 5,627 | Python | Active | A modular framework for vision & language multimodal research from Facebook AI R |
@@ -191,7 +191,7 @@
 | [MetaCLIP](https://github.com/facebookresearch/MetaCLIP) | 1,828 | Python | Moderate | NeurIPS 2025 Spotlight; ICLR2024 Spotlight; CVPR 2024; EMNLP 2024 |
 | [multimodal](https://github.com/facebookresearch/multimodal) | 1,712 | Python | Active | TorchMultimodal is a PyTorch library for training state-of-the-art multimodal mu |
 | [coconut](https://github.com/facebookresearch/coconut) | 1,554 | Python | Moderate | Training Large Language Model to Reason in a Continuous Latent Space |
-| [tribev2](https://github.com/facebookresearch/tribev2) | 1,510 | Jupyter Notebook | Active | This repository contains the code to train and evaluate TRIBE v2, a multimodal m |
+| [tribev2](https://github.com/facebookresearch/tribev2) | 1,511 | Jupyter Notebook | Active | This repository contains the code to train and evaluate TRIBE v2, a multimodal m |
 
 ## Learning / RL
 

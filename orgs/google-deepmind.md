@@ -6,7 +6,7 @@
 - **Website**: https://deepmind.google
 - **GitHub**: https://github.com/google-deepmind
 - **Repos (non-fork)**: 315
-- **Total Stars**: 214,961
+- **Total Stars**: 214,963
 
 ## SLAM / Localization
 
@@ -93,7 +93,7 @@
 | [alphafold3](https://github.com/google-deepmind/alphafold3) | 7,805 | Python | Active | AlphaFold 3 inference pipeline. |
 | [lab](https://github.com/google-deepmind/lab) | 7,344 | C | Inactive | A customisable 3D platform for agent-based AI research |
 | [graph_nets](https://github.com/google-deepmind/graph_nets) | 5,394 | Python | Inactive | Build Graph Nets in Tensorflow |
-| [gemma](https://github.com/google-deepmind/gemma) | 4,407 | Python | Active | Gemma open-weight LLM library, from Google DeepMind |
+| [gemma](https://github.com/google-deepmind/gemma) | 4,409 | Python | Active | Gemma open-weight LLM library, from Google DeepMind |
 | [learning-to-learn](https://github.com/google-deepmind/learning-to-learn) | 4,069 | Python | Inactive | Learning to Learn in TensorFlow |
 | [mujoco_menagerie](https://github.com/google-deepmind/mujoco_menagerie) | 3,248 | Python | Active | A collection of high-quality models for the MuJoCo physics engine, curated by Go |
 | [dm-haiku](https://github.com/google-deepmind/dm-haiku) | 3,210 | Python | Active | JAX-based neural network library |
