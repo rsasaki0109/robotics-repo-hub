@@ -6,14 +6,19 @@
 - **Website**: https://www.physicalintelligence.company
 - **GitHub**: https://github.com/Physical-Intelligence
 - **Repos (non-fork)**: 5
-- **Total Stars**: 11,559
+- **Total Stars**: 11,566
 
-## Notable Repositories
+## Simulation
 
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
-| [openpi](https://github.com/Physical-Intelligence/openpi) | 11,051 | Python | Active | — |
-| [real-time-chunking-kinetix](https://github.com/Physical-Intelligence/real-time-chunking-kinetix) | 441 | Python | Moderate | Simulated experiments for "Real-Time Execution of Action Chunking Flow Policies" |
+| [real-time-chunking-kinetix](https://github.com/Physical-Intelligence/real-time-chunking-kinetix) | 442 | Python | Moderate | Simulated experiments for "Real-Time Execution of Action Chunking Flow Policies" |
+
+## Other
+
+| Repository | Stars | Language | Activity | Description |
+|---|---|---|---|---|
+| [openpi](https://github.com/Physical-Intelligence/openpi) | 11,057 | Python | Active | — |
 | [aloha](https://github.com/Physical-Intelligence/aloha) | 47 | Python | Low | — |
 | [augmax](https://github.com/Physical-Intelligence/augmax) | 12 | Python | Low | — |
 | [pi-data-sharing](https://github.com/Physical-Intelligence/pi-data-sharing) | 8 | Python | Active | — |

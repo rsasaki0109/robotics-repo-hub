@@ -8,11 +8,6 @@
 - **Repos (non-fork)**: 0
 - **Total Stars**: 27
 
-## Notable Repositories
-
-| Repository | Stars | Language | Activity | Description |
-|---|---|---|---|---|
-
 ## Language Breakdown
 
 | Language | Repos |

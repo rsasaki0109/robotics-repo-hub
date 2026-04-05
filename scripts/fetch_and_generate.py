@@ -2,10 +2,10 @@
 """
 fetch_and_generate.py
 Fetch repository metadata from multiple robotics GitHub organizations
-and generate per-org Markdown catalogs.
+and generate per-org Markdown catalogs + JSON for GitHub Pages.
 
 Usage:
-    python3 scripts/fetch_and_generate.py [--orgs-dir orgs] [--enrich]
+    python3 scripts/fetch_and_generate.py [--orgs-dir orgs]
 
 Requires: gh CLI (authenticated)
 """
@@ -128,6 +128,49 @@ ORGANIZATIONS = {
         "url": "https://www.physicalintelligence.company",
         "description": "pi0 — foundation models for physical intelligence and robot control",
     },
+    # ── Industry (additional) ────────────────────────────────────
+    "bdaiinstitute": {
+        "display_name": "Boston Dynamics AI Institute",
+        "domain": "Legged Robots / Industry",
+        "url": "https://theaiinstitute.com",
+        "description": "Boston Dynamics AI Institute — legged robots, manipulation, AI research",
+    },
+    "UniversalRobots": {
+        "display_name": "Universal Robots",
+        "domain": "Manipulation / Industry",
+        "url": "https://www.universal-robots.com",
+        "description": "Universal Robots — collaborative robot arms, ROS drivers",
+    },
+    "dji-sdk": {
+        "display_name": "DJI SDK",
+        "domain": "Aerial / Drones",
+        "url": "https://developer.dji.com",
+        "description": "DJI — drone SDKs, onboard computing, mobile integration",
+    },
+    "frankaemika": {
+        "display_name": "Franka Emika",
+        "domain": "Manipulation / Industry",
+        "url": "https://franka.de",
+        "description": "Franka Emika — Panda robot arm, libfranka, franka_ros2",
+    },
+    "IntelRealSense": {
+        "display_name": "Intel RealSense",
+        "domain": "Sensors / Industry",
+        "url": "https://www.intelrealsense.com",
+        "description": "Intel RealSense — depth cameras, librealsense SDK, ROS wrappers",
+    },
+    "stereolabs": {
+        "display_name": "StereoLabs",
+        "domain": "Sensors / Industry",
+        "url": "https://www.stereolabs.com",
+        "description": "StereoLabs — ZED stereo cameras, depth sensing, spatial mapping",
+    },
+    "ANYbotics": {
+        "display_name": "ANYbotics",
+        "domain": "Legged Robots / Industry",
+        "url": "https://www.anybotics.com",
+        "description": "ANYmal quadruped — grid_map, elevation_mapping, kindr",
+    },
     # ── Universities / Research Labs ──────────────────────────────
     "StanfordASL": {
         "display_name": "Stanford ASL",
@@ -177,48 +220,6 @@ ORGANIZATIONS = {
         "url": "https://arise-initiative.org",
         "description": "UT Austin — robosuite, robomimic, manipulation benchmarks",
     },
-    "ANYbotics": {
-        "display_name": "ANYbotics",
-        "domain": "Legged Robots / Industry",
-        "url": "https://www.anybotics.com",
-        "description": "ANYmal quadruped — grid_map, elevation_mapping, kindr",
-    },
-    "bdaiinstitute": {
-        "display_name": "Boston Dynamics AI Institute",
-        "domain": "Legged Robots / Industry",
-        "url": "https://theaiinstitute.com",
-        "description": "Boston Dynamics AI Institute — legged robots, manipulation, AI research",
-    },
-    "UniversalRobots": {
-        "display_name": "Universal Robots",
-        "domain": "Manipulation / Industry",
-        "url": "https://www.universal-robots.com",
-        "description": "Universal Robots — collaborative robot arms, ROS drivers",
-    },
-    "dji-sdk": {
-        "display_name": "DJI SDK",
-        "domain": "Aerial / Drones",
-        "url": "https://developer.dji.com",
-        "description": "DJI — drone SDKs, onboard computing, mobile integration",
-    },
-    "frankaemika": {
-        "display_name": "Franka Emika",
-        "domain": "Manipulation / Industry",
-        "url": "https://franka.de",
-        "description": "Franka Emika — Panda robot arm, libfranka, franka_ros2",
-    },
-    "IntelRealSense": {
-        "display_name": "Intel RealSense",
-        "domain": "Sensors / Industry",
-        "url": "https://www.intelrealsense.com",
-        "description": "Intel RealSense — depth cameras, librealsense SDK, ROS wrappers",
-    },
-    "stereolabs": {
-        "display_name": "StereoLabs",
-        "domain": "Sensors / Industry",
-        "url": "https://www.stereolabs.com",
-        "description": "StereoLabs — ZED stereo cameras, depth sensing, spatial mapping",
-    },
     "gisbi-kim": {
         "display_name": "Giseop Kim (SNU / SLAM)",
         "domain": "University / LiDAR SLAM",
@@ -252,9 +253,116 @@ ORGANIZATIONS = {
 }
 
 
+# ── Repo categorization ──────────────────────────────────────────
+
+def categorize_repo(repo: dict) -> str:
+    """Categorize a repo based on name, description, topics, and language."""
+    name = (repo.get("name") or "").lower()
+    desc = (repo.get("description") or "").lower()
+    topics = [t.lower() for t in (repo.get("topics") or [])]
+    text = f"{name} {desc} {' '.join(topics)}"
+
+    # SLAM / Localization
+    if any(k in text for k in ["slam", "localization", "lidar-inertial", "visual-inertial",
+                                 "odometry", "place-recognition", "loop-closure",
+                                 "ndt", "icp", "scan-matching", "vins", "orb-slam",
+                                 "lio-sam", "lego-loam", "fast-lio", "kiss-icp"]):
+        return "SLAM / Localization"
+
+    # Perception / Detection / Segmentation
+    if any(k in text for k in ["detection", "segmentation", "yolo", "object-detect",
+                                 "lidar-detection", "3d-detection", "point-cloud",
+                                 "semantic", "panoptic", "instance-seg", "depth-estimation",
+                                 "stereo-vision", "optical-flow", "tracker", "tracking"]):
+        return "Perception"
+
+    # Planning / Control
+    if any(k in text for k in ["planning", "planner", "trajectory", "motion-planning",
+                                 "path-planning", "behavior", "mpc", "control",
+                                 "controller", "pid", "reinforcement-learning"]):
+        if any(k in text for k in ["reinforcement", "rl", "imitation", "policy"]):
+            return "Learning / RL"
+        return "Planning / Control"
+
+    # Mapping / 3D
+    if any(k in text for k in ["mapping", "map", "elevation", "grid-map",
+                                 "point-cloud", "pcd", "mesh", "3d-reconstruction",
+                                 "voxel", "occupancy", "lanelet"]):
+        return "Mapping / 3D"
+
+    # Simulation
+    if any(k in text for k in ["simulator", "simulation", "sim", "gazebo", "isaac",
+                                 "unity", "unreal", "gym", "environment", "benchmark"]):
+        return "Simulation"
+
+    # Navigation
+    if any(k in text for k in ["navigation", "nav2", "costmap", "obstacle-avoidance",
+                                 "global-planner", "local-planner"]):
+        return "Navigation"
+
+    # Manipulation
+    if any(k in text for k in ["manipulation", "grasp", "pick-and-place", "robot-arm",
+                                 "moveit", "inverse-kinematics", "franka", "panda"]):
+        return "Manipulation"
+
+    # Sensor / Driver
+    if any(k in text for k in ["driver", "lidar", "camera", "imu", "gnss", "gps",
+                                 "sensor", "realsense", "velodyne", "hesai", "ouster",
+                                 "radar", "zed", "v4l2", "usb-cam"]):
+        return "Sensor / Driver"
+
+    # ML / AI / Foundation Model
+    if any(k in text for k in ["transformer", "diffusion", "foundation-model", "llm",
+                                 "language-model", "vision-language", "neural-network",
+                                 "deep-learning", "machine-learning", "pytorch", "tensorflow",
+                                 "training", "inference", "model", "bert", "gpt", "clip",
+                                 "sam", "segment-anything"]):
+        return "ML / AI"
+
+    # Learning / RL / Imitation
+    if any(k in text for k in ["reinforcement", "rl", "imitation", "policy",
+                                 "robot-learning", "reward", "demonstration"]):
+        return "Learning / RL"
+
+    # Middleware / Communication
+    if any(k in text for k in ["ros2", "ros1", "middleware", "dds", "message",
+                                 "communication", "transport", "rclcpp", "rclpy",
+                                 "micro-ros", "microros"]):
+        return "Middleware / ROS"
+
+    # Tools / Utilities
+    if any(k in text for k in ["tool", "util", "debug", "visualization", "rviz",
+                                 "foxglove", "rosbag", "calibration", "logger",
+                                 "converter", "dataset"]):
+        return "Tools / Utilities"
+
+    # Documentation
+    if any(k in text for k in ["doc", "documentation", "tutorial", "example", "demo"]):
+        return "Docs / Examples"
+
+    return "Other"
+
+
+CATEGORY_ORDER = [
+    "SLAM / Localization",
+    "Perception",
+    "Planning / Control",
+    "Navigation",
+    "Manipulation",
+    "Mapping / 3D",
+    "Sensor / Driver",
+    "Simulation",
+    "ML / AI",
+    "Learning / RL",
+    "Middleware / ROS",
+    "Tools / Utilities",
+    "Docs / Examples",
+    "Other",
+]
+
+
 def fetch_repos(org: str) -> list[dict]:
     """Fetch all repos from a GitHub organization or user via gh CLI."""
-    # Try org first, fall back to user
     for endpoint in [f"/orgs/{org}/repos", f"/users/{org}/repos"]:
         try:
             result = subprocess.run(
@@ -296,13 +404,15 @@ def activity_badge(pushed_at: str) -> str:
 
 
 def generate_org_md(org_key: str, org_info: dict, repos: list[dict]) -> str:
-    """Generate a Markdown catalog for one organization."""
-    # Filter: non-fork, non-archived, has at least 1 star
+    """Generate a Markdown catalog for one organization, grouped by category."""
     notable = [
         r for r in repos
         if not r.get("fork") and not r.get("archived") and r.get("stargazers_count", 0) >= 1
     ]
-    notable.sort(key=lambda r: -r.get("stargazers_count", 0))
+
+    # Assign categories
+    for r in notable:
+        r["_category"] = categorize_repo(r)
 
     lines = []
     lines.append(f"# {org_info['display_name']}\n")
@@ -316,23 +426,33 @@ def generate_org_md(org_key: str, org_info: dict, repos: list[dict]) -> str:
     lines.append(f"- **Total Stars**: {total_stars:,}")
     lines.append("")
 
-    # Top repos table
-    lines.append("## Notable Repositories\n")
-    lines.append("| Repository | Stars | Language | Activity | Description |")
-    lines.append("|---|---|---|---|---|")
+    # Group by category
+    by_cat: dict[str, list[dict]] = {}
+    for r in notable:
+        by_cat.setdefault(r["_category"], []).append(r)
 
-    for r in notable[:50]:
-        name = r["name"]
-        stars = r.get("stargazers_count", 0)
-        lang = r.get("language") or "—"
-        activity = activity_badge(r.get("pushed_at", ""))
-        desc = (r.get("description") or "—")[:80]
-        url = r.get("html_url", "")
-        lines.append(f"| [{name}]({url}) | {stars:,} | {lang} | {activity} | {desc} |")
+    for cat in CATEGORY_ORDER:
+        cat_repos = by_cat.get(cat, [])
+        if not cat_repos:
+            continue
+        cat_repos.sort(key=lambda r: -r.get("stargazers_count", 0))
 
-    lines.append("")
+        lines.append(f"## {cat}\n")
+        lines.append("| Repository | Stars | Language | Activity | Description |")
+        lines.append("|---|---|---|---|---|")
 
-    # Stats
+        for r in cat_repos[:30]:
+            name = r["name"]
+            stars = r.get("stargazers_count", 0)
+            lang = r.get("language") or "—"
+            activity = activity_badge(r.get("pushed_at", ""))
+            desc = (r.get("description") or "—")[:80]
+            url = r.get("html_url", "")
+            lines.append(f"| [{name}]({url}) | {stars:,} | {lang} | {activity} | {desc} |")
+
+        lines.append("")
+
+    # Language breakdown
     langs = {}
     for r in repos:
         if not r.get("fork") and not r.get("archived"):
@@ -364,6 +484,8 @@ def generate_readme(org_data: dict[str, dict]) -> str:
     lines.append("# robotics-repo-hub\n")
     lines.append("A curated catalog of notable repositories from major robotics GitHub organizations.\n")
     lines.append("Each organization page lists top repos by stars with activity status and language breakdown.\n")
+    lines.append("**[Search all repos](https://rsasaki0109.github.io/robotics-repo-hub/)** | ")
+    lines.append("[Browse by org](#organizations)\n")
     lines.append("---\n")
 
     # Group by section
@@ -372,7 +494,6 @@ def generate_readme(org_data: dict[str, dict]) -> str:
         sec = _section_key(info["domain"])
         sections.setdefault(sec, []).append((org_key, info))
 
-    # Display order
     section_order = ["Industry / OSS Projects", "AI / Embodied AI", "University / Research Labs"]
 
     for section in section_order:
@@ -383,13 +504,11 @@ def generate_readme(org_data: dict[str, dict]) -> str:
         lines.append("| Organization | Domain | Repos | Stars | Catalog |")
         lines.append("|---|---|---|---|---|")
 
-        # Sort by stars descending
         orgs_sorted = sorted(orgs, key=lambda x: -org_data.get(x[0], {}).get("stars", 0))
         for org_key, info in orgs_sorted:
             data = org_data.get(org_key, {})
             total = data.get("total", 0)
             stars = data.get("stars", 0)
-            # Strip section prefix from domain for cleaner display
             domain_short = info["domain"]
             for prefix in ("University / ", "AI / "):
                 if domain_short.startswith(prefix):
@@ -420,6 +539,11 @@ def generate_readme(org_data: dict[str, dict]) -> str:
     return "\n".join(lines)
 
 
+def generate_search_json(all_repos: list[dict]) -> str:
+    """Generate a JSON file for the GitHub Pages search frontend."""
+    return json.dumps(all_repos, ensure_ascii=False, indent=1)
+
+
 def main():
     parser = argparse.ArgumentParser(description="Robotics org repo catalog generator")
     parser.add_argument("--orgs-dir", default="orgs")
@@ -429,8 +553,11 @@ def main():
     orgs_dir.mkdir(parents=True, exist_ok=True)
     data_dir = Path("data")
     data_dir.mkdir(parents=True, exist_ok=True)
+    docs_dir = Path("docs")
+    docs_dir.mkdir(parents=True, exist_ok=True)
 
     org_data = {}
+    all_repos_for_search = []
 
     for org_key, org_info in ORGANIZATIONS.items():
         print(f"Fetching {org_key} ({org_info['display_name']})...", file=sys.stderr)
@@ -454,10 +581,35 @@ def main():
             "stars": sum(r.get("stargazers_count", 0) for r in non_fork),
         }
 
+        # Collect for search JSON (non-fork, non-archived, 1+ star)
+        for r in non_fork:
+            if r.get("stargazers_count", 0) >= 1:
+                all_repos_for_search.append({
+                    "name": r["name"],
+                    "org": org_key,
+                    "org_name": org_info["display_name"],
+                    "section": _section_key(org_info["domain"]),
+                    "category": categorize_repo(r),
+                    "description": r.get("description") or "",
+                    "language": r.get("language") or "",
+                    "stars": r.get("stargazers_count", 0),
+                    "forks": r.get("forks_count", 0),
+                    "activity": activity_badge(r.get("pushed_at", "")),
+                    "pushed_at": (r.get("pushed_at") or "")[:10],
+                    "url": r.get("html_url", ""),
+                    "topics": r.get("topics") or [],
+                })
+
     # Generate README
     readme = generate_readme(org_data)
     Path("README.md").write_text(readme)
     print("Generated README.md", file=sys.stderr)
+
+    # Generate search JSON
+    all_repos_for_search.sort(key=lambda r: -r["stars"])
+    (docs_dir / "repos.json").write_text(generate_search_json(all_repos_for_search))
+    print(f"Generated docs/repos.json ({len(all_repos_for_search)} repos)", file=sys.stderr)
+
     print("Done.", file=sys.stderr)
 
 
