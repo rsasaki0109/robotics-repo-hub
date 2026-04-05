@@ -6,7 +6,7 @@
 - **Website**: https://www.physicalintelligence.company
 - **GitHub**: https://github.com/Physical-Intelligence
 - **Repos (non-fork)**: 5
-- **Total Stars**: 11,566
+- **Total Stars**: 11,567
 
 ## Simulation
 
@@ -18,7 +18,7 @@
 
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
-| [openpi](https://github.com/Physical-Intelligence/openpi) | 11,057 | Python | Active | — |
+| [openpi](https://github.com/Physical-Intelligence/openpi) | 11,058 | Python | Active | — |
 | [aloha](https://github.com/Physical-Intelligence/aloha) | 47 | Python | Low | — |
 | [augmax](https://github.com/Physical-Intelligence/augmax) | 12 | Python | Low | — |
 | [pi-data-sharing](https://github.com/Physical-Intelligence/pi-data-sharing) | 8 | Python | Active | — |

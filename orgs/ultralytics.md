@@ -6,7 +6,7 @@
 - **Website**: https://ultralytics.com
 - **GitHub**: https://github.com/ultralytics
 - **Repos (non-fork)**: 45
-- **Total Stars**: 128,894
+- **Total Stars**: 128,896
 
 ## SLAM / Localization
 
@@ -18,8 +18,8 @@
 
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
-| [yolov5](https://github.com/ultralytics/yolov5) | 57,161 | Python | Active | YOLOv5 🚀 in PyTorch > ONNX > CoreML > TFLite |
-| [ultralytics](https://github.com/ultralytics/ultralytics) | 55,443 | Python | Active | Ultralytics YOLO 🚀 |
+| [yolov5](https://github.com/ultralytics/yolov5) | 57,162 | Python | Active | YOLOv5 🚀 in PyTorch > ONNX > CoreML > TFLite |
+| [ultralytics](https://github.com/ultralytics/ultralytics) | 55,444 | Python | Active | Ultralytics YOLO 🚀 |
 | [yolov3](https://github.com/ultralytics/yolov3) | 10,563 | Python | Active | YOLOv3 in PyTorch > ONNX > CoreML > TFLite |
 | [JSON2YOLO](https://github.com/ultralytics/JSON2YOLO) | 1,197 | Python | Moderate | Convert JSON annotations into YOLO format. |
 | [assets](https://github.com/ultralytics/assets) | 549 | — | Active | Ultralytics assets |

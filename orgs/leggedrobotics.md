@@ -173,7 +173,7 @@
 | [wlr-competition-2025](https://github.com/leggedrobotics/wlr-competition-2025) | 38 | C++ | Moderate | — |
 | [swerve_steering](https://github.com/leggedrobotics/swerve_steering) | 36 | C++ | Inactive | — |
 | [workflows](https://github.com/leggedrobotics/workflows) | 29 | Python | Inactive | Collection of workflows, best-practices and guidelines for software development. |
-| [navitrace_evaluation](https://github.com/leggedrobotics/navitrace_evaluation) | 29 | Jupyter Notebook | Active | — |
+| [navitrace_evaluation](https://github.com/leggedrobotics/navitrace_evaluation) | 29 | Jupyter Notebook | Moderate | — |
 | [cerberus_anymal_locomotion](https://github.com/leggedrobotics/cerberus_anymal_locomotion) | 24 | C++ | Inactive | — |
 | [ethercat_sdk_master](https://github.com/leggedrobotics/ethercat_sdk_master) | 18 | C++ | Inactive | A wrapper around SOEM to allow multiple masters and devices on EtherCAT |
 | [ethercat_device_configurator](https://github.com/leggedrobotics/ethercat_device_configurator) | 17 | C++ | Moderate | Manages setup yaml files for the RSL ethercat infrastructure |

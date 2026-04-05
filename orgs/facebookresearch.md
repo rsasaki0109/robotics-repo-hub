@@ -6,7 +6,7 @@
 - **Website**: https://ai.meta.com
 - **GitHub**: https://github.com/facebookresearch
 - **Repos (non-fork)**: 544
-- **Total Stars**: 943,832
+- **Total Stars**: 943,845
 
 ## SLAM / Localization
 
@@ -45,7 +45,7 @@
 
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
-| [audiocraft](https://github.com/facebookresearch/audiocraft) | 23,151 | Jupyter Notebook | Active | Audiocraft is a library for audio processing and generation with deep learning.  |
+| [audiocraft](https://github.com/facebookresearch/audiocraft) | 23,152 | Jupyter Notebook | Active | Audiocraft is a library for audio processing and generation with deep learning.  |
 | [metamotivo](https://github.com/facebookresearch/metamotivo) | 757 | Python | Moderate | The first behavioral foundation model to control a virtual physics-based humanoi |
 | [eb_jepa](https://github.com/facebookresearch/eb_jepa) | 548 | Python | Active | An open source library designed to provide community examples of Joint Embedding |
 | [spider](https://github.com/facebookresearch/spider) | 405 | Python | Active | A general physic-based retargeting framework. |
@@ -127,7 +127,7 @@
 
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
-| [faiss](https://github.com/facebookresearch/faiss) | 39,613 | C++ | Active | A library for efficient similarity search and clustering of dense vectors. |
+| [faiss](https://github.com/facebookresearch/faiss) | 39,614 | C++ | Active | A library for efficient similarity search and clustering of dense vectors. |
 | [habitat-sim](https://github.com/facebookresearch/habitat-sim) | 3,601 | C++ | Active | A flexible, high-performance 3D simulator for Embodied AI research. |
 | [hiera](https://github.com/facebookresearch/hiera) | 1,060 | Python | Inactive | Hiera: A fast, powerful, and simple hierarchical vision transformer. |
 | [CompilerGym](https://github.com/facebookresearch/CompilerGym) | 1,004 | Python | Active | Reinforcement learning environments for compiler and program optimization tasks |
@@ -150,7 +150,7 @@
 | [ssl-relation-prediction](https://github.com/facebookresearch/ssl-relation-prediction) | 111 | Python | Inactive | Simple yet SoTA Knowledge Graph Embeddings.  |
 | [pplbench](https://github.com/facebookresearch/pplbench) | 104 | Python | Inactive | Evaluation Framework for Probabilistic Programming Languages |
 | [spot-sim2real](https://github.com/facebookresearch/spot-sim2real) | 102 | Python | Moderate | Spot Sim2Real Infrastructure  |
-| [clutrr](https://github.com/facebookresearch/clutrr) | 99 | Python | Low | Diagnostic benchmark suite to explicitly test logical relational reasoning on na |
+| [clutrr](https://github.com/facebookresearch/clutrr) | 100 | Python | Low | Diagnostic benchmark suite to explicitly test logical relational reasoning on na |
 | [IntPhys2](https://github.com/facebookresearch/IntPhys2) | 98 | Python | Moderate | This is the code repository for IntPhys 2, a video benchmark designed to evaluat |
 | [EvalGIM](https://github.com/facebookresearch/EvalGIM) | 92 | Python | Active | 🦾 EvalGIM (pronounced as "EvalGym") is an evaluation library for generative imag |
 | [OpenApps](https://github.com/facebookresearch/OpenApps) | 91 | CSS | Active | An open source environment for digital agents. |
@@ -176,10 +176,10 @@
 | [sapiens](https://github.com/facebookresearch/sapiens) | 5,315 | Python | Low | High-resolution models for human tasks. |
 | [moco](https://github.com/facebookresearch/moco) | 5,124 | — | Active | PyTorch implementation of MoCo: https://arxiv.org/abs/1911.05722 |
 | [lingua](https://github.com/facebookresearch/lingua) | 4,756 | Python | Moderate | Meta Lingua: a lean, efficient, and easy-to-hack codebase to research LLMs. |
-| [flow_matching](https://github.com/facebookresearch/flow_matching) | 4,299 | Python | Active | A PyTorch library for implementing flow matching algorithms, featuring continuou |
+| [flow_matching](https://github.com/facebookresearch/flow_matching) | 4,299 | Python | Moderate | A PyTorch library for implementing flow matching algorithms, featuring continuou |
 | [dlrm](https://github.com/facebookresearch/dlrm) | 4,027 | Python | Active | An implementation of a deep learning recommendation model (DLRM) |
-| [jepa](https://github.com/facebookresearch/jepa) | 3,684 | Python | Low | PyTorch code and models for V-JEPA self-supervised learning from video. |
-| [vjepa2](https://github.com/facebookresearch/vjepa2) | 3,555 | Python | Active | PyTorch code and models for VJEPA2 self-supervised learning from video. |
+| [jepa](https://github.com/facebookresearch/jepa) | 3,685 | Python | Low | PyTorch code and models for V-JEPA self-supervised learning from video. |
+| [vjepa2](https://github.com/facebookresearch/vjepa2) | 3,556 | Python | Active | PyTorch code and models for VJEPA2 self-supervised learning from video. |
 | [pytorchvideo](https://github.com/facebookresearch/pytorchvideo) | 3,554 | Python | Active | A deep learning library for video understanding research. |
 | [sam-audio](https://github.com/facebookresearch/sam-audio) | 3,438 | Python | Moderate | The repository provides code for running inference with the Meta Segment Anythin |
 | [fairscale](https://github.com/facebookresearch/fairscale) | 3,405 | Python | Moderate | PyTorch extensions for high performance and large scale training. |
@@ -191,7 +191,7 @@
 | [MetaCLIP](https://github.com/facebookresearch/MetaCLIP) | 1,828 | Python | Moderate | NeurIPS 2025 Spotlight; ICLR2024 Spotlight; CVPR 2024; EMNLP 2024 |
 | [multimodal](https://github.com/facebookresearch/multimodal) | 1,712 | Python | Active | TorchMultimodal is a PyTorch library for training state-of-the-art multimodal mu |
 | [coconut](https://github.com/facebookresearch/coconut) | 1,554 | Python | Moderate | Training Large Language Model to Reason in a Continuous Latent Space |
-| [tribev2](https://github.com/facebookresearch/tribev2) | 1,511 | Jupyter Notebook | Active | This repository contains the code to train and evaluate TRIBE v2, a multimodal m |
+| [tribev2](https://github.com/facebookresearch/tribev2) | 1,515 | Jupyter Notebook | Active | This repository contains the code to train and evaluate TRIBE v2, a multimodal m |
 
 ## Learning / RL
 
@@ -278,7 +278,7 @@
 | [encodec](https://github.com/facebookresearch/encodec) | 3,933 | Python | Inactive | State-of-the-art deep learning based audio codec supporting both mono 24 kHz aud |
 | [omnilingual-asr](https://github.com/facebookresearch/omnilingual-asr) | 2,749 | Python | Moderate | Omnilingual ASR Open-Source Multilingual SpeechRecognition for 1600+ Languages |
 | [fvcore](https://github.com/facebookresearch/fvcore) | 2,233 | Python | Active | Collection of common code that's shared among different research projects in FAI |
-| [HyperAgents](https://github.com/facebookresearch/HyperAgents) | 2,130 | Python | Active | Self-referential self-improving agents that can optimize for any computable task |
+| [HyperAgents](https://github.com/facebookresearch/HyperAgents) | 2,131 | Python | Active | Self-referential self-improving agents that can optimize for any computable task |
 | [fairchem](https://github.com/facebookresearch/fairchem) | 2,036 | Python | Active | FAIR Chemistry's library of machine learning methods for chemistry  |
 | [blt](https://github.com/facebookresearch/blt) | 2,030 | Python | Moderate | Code for BLT research paper |
 | [Detic](https://github.com/facebookresearch/Detic) | 1,995 | Python | Inactive | Code release for "Detecting Twenty-thousand Classes using Image-level Supervisio |

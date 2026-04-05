@@ -91,6 +91,55 @@ ORGANIZATIONS = {
         "url": "https://micro.ros.org",
         "description": "ROS 2 on microcontrollers",
     },
+    # ── Industry (additional 2) ────────────────────────────────────
+    "opencv": {
+        "display_name": "OpenCV",
+        "domain": "Perception / Vision",
+        "url": "https://opencv.org",
+        "description": "Open-source computer vision library — core of most robotics vision pipelines",
+    },
+    "ClearpathRobotics": {
+        "display_name": "Clearpath Robotics",
+        "domain": "Mobile Robots / Industry",
+        "url": "https://clearpathrobotics.com",
+        "description": "Husky, Jackal, Warthog — ROS-based mobile robot platforms",
+    },
+    "pytorch": {
+        "display_name": "PyTorch",
+        "domain": "AI / Deep Learning Framework",
+        "url": "https://pytorch.org",
+        "description": "Open-source deep learning framework — backbone of most robotics ML",
+    },
+    "isl-org": {
+        "display_name": "Intel ISL (Open3D)",
+        "domain": "Perception / 3D",
+        "url": "http://www.open3d.org",
+        "description": "Open3D — 3D data processing library, point clouds, meshes, RGBD",
+    },
+    "ros-perception": {
+        "display_name": "ROS Perception",
+        "domain": "Perception / ROS",
+        "url": "https://wiki.ros.org",
+        "description": "image_pipeline, vision_opencv, laser_filters — ROS perception packages",
+    },
+    "ros-drivers": {
+        "display_name": "ROS Drivers",
+        "domain": "Sensor / Driver",
+        "url": "https://wiki.ros.org",
+        "description": "usb_cam, velodyne, nmea_navsat_driver — common ROS sensor drivers",
+    },
+    "pal-robotics": {
+        "display_name": "PAL Robotics",
+        "domain": "Humanoid / Industry",
+        "url": "https://pal-robotics.com",
+        "description": "TIAGo, TALOS humanoid — ROS-based service & humanoid robots",
+    },
+    "ros-industrial": {
+        "display_name": "ROS-Industrial",
+        "domain": "Industrial / Manipulation",
+        "url": "https://rosindustrial.org",
+        "description": "Industrial robot support — MoveIt configs, driver packages",
+    },
     # ── AI / Embodied AI ─────────────────────────────────────────
     "huggingface": {
         "display_name": "Hugging Face",

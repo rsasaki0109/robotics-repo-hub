@@ -6,7 +6,7 @@
 - **Website**: https://openai.com
 - **GitHub**: https://github.com/openai
 - **Repos (non-fork)**: 198
-- **Total Stars**: 824,816
+- **Total Stars**: 824,842
 
 ## SLAM / Localization
 
@@ -72,11 +72,11 @@
 
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
-| [openai-cookbook](https://github.com/openai/openai-cookbook) | 72,583 | Jupyter Notebook | Active | Examples and guides for using the OpenAI API |
-| [CLIP](https://github.com/openai/CLIP) | 33,076 | Jupyter Notebook | Active | CLIP (Contrastive Language-Image Pretraining),  Predict the most relevant text s |
+| [openai-cookbook](https://github.com/openai/openai-cookbook) | 72,584 | Jupyter Notebook | Active | Examples and guides for using the OpenAI API |
+| [CLIP](https://github.com/openai/CLIP) | 33,077 | Jupyter Notebook | Active | CLIP (Contrastive Language-Image Pretraining),  Predict the most relevant text s |
 | [gpt-2](https://github.com/openai/gpt-2) | 24,741 | Python | Low | Code for the paper "Language Models are Unsupervised Multitask Learners" |
 | [chatgpt-retrieval-plugin](https://github.com/openai/chatgpt-retrieval-plugin) | 21,206 | Python | Low | The ChatGPT Retrieval Plugin lets you easily find personal or work documents by  |
-| [openai-agents-python](https://github.com/openai/openai-agents-python) | 20,584 | Python | Active | A lightweight, powerful framework for multi-agent workflows |
+| [openai-agents-python](https://github.com/openai/openai-agents-python) | 20,586 | Python | Active | A lightweight, powerful framework for multi-agent workflows |
 | [gpt-oss](https://github.com/openai/gpt-oss) | 19,973 | Python | Active | gpt-oss-120b and gpt-oss-20b are two open-weight language models by OpenAI |
 | [tiktoken](https://github.com/openai/tiktoken) | 17,803 | Python | Active | tiktoken is a fast BPE tokeniser for use with OpenAI's models. |
 | [DALL-E](https://github.com/openai/DALL-E) | 10,871 | Python | Inactive | PyTorch package for the discrete VAE used for DALL·E. |
@@ -84,7 +84,7 @@
 | [guided-diffusion](https://github.com/openai/guided-diffusion) | 7,336 | Python | Low | — |
 | [point-e](https://github.com/openai/point-e) | 6,873 | Python | Low | Point cloud diffusion for 3D model synthesis |
 | [consistency_models](https://github.com/openai/consistency_models) | 6,475 | Python | Inactive | Official repo for consistency models. |
-| [parameter-golf](https://github.com/openai/parameter-golf) | 4,649 | Python | Active | Train the smallest LM you can that fits in 16MB. Best model wins! |
+| [parameter-golf](https://github.com/openai/parameter-golf) | 4,650 | Python | Active | Train the smallest LM you can that fits in 16MB. Best model wins! |
 | [harmony](https://github.com/openai/harmony) | 4,258 | Rust | Active | Renderer for the harmony response format to be used with gpt-oss |
 | [plugins-quickstart](https://github.com/openai/plugins-quickstart) | 4,235 | Python | Inactive | Get a ChatGPT plugin up and running in under 5 minutes! |
 | [transformer-debugger](https://github.com/openai/transformer-debugger) | 4,109 | Python | Low | — |
@@ -158,19 +158,19 @@
 
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
-| [whisper](https://github.com/openai/whisper) | 97,206 | Python | Active | Robust Speech Recognition via Large-Scale Weak Supervision |
-| [codex](https://github.com/openai/codex) | 73,298 | Rust | Active | Lightweight coding agent that runs in your terminal |
+| [whisper](https://github.com/openai/whisper) | 97,209 | Python | Active | Robust Speech Recognition via Large-Scale Weak Supervision |
+| [codex](https://github.com/openai/codex) | 73,299 | Rust | Active | Lightweight coding agent that runs in your terminal |
 | [openai-python](https://github.com/openai/openai-python) | 30,365 | Python | Active | The official Python library for the OpenAI API |
 | [swarm](https://github.com/openai/swarm) | 21,275 | Python | Low | Educational framework exploring ergonomic, lightweight multi-agent orchestration |
-| [skills](https://github.com/openai/skills) | 16,186 | Python | Active | Skills Catalog for Codex |
+| [skills](https://github.com/openai/skills) | 16,187 | Python | Active | Skills Catalog for Codex |
 | [symphony](https://github.com/openai/symphony) | 14,598 | Elixir | Active | Symphony turns project work into isolated, autonomous implementation runs, allow |
 | [shap-e](https://github.com/openai/shap-e) | 12,230 | Python | Low | Generate 3D objects conditioned on text or images |
-| [codex-plugin-cc](https://github.com/openai/codex-plugin-cc) | 11,881 | JavaScript | Active | Use Codex from Claude Code to review code or delegate tasks. |
+| [codex-plugin-cc](https://github.com/openai/codex-plugin-cc) | 11,896 | JavaScript | Active | Use Codex from Claude Code to review code or delegate tasks. |
 | [openai-node](https://github.com/openai/openai-node) | 10,790 | TypeScript | Active | Official JavaScript / TypeScript library for the OpenAI API |
 | [grok](https://github.com/openai/grok) | 4,244 | Python | Inactive | — |
 | [glow](https://github.com/openai/glow) | 3,182 | Python | Low | Code for reproducing results in "Glow: Generative Flow with Invertible 1x1 Convo |
 | [openai-go](https://github.com/openai/openai-go) | 3,116 | Go | Active | The official Go library for the OpenAI API |
-| [openai-agents-js](https://github.com/openai/openai-agents-js) | 2,585 | TypeScript | Active | A lightweight, powerful framework for multi-agent workflows and voice agents |
+| [openai-agents-js](https://github.com/openai/openai-agents-js) | 2,586 | TypeScript | Active | A lightweight, powerful framework for multi-agent workflows and voice agents |
 | [openai-dotnet](https://github.com/openai/openai-dotnet) | 2,556 | C# | Active | The official .NET library for the OpenAI API |
 | [weak-to-strong](https://github.com/openai/weak-to-strong) | 2,553 | Python | Low | — |
 | [openai-openapi](https://github.com/openai/openai-openapi) | 2,357 | — | Moderate | OpenAPI specification for the OpenAI API |
