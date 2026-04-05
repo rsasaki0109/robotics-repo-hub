@@ -6,7 +6,7 @@
 - **Website**: https://openai.com
 - **GitHub**: https://github.com/openai
 - **Repos (non-fork)**: 198
-- **Total Stars**: 824,808
+- **Total Stars**: 824,816
 
 ## SLAM / Localization
 
@@ -72,12 +72,12 @@
 
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
-| [openai-cookbook](https://github.com/openai/openai-cookbook) | 72,581 | Jupyter Notebook | Active | Examples and guides for using the OpenAI API |
+| [openai-cookbook](https://github.com/openai/openai-cookbook) | 72,583 | Jupyter Notebook | Active | Examples and guides for using the OpenAI API |
 | [CLIP](https://github.com/openai/CLIP) | 33,076 | Jupyter Notebook | Active | CLIP (Contrastive Language-Image Pretraining),  Predict the most relevant text s |
-| [gpt-2](https://github.com/openai/gpt-2) | 24,740 | Python | Low | Code for the paper "Language Models are Unsupervised Multitask Learners" |
+| [gpt-2](https://github.com/openai/gpt-2) | 24,741 | Python | Low | Code for the paper "Language Models are Unsupervised Multitask Learners" |
 | [chatgpt-retrieval-plugin](https://github.com/openai/chatgpt-retrieval-plugin) | 21,206 | Python | Low | The ChatGPT Retrieval Plugin lets you easily find personal or work documents by  |
 | [openai-agents-python](https://github.com/openai/openai-agents-python) | 20,584 | Python | Active | A lightweight, powerful framework for multi-agent workflows |
-| [gpt-oss](https://github.com/openai/gpt-oss) | 19,974 | Python | Active | gpt-oss-120b and gpt-oss-20b are two open-weight language models by OpenAI |
+| [gpt-oss](https://github.com/openai/gpt-oss) | 19,973 | Python | Active | gpt-oss-120b and gpt-oss-20b are two open-weight language models by OpenAI |
 | [tiktoken](https://github.com/openai/tiktoken) | 17,803 | Python | Active | tiktoken is a fast BPE tokeniser for use with OpenAI's models. |
 | [DALL-E](https://github.com/openai/DALL-E) | 10,871 | Python | Inactive | PyTorch package for the discrete VAE used for DALL·E. |
 | [jukebox](https://github.com/openai/jukebox) | 8,040 | Python | Low | Code for the paper "Jukebox: A Generative Model for Music" |
@@ -159,13 +159,13 @@
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
 | [whisper](https://github.com/openai/whisper) | 97,206 | Python | Active | Robust Speech Recognition via Large-Scale Weak Supervision |
-| [codex](https://github.com/openai/codex) | 73,296 | Rust | Active | Lightweight coding agent that runs in your terminal |
+| [codex](https://github.com/openai/codex) | 73,298 | Rust | Active | Lightweight coding agent that runs in your terminal |
 | [openai-python](https://github.com/openai/openai-python) | 30,365 | Python | Active | The official Python library for the OpenAI API |
 | [swarm](https://github.com/openai/swarm) | 21,275 | Python | Low | Educational framework exploring ergonomic, lightweight multi-agent orchestration |
 | [skills](https://github.com/openai/skills) | 16,186 | Python | Active | Skills Catalog for Codex |
-| [symphony](https://github.com/openai/symphony) | 14,597 | Elixir | Active | Symphony turns project work into isolated, autonomous implementation runs, allow |
+| [symphony](https://github.com/openai/symphony) | 14,598 | Elixir | Active | Symphony turns project work into isolated, autonomous implementation runs, allow |
 | [shap-e](https://github.com/openai/shap-e) | 12,230 | Python | Low | Generate 3D objects conditioned on text or images |
-| [codex-plugin-cc](https://github.com/openai/codex-plugin-cc) | 11,878 | JavaScript | Active | Use Codex from Claude Code to review code or delegate tasks. |
+| [codex-plugin-cc](https://github.com/openai/codex-plugin-cc) | 11,881 | JavaScript | Active | Use Codex from Claude Code to review code or delegate tasks. |
 | [openai-node](https://github.com/openai/openai-node) | 10,790 | TypeScript | Active | Official JavaScript / TypeScript library for the OpenAI API |
 | [grok](https://github.com/openai/grok) | 4,244 | Python | Inactive | — |
 | [glow](https://github.com/openai/glow) | 3,182 | Python | Low | Code for reproducing results in "Glow: Generative Flow with Invertible 1x1 Convo |

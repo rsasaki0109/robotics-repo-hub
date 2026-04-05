@@ -618,8 +618,8 @@ def generate_readme(org_data: dict[str, dict]) -> str:
         if not orgs:
             continue
         lines.append(f"## {section}\n")
-        lines.append("| Organization | Domain | Repos | Stars | Catalog |")
-        lines.append("|---|---|---|---|---|")
+        lines.append("| Organization | Domain | Description | Repos | Stars | Catalog |")
+        lines.append("|---|---|---|---|---|---|")
 
         orgs_sorted = sorted(orgs, key=lambda x: -org_data.get(x[0], {}).get("stars", 0))
         for org_key, info in orgs_sorted:
@@ -627,13 +627,14 @@ def generate_readme(org_data: dict[str, dict]) -> str:
             total = data.get("total", 0)
             stars = data.get("stars", 0)
             domain_short = info["domain"]
-            for prefix in ("University / ", "AI / "):
+            for prefix in ("University / ", "AI / ", "Individual / "):
                 if domain_short.startswith(prefix):
                     domain_short = domain_short[len(prefix):]
                     break
+            desc = info.get("description", "")
             lines.append(
                 f"| [{info['display_name']}](https://github.com/{org_key}) "
-                f"| {domain_short} | {total} | {stars:,} "
+                f"| {domain_short} | {desc} | {total} | {stars:,} "
                 f"| [View](orgs/{org_key}.md) |"
             )
 
