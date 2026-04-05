@@ -6,7 +6,7 @@
 - **Website**: https://borg.cc.gatech.edu
 - **GitHub**: https://github.com/borglab
 - **Repos (non-fork)**: 16
-- **Total Stars**: 4,246
+- **Total Stars**: 4,247
 
 ## Planning / Control
 
@@ -18,7 +18,7 @@
 
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
-| [gtsam](https://github.com/borglab/gtsam) | 3,363 | Jupyter Notebook | Active | GTSAM is a library of C++ classes that implement smoothing and mapping (SAM) in  |
+| [gtsam](https://github.com/borglab/gtsam) | 3,364 | Jupyter Notebook | Active | GTSAM is a library of C++ classes that implement smoothing and mapping (SAM) in  |
 | [gtsfm](https://github.com/borglab/gtsfm) | 509 | Jupyter Notebook | Active | End-to-end SFM framework based on GTSAM |
 
 ## Sensor / Driver

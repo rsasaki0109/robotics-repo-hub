@@ -6,7 +6,7 @@
 - **Website**: https://huggingface.co
 - **GitHub**: https://github.com/huggingface
 - **Repos (non-fork)**: 308
-- **Total Stars**: 671,579
+- **Total Stars**: 671,590
 
 ## Perception
 
@@ -24,7 +24,7 @@
 
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
-| [datasets](https://github.com/huggingface/datasets) | 21,368 | Python | Active | 🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use  |
+| [datasets](https://github.com/huggingface/datasets) | 21,369 | Python | Active | 🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use  |
 
 ## Mapping / 3D
 
@@ -93,7 +93,7 @@
 
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
-| [transformers](https://github.com/huggingface/transformers) | 158,840 | Python | Active | 🤗 Transformers: the model-definition framework for state-of-the-art machine lear |
+| [transformers](https://github.com/huggingface/transformers) | 158,841 | Python | Active | 🤗 Transformers: the model-definition framework for state-of-the-art machine lear |
 | [pytorch-image-models](https://github.com/huggingface/pytorch-image-models) | 36,599 | Python | Active | The largest collection of PyTorch image encoders / backbones. Including train, e |
 | [diffusers](https://github.com/huggingface/diffusers) | 33,269 | Python | Active | 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio gener |
 | [peft](https://github.com/huggingface/peft) | 20,892 | Python | Active | 🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning. |
@@ -110,7 +110,7 @@
 | [diffusion-models-class](https://github.com/huggingface/diffusion-models-class) | 4,305 | Jupyter Notebook | Active | Materials for the Hugging Face Diffusion Models Course |
 | [course](https://github.com/huggingface/course) | 3,819 | MDX | Active | The Hugging Face course on Transformers |
 | [smollm](https://github.com/huggingface/smollm) | 3,698 | Python | Active | Everything about the SmolLM and SmolVLM family of models  |
-| [huggingface_hub](https://github.com/huggingface/huggingface_hub) | 3,478 | Python | Active | The official Python client for the Hugging Face Hub. |
+| [huggingface_hub](https://github.com/huggingface/huggingface_hub) | 3,480 | Python | Active | The official Python client for the Hugging Face Hub. |
 | [neuralcoref](https://github.com/huggingface/neuralcoref) | 2,891 | C | Inactive | ✨Fast Coreference Resolution in spaCy with Neural Networks |
 | [knockknock](https://github.com/huggingface/knockknock) | 2,827 | Python | Inactive | 🚪✊Knock Knock: Get notified when your training ends with only two additional lin |
 | [swift-coreml-diffusers](https://github.com/huggingface/swift-coreml-diffusers) | 2,746 | Swift | Moderate | Swift app demonstrating Core ML Stable Diffusion |
@@ -175,12 +175,12 @@
 
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
-| [agents-course](https://github.com/huggingface/agents-course) | 27,583 | MDX | Active | This repository contains the Hugging Face Agents Course.  |
-| [smolagents](https://github.com/huggingface/smolagents) | 26,453 | Python | Active | 🤗 smolagents: a barebones library for agents that think in code. |
+| [agents-course](https://github.com/huggingface/agents-course) | 27,584 | MDX | Active | This repository contains the Hugging Face Agents Course.  |
+| [smolagents](https://github.com/huggingface/smolagents) | 26,452 | Python | Active | 🤗 smolagents: a barebones library for agents that think in code. |
 | [open-r1](https://github.com/huggingface/open-r1) | 25,964 | Python | Active | Fully open reproduction of DeepSeek-R1 |
 | [lerobot](https://github.com/huggingface/lerobot) | 22,960 | Python | Active | 🤗 LeRobot: Making AI for Robotics more accessible with end-to-end learning |
-| [candle](https://github.com/huggingface/candle) | 19,900 | Rust | Active | Minimalist ML framework for Rust |
-| [skills](https://github.com/huggingface/skills) | 10,056 | Python | Active | Give your agents the power of the Hugging Face ecosystem |
+| [candle](https://github.com/huggingface/candle) | 19,901 | Rust | Active | Minimalist ML framework for Rust |
+| [skills](https://github.com/huggingface/skills) | 10,057 | Python | Active | Give your agents the power of the Hugging Face ecosystem |
 | [notebooks](https://github.com/huggingface/notebooks) | 4,502 | Jupyter Notebook | Active | Notebooks using the Hugging Face libraries 🤗 |
 | [distil-whisper](https://github.com/huggingface/distil-whisper) | 4,065 | Python | Low | Distilled variant of Whisper for speech recognition. 6x faster, 50% smaller, wit |
 | [blog](https://github.com/huggingface/blog) | 3,364 | Jupyter Notebook | Active | Public repo for HF blog posts |
@@ -193,8 +193,8 @@
 | [mcp-course](https://github.com/huggingface/mcp-course) | 883 | MDX | Active | — |
 | [ratchet](https://github.com/huggingface/ratchet) | 753 | Rust | Active | A cross-platform browser ML framework. |
 | [nfsserve](https://github.com/huggingface/nfsserve) | 721 | Rust | Active | A Rust NFS Server implementation |
-| [huggingface-llama-recipes](https://github.com/huggingface/huggingface-llama-recipes) | 698 | Jupyter Notebook | Moderate | — |
-| [hf-mount](https://github.com/huggingface/hf-mount) | 630 | Rust | Active | Mount Hugging Face Buckets and repos as local filesystems. No download, no copy, |
+| [huggingface-llama-recipes](https://github.com/huggingface/huggingface-llama-recipes) | 699 | Jupyter Notebook | Moderate | — |
+| [hf-mount](https://github.com/huggingface/hf-mount) | 632 | Rust | Active | Mount Hugging Face Buckets and repos as local filesystems. No download, no copy, |
 | [cosmopedia](https://github.com/huggingface/cosmopedia) | 567 | Python | Low | — |
 | [kernels](https://github.com/huggingface/kernels) | 553 | Python | Active | Build compute kernels and load them from the Hub. |
 | [hf_transfer](https://github.com/huggingface/hf_transfer) | 551 | Rust | Active | — |

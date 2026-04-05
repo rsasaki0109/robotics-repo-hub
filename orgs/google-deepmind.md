@@ -6,7 +6,7 @@
 - **Website**: https://deepmind.google
 - **GitHub**: https://github.com/google-deepmind
 - **Repos (non-fork)**: 315
-- **Total Stars**: 214,963
+- **Total Stars**: 214,966
 
 ## SLAM / Localization
 
@@ -28,7 +28,7 @@
 
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
-| [mujoco_mpc](https://github.com/google-deepmind/mujoco_mpc) | 1,591 | C++ | Active | Real-time behaviour synthesis with MuJoCo, using Predictive Control |
+| [mujoco_mpc](https://github.com/google-deepmind/mujoco_mpc) | 1,592 | C++ | Active | Real-time behaviour synthesis with MuJoCo, using Predictive Control |
 | [simply](https://github.com/google-deepmind/simply) | 513 | Python | Active | Minimal and scalable research codebase in JAX, designed for rapid iteration on f |
 | [simulation_streams](https://github.com/google-deepmind/simulation_streams) | 24 | Python | Low | Simulation Streams is a programming paradigm designed to efficiently control and |
 | [agent_debugger](https://github.com/google-deepmind/agent_debugger) | 20 | Python | Inactive | Causal Analysis of Agent Behavior for AI Safety |
@@ -93,7 +93,7 @@
 | [alphafold3](https://github.com/google-deepmind/alphafold3) | 7,805 | Python | Active | AlphaFold 3 inference pipeline. |
 | [lab](https://github.com/google-deepmind/lab) | 7,344 | C | Inactive | A customisable 3D platform for agent-based AI research |
 | [graph_nets](https://github.com/google-deepmind/graph_nets) | 5,394 | Python | Inactive | Build Graph Nets in Tensorflow |
-| [gemma](https://github.com/google-deepmind/gemma) | 4,409 | Python | Active | Gemma open-weight LLM library, from Google DeepMind |
+| [gemma](https://github.com/google-deepmind/gemma) | 4,411 | Python | Active | Gemma open-weight LLM library, from Google DeepMind |
 | [learning-to-learn](https://github.com/google-deepmind/learning-to-learn) | 4,069 | Python | Inactive | Learning to Learn in TensorFlow |
 | [mujoco_menagerie](https://github.com/google-deepmind/mujoco_menagerie) | 3,248 | Python | Active | A collection of high-quality models for the MuJoCo physics engine, curated by Go |
 | [dm-haiku](https://github.com/google-deepmind/dm-haiku) | 3,210 | Python | Active | JAX-based neural network library |
@@ -209,7 +209,7 @@
 | [enn](https://github.com/google-deepmind/enn) | 314 | Python | Active | — |
 | [leo](https://github.com/google-deepmind/leo) | 311 | Python | Inactive | Implementation of Meta-Learning with Latent Embedding Optimization |
 | [nanodo](https://github.com/google-deepmind/nanodo) | 306 | Python | Low | — |
-| [alphaevolve_results](https://github.com/google-deepmind/alphaevolve_results) | 269 | Jupyter Notebook | Active | — |
+| [alphaevolve_results](https://github.com/google-deepmind/alphaevolve_results) | 269 | Jupyter Notebook | Moderate | — |
 | [onetwo](https://github.com/google-deepmind/onetwo) | 265 | Python | Moderate | — |
 
 ## Language Breakdown

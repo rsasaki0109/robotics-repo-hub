@@ -6,7 +6,7 @@
 - **Website**: https://developer.nvidia.com
 - **GitHub**: https://github.com/NVIDIA-AI-IOT
 - **Repos (non-fork)**: 116
-- **Total Stars**: 30,500
+- **Total Stars**: 30,502
 
 ## SLAM / Localization
 
@@ -92,12 +92,12 @@
 |---|---|---|---|---|
 | [torch2trt](https://github.com/NVIDIA-AI-IOT/torch2trt) | 4,863 | Python | Low | An easy to use PyTorch to TensorRT converter |
 | [deepstream_python_apps](https://github.com/NVIDIA-AI-IOT/deepstream_python_apps) | 1,822 | Jupyter Notebook | Active | DeepStream SDK Python bindings and sample applications |
-| [deepstream_reference_apps](https://github.com/NVIDIA-AI-IOT/deepstream_reference_apps) | 1,307 | C++ | Active | Samples for TensorRT/Deepstream for Tesla & Jetson |
+| [deepstream_reference_apps](https://github.com/NVIDIA-AI-IOT/deepstream_reference_apps) | 1,308 | C++ | Active | Samples for TensorRT/Deepstream for Tesla & Jetson |
 | [trt_pose](https://github.com/NVIDIA-AI-IOT/trt_pose) | 1,054 | Python | Inactive | Real-time pose estimation accelerated with NVIDIA TensorRT |
 | [redtail](https://github.com/NVIDIA-AI-IOT/redtail) | 1,044 | C++ | Inactive | Perception and AI components for autonomous mobile robotics. |
 | [nanosam](https://github.com/NVIDIA-AI-IOT/nanosam) | 866 | Python | Inactive | A distilled Segment Anything (SAM) model capable of running real-time with NVIDI |
 | [nanoowl](https://github.com/NVIDIA-AI-IOT/nanoowl) | 416 | Python | Low | A project that optimizes OWL-ViT for real-time inference with NVIDIA TensorRT. |
-| [live-vlm-webui](https://github.com/NVIDIA-AI-IOT/live-vlm-webui) | 301 | Python | Active | Real-time Vision Language Model interaction via webcam - WebRTC-based web interf |
+| [live-vlm-webui](https://github.com/NVIDIA-AI-IOT/live-vlm-webui) | 302 | Python | Active | Real-time Vision Language Model interaction via webcam - WebRTC-based web interf |
 | [trt_pose_hand](https://github.com/NVIDIA-AI-IOT/trt_pose_hand) | 232 | Jupyter Notebook | Inactive | Real-time hand pose estimation and gesture classification using TensorRT |
 | [deepstream_lpr_app](https://github.com/NVIDIA-AI-IOT/deepstream_lpr_app) | 228 | C | Low | Sample app code for LPR deployment on DeepStream |
 | [ros2_nanollm](https://github.com/NVIDIA-AI-IOT/ros2_nanollm) | 189 | Python | Low | ROS2 nodes for LLM, VLM, VLA |

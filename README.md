@@ -13,24 +13,31 @@ Each organization page lists top repos by stars with activity status and languag
 
 | Organization | Domain | Description | Repos | Stars | Catalog |
 |---|---|---|---|---|---|
+| [OpenCV](https://github.com/opencv) | Perception / Vision | Open-source computer vision library — core of most robotics vision pipelines | 15 | 105,725 | [View](orgs/opencv.md) |
+| [Intel ISL (Open3D)](https://github.com/isl-org) | Perception / 3D | Open3D — 3D data processing library, point clouds, meshes, RGBD | 9 | 15,922 | [View](orgs/isl-org.md) |
 | [ROS 2](https://github.com/ros2) | Middleware | Robot Operating System 2 core packages | 92 | 14,694 | [View](orgs/ros2.md) |
-| [Autoware Foundation](https://github.com/autowarefoundation) | Autonomous Driving | Open-source autonomous driving software stack | 80 | 14,632 | [View](orgs/autowarefoundation.md) |
+| [Autoware Foundation](https://github.com/autowarefoundation) | Autonomous Driving | Open-source autonomous driving software stack | 80 | 14,634 | [View](orgs/autowarefoundation.md) |
 | [Point Cloud Library (PCL)](https://github.com/PointCloudLibrary) | Perception / 3D | Large-scale 2D/3D point cloud processing | 9 | 11,389 | [View](orgs/PointCloudLibrary.md) |
 | [DJI SDK](https://github.com/dji-sdk) | Aerial / Drones | DJI — drone SDKs, onboard computing, mobile integration | 43 | 8,004 | [View](orgs/dji-sdk.md) |
 | [ROBOTIS](https://github.com/ROBOTIS-GIT) | Hardware / Education | Dynamixel servos, TurtleBot3, OpenManipulator | 111 | 7,032 | [View](orgs/ROBOTIS-GIT.md) |
 | [Livox SDK](https://github.com/Livox-SDK) | Sensors / Industry | Livox LiDAR — SDK, ROS drivers, FAST-LIO integration | 30 | 6,787 | [View](orgs/Livox-SDK.md) |
 | [MoveIt](https://github.com/moveit) | Manipulation | Motion planning framework for robotic arms | 41 | 6,274 | [View](orgs/moveit.md) |
 | [ANYbotics](https://github.com/ANYbotics) | Legged Robots / Industry | ANYmal quadruped — grid_map, elevation_mapping, kindr | 26 | 6,134 | [View](orgs/ANYbotics.md) |
+| [ROS-Industrial](https://github.com/ros-industrial) | Industrial / Manipulation | Industrial robot support — MoveIt configs, driver packages | 61 | 6,082 | [View](orgs/ros-industrial.md) |
 | [Drake (Robot Locomotion Group)](https://github.com/RobotLocomotion) | Planning / Simulation | Model-based design and control for robotics | 35 | 6,014 | [View](orgs/RobotLocomotion.md) |
-| [Nav2 (ROS Navigation)](https://github.com/ros-navigation) | Navigation | ROS 2 navigation stack | 10 | 4,751 | [View](orgs/ros-navigation.md) |
+| [ROS Perception](https://github.com/ros-perception) | Perception / ROS | image_pipeline, vision_opencv, laser_filters — ROS perception packages | 32 | 5,742 | [View](orgs/ros-perception.md) |
+| [ROS Drivers](https://github.com/ros-drivers) | Sensor / Driver | usb_cam, velodyne, nmea_navsat_driver — common ROS sensor drivers | 60 | 4,906 | [View](orgs/ros-drivers.md) |
+| [Nav2 (ROS Navigation)](https://github.com/ros-navigation) | Navigation | ROS 2 navigation stack | 10 | 4,752 | [View](orgs/ros-navigation.md) |
 | [ros2_control](https://github.com/ros-controls) | Control | Hardware abstraction and controller framework for ROS 2 | 29 | 4,751 | [View](orgs/ros-controls.md) |
 | [StereoLabs](https://github.com/stereolabs) | Sensors / Industry | StereoLabs — ZED stereo cameras, depth sensing, spatial mapping | 41 | 3,997 | [View](orgs/stereolabs.md) |
 | [Gazebo](https://github.com/gazebosim) | Simulation | Open-source robotics simulator | 46 | 3,465 | [View](orgs/gazebosim.md) |
 | [Universal Robots](https://github.com/UniversalRobots) | Manipulation / Industry | Universal Robots — collaborative robot arms, ROS drivers | 33 | 2,977 | [View](orgs/UniversalRobots.md) |
 | [micro-ROS](https://github.com/micro-ROS) | Embedded / Middleware | ROS 2 on microcontrollers | 30 | 2,858 | [View](orgs/micro-ROS.md) |
 | [Boston Dynamics AI Institute](https://github.com/bdaiinstitute) | Legged Robots / Industry | Boston Dynamics AI Institute — legged robots, manipulation, AI research | 31 | 2,750 | [View](orgs/bdaiinstitute.md) |
+| [PAL Robotics](https://github.com/pal-robotics) | Humanoid / Industry | TIAGo, TALOS humanoid — ROS-based service & humanoid robots | 182 | 2,149 | [View](orgs/pal-robotics.md) |
 | [Open-RMF](https://github.com/open-rmf) | Fleet Management | Open Robot Management Framework for multi-robot systems | 70 | 2,108 | [View](orgs/open-rmf.md) |
 | [Foxglove](https://github.com/foxglove) | Visualization / DevTools | Observability and visualization platform for robotics | 53 | 1,816 | [View](orgs/foxglove.md) |
+| [Clearpath Robotics](https://github.com/ClearpathRobotics) | Mobile Robots / Industry | Husky, Jackal, Warthog — ROS-based mobile robot platforms | 113 | 1,185 | [View](orgs/ClearpathRobotics.md) |
 | [Franka Emika](https://github.com/frankaemika) | Manipulation / Industry | Franka Emika — Panda robot arm, libfranka, franka_ros2 | 1 | 1 | [View](orgs/frankaemika.md) |
 | [Intel RealSense](https://github.com/IntelRealSense) | Sensors / Industry | Intel RealSense — depth cameras, librealsense SDK, ROS wrappers | 0 | 0 | [View](orgs/IntelRealSense.md) |
 
@@ -38,13 +45,14 @@ Each organization page lists top repos by stars with activity status and languag
 
 | Organization | Domain | Description | Repos | Stars | Catalog |
 |---|---|---|---|---|---|
-| [OpenAI](https://github.com/openai) | Foundation Models | GPT, CLIP, Whisper, Gym, Safety Gym | 198 | 797,491 | [View](orgs/openai.md) |
-| [Hugging Face](https://github.com/huggingface) | Foundation Models | Open-source ML platform — Transformers, Diffusers, LeRobot | 308 | 654,319 | [View](orgs/huggingface.md) |
-| [Meta FAIR](https://github.com/facebookresearch) | Research | PyTorch, Habitat, Detic, SAM, Segment Anything | 544 | 492,942 | [View](orgs/facebookresearch.md) |
-| [Google DeepMind](https://github.com/google-deepmind) | Research | RT-2, PaLM-E, Gemini robotics, AlphaFold | 315 | 201,264 | [View](orgs/google-deepmind.md) |
-| [Ultralytics](https://github.com/ultralytics) | Object Detection | YOLOv5, YOLOv8, YOLO11 — state-of-the-art real-time detection | 45 | 128,894 | [View](orgs/ultralytics.md) |
-| [NVIDIA AI-IOT](https://github.com/NVIDIA-AI-IOT) | Edge & Robotics | Isaac, Jetson inference, TensorRT demos, edge AI for robotics | 116 | 30,471 | [View](orgs/NVIDIA-AI-IOT.md) |
-| [Physical Intelligence (pi)](https://github.com/Physical-Intelligence) | Embodied Intelligence | pi0 — foundation models for physical intelligence and robot control | 5 | 11,566 | [View](orgs/Physical-Intelligence.md) |
+| [OpenAI](https://github.com/openai) | Foundation Models | GPT, CLIP, Whisper, Gym, Safety Gym | 198 | 797,517 | [View](orgs/openai.md) |
+| [Hugging Face](https://github.com/huggingface) | Foundation Models | Open-source ML platform — Transformers, Diffusers, LeRobot | 308 | 654,329 | [View](orgs/huggingface.md) |
+| [Meta FAIR](https://github.com/facebookresearch) | Research | PyTorch, Habitat, Detic, SAM, Segment Anything | 544 | 492,955 | [View](orgs/facebookresearch.md) |
+| [Google DeepMind](https://github.com/google-deepmind) | Research | RT-2, PaLM-E, Gemini robotics, AlphaFold | 315 | 201,267 | [View](orgs/google-deepmind.md) |
+| [PyTorch](https://github.com/pytorch) | Deep Learning Framework | Open-source deep learning framework — backbone of most robotics ML | 33 | 190,701 | [View](orgs/pytorch.md) |
+| [Ultralytics](https://github.com/ultralytics) | Object Detection | YOLOv5, YOLOv8, YOLO11 — state-of-the-art real-time detection | 45 | 128,896 | [View](orgs/ultralytics.md) |
+| [NVIDIA AI-IOT](https://github.com/NVIDIA-AI-IOT) | Edge & Robotics | Isaac, Jetson inference, TensorRT demos, edge AI for robotics | 116 | 30,473 | [View](orgs/NVIDIA-AI-IOT.md) |
+| [Physical Intelligence (pi)](https://github.com/Physical-Intelligence) | Embodied Intelligence | pi0 — foundation models for physical intelligence and robot control | 5 | 11,567 | [View](orgs/Physical-Intelligence.md) |
 
 ## University / Research Labs
 
@@ -62,7 +70,7 @@ Each organization page lists top repos by stars with activity status and languag
 | [UD RPNG (OpenVINS)](https://github.com/rpng) | Visual-Inertial | Univ. Delaware — OpenVINS, visual-inertial navigation | 41 | 7,156 | [View](orgs/rpng.md) |
 | [Giseop Kim (SNU / SLAM)](https://github.com/gisbi-kim) | LiDAR SLAM | SC-LIO-SAM, LT-mapper, LiDAR place recognition | 80 | 4,836 | [View](orgs/gisbi-kim.md) |
 | [KAIST URL Lab](https://github.com/url-kaist) | Urban Robotics | KAIST Urban Robotics Lab — MulRan dataset, radar SLAM | 24 | 4,516 | [View](orgs/url-kaist.md) |
-| [Georgia Tech BORG Lab](https://github.com/borglab) | Factor Graphs | Georgia Tech — GTSAM, factor graph optimization | 16 | 4,242 | [View](orgs/borglab.md) |
+| [Georgia Tech BORG Lab](https://github.com/borglab) | Factor Graphs | Georgia Tech — GTSAM, factor graph optimization | 16 | 4,243 | [View](orgs/borglab.md) |
 | [UT Austin ARISE (robosuite)](https://github.com/ARISE-Initiative) | Manipulation & Sim | UT Austin — robosuite, robomimic, manipulation benchmarks | 8 | 3,863 | [View](orgs/ARISE-Initiative.md) |
 | [Stanford ASL](https://github.com/StanfordASL) | Planning | Stanford Autonomous Systems Lab — motion planning, decision-making | 123 | 3,114 | [View](orgs/StanfordASL.md) |
 | [Univ. Freiburg Robot Learning](https://github.com/robot-learning-freiburg) | Robot Learning | Freiburg — panoptic segmentation, robot learning, navigation | 61 | 2,118 | [View](orgs/robot-learning-freiburg.md) |

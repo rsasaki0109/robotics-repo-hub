@@ -6,7 +6,7 @@
 - **Website**: https://autoware.org
 - **GitHub**: https://github.com/autowarefoundation
 - **Repos (non-fork)**: 80
-- **Total Stars**: 15,863
+- **Total Stars**: 15,865
 
 ## Planning / Control
 
@@ -51,7 +51,7 @@
 
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
-| [autoware](https://github.com/autowarefoundation/autoware) | 11,327 | Dockerfile | Active | Autoware - the world's leading open-source software project for autonomous drivi |
+| [autoware](https://github.com/autowarefoundation/autoware) | 11,329 | Dockerfile | Active | Autoware - the world's leading open-source software project for autonomous drivi |
 | [carla-agent-controller](https://github.com/autowarefoundation/carla-agent-controller) | 5 | Python | Active | — |
 
 ## Middleware / ROS
