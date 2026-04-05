@@ -6,7 +6,7 @@
 - **Website**: https://ai.meta.com
 - **GitHub**: https://github.com/facebookresearch
 - **Repos (non-fork)**: 544
-- **Total Stars**: 943,831
+- **Total Stars**: 943,829
 
 ## SLAM / Localization
 
@@ -169,13 +169,13 @@
 | [seamless_communication](https://github.com/facebookresearch/seamless_communication) | 11,770 | Jupyter Notebook | Active | Foundational Models for State-of-the-Art Speech and Text Translation |
 | [dinov3](https://github.com/facebookresearch/dinov3) | 10,024 | Jupyter Notebook | Active | Reference PyTorch implementation and models for DINOv3 |
 | [pytorch3d](https://github.com/facebookresearch/pytorch3d) | 9,847 | Python | Active | PyTorch3D is FAIR's library of reusable components for deep learning with 3D dat |
-| [sam3](https://github.com/facebookresearch/sam3) | 8,747 | Python | Active | The repository provides code for running inference and finetuning with the Meta  |
+| [sam3](https://github.com/facebookresearch/sam3) | 8,748 | Python | Active | The repository provides code for running inference and finetuning with the Meta  |
 | [SlowFast](https://github.com/facebookresearch/SlowFast) | 7,335 | Python | Active | PySlowFast: video understanding codebase from FAIR for reproducing state-of-the- |
 | [sam-3d-objects](https://github.com/facebookresearch/sam-3d-objects) | 6,368 | Python | Active | SAM 3D Objects |
 | [mmf](https://github.com/facebookresearch/mmf) | 5,627 | Python | Active | A modular framework for vision & language multimodal research from Facebook AI R |
-| [sapiens](https://github.com/facebookresearch/sapiens) | 5,316 | Python | Low | High-resolution models for human tasks. |
+| [sapiens](https://github.com/facebookresearch/sapiens) | 5,315 | Python | Low | High-resolution models for human tasks. |
 | [moco](https://github.com/facebookresearch/moco) | 5,124 | — | Active | PyTorch implementation of MoCo: https://arxiv.org/abs/1911.05722 |
-| [lingua](https://github.com/facebookresearch/lingua) | 4,757 | Python | Moderate | Meta Lingua: a lean, efficient, and easy-to-hack codebase to research LLMs. |
+| [lingua](https://github.com/facebookresearch/lingua) | 4,756 | Python | Moderate | Meta Lingua: a lean, efficient, and easy-to-hack codebase to research LLMs. |
 | [flow_matching](https://github.com/facebookresearch/flow_matching) | 4,299 | Python | Active | A PyTorch library for implementing flow matching algorithms, featuring continuou |
 | [dlrm](https://github.com/facebookresearch/dlrm) | 4,027 | Python | Active | An implementation of a deep learning recommendation model (DLRM) |
 | [jepa](https://github.com/facebookresearch/jepa) | 3,684 | Python | Low | PyTorch code and models for V-JEPA self-supervised learning from video. |

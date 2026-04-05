@@ -6,7 +6,7 @@
 - **Website**: https://deepmind.google
 - **GitHub**: https://github.com/google-deepmind
 - **Repos (non-fork)**: 315
-- **Total Stars**: 214,962
+- **Total Stars**: 214,961
 
 ## SLAM / Localization
 
@@ -62,7 +62,7 @@
 |---|---|---|---|---|
 | [mujoco](https://github.com/google-deepmind/mujoco) | 12,681 | C++ | Active | Multi-Joint dynamics with Contact. A general purpose physics simulator. |
 | [mujoco_playground](https://github.com/google-deepmind/mujoco_playground) | 1,851 | Python | Active | An open-source library for GPU-accelerated robot learning and sim-to-real transf |
-| [concordia](https://github.com/google-deepmind/concordia) | 1,325 | Python | Active | A library for generative social simulation |
+| [concordia](https://github.com/google-deepmind/concordia) | 1,326 | Python | Active | A library for generative social simulation |
 | [mujoco_warp](https://github.com/google-deepmind/mujoco_warp) | 1,169 | Python | Active | GPU-optimized version of the MuJoCo physics simulator, designed for NVIDIA hardw |
 | [long-form-factuality](https://github.com/google-deepmind/long-form-factuality) | 678 | Python | Active | Benchmarking long-form factuality in large language models. Original code for ou |
 | [torax](https://github.com/google-deepmind/torax) | 653 | Python | Active | TORAX: Tokamak transport simulation in JAX |
@@ -90,7 +90,7 @@
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
 | [sonnet](https://github.com/google-deepmind/sonnet) | 9,910 | Python | Active | TensorFlow-based neural network library |
-| [alphafold3](https://github.com/google-deepmind/alphafold3) | 7,806 | Python | Active | AlphaFold 3 inference pipeline. |
+| [alphafold3](https://github.com/google-deepmind/alphafold3) | 7,805 | Python | Active | AlphaFold 3 inference pipeline. |
 | [lab](https://github.com/google-deepmind/lab) | 7,344 | C | Inactive | A customisable 3D platform for agent-based AI research |
 | [graph_nets](https://github.com/google-deepmind/graph_nets) | 5,394 | Python | Inactive | Build Graph Nets in Tensorflow |
 | [gemma](https://github.com/google-deepmind/gemma) | 4,407 | Python | Active | Gemma open-weight LLM library, from Google DeepMind |
@@ -99,7 +99,7 @@
 | [dm-haiku](https://github.com/google-deepmind/dm-haiku) | 3,210 | Python | Active | JAX-based neural network library |
 | [trfl](https://github.com/google-deepmind/trfl) | 3,135 | Python | Inactive | TensorFlow Reinforcement Learning |
 | [dnc](https://github.com/google-deepmind/dnc) | 2,528 | Python | Inactive | A TensorFlow implementation of the Differentiable Neural Computer. |
-| [optax](https://github.com/google-deepmind/optax) | 2,229 | Python | Active | Optax is a gradient processing and optimization library for JAX. |
+| [optax](https://github.com/google-deepmind/optax) | 2,228 | Python | Active | Optax is a gradient processing and optimization library for JAX. |
 | [penzai](https://github.com/google-deepmind/penzai) | 1,873 | Python | Moderate | A JAX research toolkit for building, editing, and visualizing neural networks. |
 | [alphagenome](https://github.com/google-deepmind/alphagenome) | 1,836 | Python | Active | This API provides programmatic access to the AlphaGenome model developed by Goog |
 | [kinetics-i3d](https://github.com/google-deepmind/kinetics-i3d) | 1,827 | Python | Inactive | Convolutional neural network model for video classification trained on the Kinet |
