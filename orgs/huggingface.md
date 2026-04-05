@@ -6,7 +6,7 @@
 - **Website**: https://huggingface.co
 - **GitHub**: https://github.com/huggingface
 - **Repos (non-fork)**: 308
-- **Total Stars**: 671,579
+- **Total Stars**: 671,577
 
 ## Perception
 
@@ -175,11 +175,11 @@
 
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
-| [agents-course](https://github.com/huggingface/agents-course) | 27,584 | MDX | Active | This repository contains the Hugging Face Agents Course.  |
+| [agents-course](https://github.com/huggingface/agents-course) | 27,583 | MDX | Active | This repository contains the Hugging Face Agents Course.  |
 | [smolagents](https://github.com/huggingface/smolagents) | 26,453 | Python | Active | 🤗 smolagents: a barebones library for agents that think in code. |
 | [open-r1](https://github.com/huggingface/open-r1) | 25,964 | Python | Active | Fully open reproduction of DeepSeek-R1 |
 | [lerobot](https://github.com/huggingface/lerobot) | 22,960 | Python | Active | 🤗 LeRobot: Making AI for Robotics more accessible with end-to-end learning |
-| [candle](https://github.com/huggingface/candle) | 19,901 | Rust | Active | Minimalist ML framework for Rust |
+| [candle](https://github.com/huggingface/candle) | 19,900 | Rust | Active | Minimalist ML framework for Rust |
 | [skills](https://github.com/huggingface/skills) | 10,055 | Python | Active | Give your agents the power of the Hugging Face ecosystem |
 | [notebooks](https://github.com/huggingface/notebooks) | 4,502 | Jupyter Notebook | Active | Notebooks using the Hugging Face libraries 🤗 |
 | [distil-whisper](https://github.com/huggingface/distil-whisper) | 4,065 | Python | Low | Distilled variant of Whisper for speech recognition. 6x faster, 50% smaller, wit |

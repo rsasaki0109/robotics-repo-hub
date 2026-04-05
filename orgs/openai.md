@@ -159,13 +159,13 @@
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
 | [whisper](https://github.com/openai/whisper) | 97,206 | Python | Active | Robust Speech Recognition via Large-Scale Weak Supervision |
-| [codex](https://github.com/openai/codex) | 73,295 | Rust | Active | Lightweight coding agent that runs in your terminal |
+| [codex](https://github.com/openai/codex) | 73,296 | Rust | Active | Lightweight coding agent that runs in your terminal |
 | [openai-python](https://github.com/openai/openai-python) | 30,365 | Python | Active | The official Python library for the OpenAI API |
-| [swarm](https://github.com/openai/swarm) | 21,276 | Python | Low | Educational framework exploring ergonomic, lightweight multi-agent orchestration |
+| [swarm](https://github.com/openai/swarm) | 21,275 | Python | Low | Educational framework exploring ergonomic, lightweight multi-agent orchestration |
 | [skills](https://github.com/openai/skills) | 16,186 | Python | Active | Skills Catalog for Codex |
 | [symphony](https://github.com/openai/symphony) | 14,597 | Elixir | Active | Symphony turns project work into isolated, autonomous implementation runs, allow |
 | [shap-e](https://github.com/openai/shap-e) | 12,230 | Python | Low | Generate 3D objects conditioned on text or images |
-| [codex-plugin-cc](https://github.com/openai/codex-plugin-cc) | 11,876 | JavaScript | Active | Use Codex from Claude Code to review code or delegate tasks. |
+| [codex-plugin-cc](https://github.com/openai/codex-plugin-cc) | 11,877 | JavaScript | Active | Use Codex from Claude Code to review code or delegate tasks. |
 | [openai-node](https://github.com/openai/openai-node) | 10,790 | TypeScript | Active | Official JavaScript / TypeScript library for the OpenAI API |
 | [grok](https://github.com/openai/grok) | 4,244 | Python | Inactive | — |
 | [glow](https://github.com/openai/glow) | 3,182 | Python | Low | Code for reproducing results in "Glow: Generative Flow with Invertible 1x1 Convo |
@@ -175,7 +175,7 @@
 | [weak-to-strong](https://github.com/openai/weak-to-strong) | 2,553 | Python | Low | — |
 | [openai-openapi](https://github.com/openai/openai-openapi) | 2,357 | — | Moderate | OpenAPI specification for the OpenAI API |
 | [consistencydecoder](https://github.com/openai/consistencydecoder) | 2,212 | Python | Inactive | Consistency Distilled Diff VAE |
-| [openai-assistants-quickstart](https://github.com/openai/openai-assistants-quickstart) | 1,962 | TypeScript | Low | OpenAI Assistants API quickstart with Next.js. |
+| [openai-assistants-quickstart](https://github.com/openai/openai-assistants-quickstart) | 1,961 | TypeScript | Low | OpenAI Assistants API quickstart with Next.js. |
 | [chatkit-js](https://github.com/openai/chatkit-js) | 1,895 | TypeScript | Active | — |
 | [requests-for-research](https://github.com/openai/requests-for-research) | 1,730 | HTML | Low | A living collection of deep learning problems |
 | [generating-reviews-discovering-sentiment](https://github.com/openai/generating-reviews-discovering-sentiment) | 1,522 | Python | Inactive | Code for "Learning to Generate Reviews and Discovering Sentiment" |
