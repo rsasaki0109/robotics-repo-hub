@@ -38,7 +38,7 @@ Each organization page lists top repos by stars with activity status and languag
 
 | Organization | Domain | Repos | Stars | Catalog |
 |---|---|---|---|---|
-| [OpenAI](https://github.com/openai) | Foundation Models | 198 | 797,482 | [View](orgs/openai.md) |
+| [OpenAI](https://github.com/openai) | Foundation Models | 198 | 797,483 | [View](orgs/openai.md) |
 | [Hugging Face](https://github.com/huggingface) | Foundation Models | 308 | 654,317 | [View](orgs/huggingface.md) |
 | [Meta FAIR](https://github.com/facebookresearch) | Research | 544 | 492,940 | [View](orgs/facebookresearch.md) |
 | [Google DeepMind](https://github.com/google-deepmind) | Research | 315 | 201,262 | [View](orgs/google-deepmind.md) |
@@ -75,12 +75,14 @@ Each organization page lists top repos by stars with activity status and languag
 | [Gao Xiang](https://github.com/gaoxiang12) | Individual / SLAM Education | 22 | 24,107 | [View](orgs/gaoxiang12.md) |
 | [Raul Mur-Artal](https://github.com/raulmur) | Individual / Visual SLAM | 4 | 12,007 | [View](orgs/raulmur.md) |
 | [Davide Faconti](https://github.com/facontidavide) | Individual / ROS Tools | 61 | 9,496 | [View](orgs/facontidavide.md) |
+| [neka-nat](https://github.com/neka-nat) | Individual / 3D Vision | 103 | 4,028 | [View](orgs/neka-nat.md) |
 | [Engcang Choi](https://github.com/engcang) | Individual / SLAM | 42 | 3,722 | [View](orgs/engcang.md) |
 | [Steve Macenski](https://github.com/SteveMacenski) | Individual / Navigation & SLAM | 40 | 3,689 | [View](orgs/SteveMacenski.md) |
 | [Ryohei Sasaki](https://github.com/rsasaki0109) | Individual / Localization & GNSS | 66 | 2,912 | [View](orgs/rsasaki0109.md) |
 | [Hyungtae Lim (KAIST)](https://github.com/LimHyungTae) | Individual / LiDAR Perception | 47 | 2,907 | [View](orgs/LimHyungTae.md) |
 | [Alexey Bochkovskiy](https://github.com/AlexeyAB) | Individual / Object Detection | 18 | 2,700 | [View](orgs/AlexeyAB.md) |
 | [William Woodall](https://github.com/wjwwood) | Individual / ROS Core | 59 | 2,496 | [View](orgs/wjwwood.md) |
+| [Mizuho Aoki](https://github.com/MizuhoAOKI) | Individual / Control & Planning | 32 | 1,733 | [View](orgs/MizuhoAOKI.md) |
 | [Chris Lalancette](https://github.com/clalancette) | Individual / ROS Core | 46 | 548 | [View](orgs/clalancette.md) |
 | [Mathieu Labbe](https://github.com/matlabbe) | Individual / Visual SLAM | 3 | 135 | [View](orgs/matlabbe.md) |
 

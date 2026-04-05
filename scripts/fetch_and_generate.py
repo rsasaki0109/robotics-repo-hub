@@ -269,6 +269,18 @@ ORGANIZATIONS = {
         "url": "https://github.com/engcang",
         "description": "SLAM comparison, LiDAR-visual SLAM integration, ROS tools",
     },
+    "MizuhoAOKI": {
+        "display_name": "Mizuho Aoki",
+        "domain": "Individual / Control & Planning",
+        "url": "https://github.com/MizuhoAOKI",
+        "description": "Vehicle dynamics, path tracking, MPC, control algorithms",
+    },
+    "neka-nat": {
+        "display_name": "neka-nat",
+        "domain": "Individual / 3D Vision",
+        "url": "https://github.com/neka-nat",
+        "description": "Open3D contributions, cupoch (GPU point cloud), 3D processing",
+    },
     "AtsushiSakai": {
         "display_name": "Atsushi Sakai",
         "domain": "Individual / Robotics Education",

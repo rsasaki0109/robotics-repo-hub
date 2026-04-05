@@ -6,7 +6,7 @@
 - **Website**: https://openai.com
 - **GitHub**: https://github.com/openai
 - **Repos (non-fork)**: 198
-- **Total Stars**: 824,807
+- **Total Stars**: 824,808
 
 ## SLAM / Localization
 
@@ -72,8 +72,8 @@
 
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
-| [openai-cookbook](https://github.com/openai/openai-cookbook) | 72,582 | Jupyter Notebook | Active | Examples and guides for using the OpenAI API |
-| [CLIP](https://github.com/openai/CLIP) | 33,075 | Jupyter Notebook | Active | CLIP (Contrastive Language-Image Pretraining),  Predict the most relevant text s |
+| [openai-cookbook](https://github.com/openai/openai-cookbook) | 72,581 | Jupyter Notebook | Active | Examples and guides for using the OpenAI API |
+| [CLIP](https://github.com/openai/CLIP) | 33,076 | Jupyter Notebook | Active | CLIP (Contrastive Language-Image Pretraining),  Predict the most relevant text s |
 | [gpt-2](https://github.com/openai/gpt-2) | 24,740 | Python | Low | Code for the paper "Language Models are Unsupervised Multitask Learners" |
 | [chatgpt-retrieval-plugin](https://github.com/openai/chatgpt-retrieval-plugin) | 21,206 | Python | Low | The ChatGPT Retrieval Plugin lets you easily find personal or work documents by  |
 | [openai-agents-python](https://github.com/openai/openai-agents-python) | 20,584 | Python | Active | A lightweight, powerful framework for multi-agent workflows |
@@ -165,7 +165,7 @@
 | [skills](https://github.com/openai/skills) | 16,186 | Python | Active | Skills Catalog for Codex |
 | [symphony](https://github.com/openai/symphony) | 14,597 | Elixir | Active | Symphony turns project work into isolated, autonomous implementation runs, allow |
 | [shap-e](https://github.com/openai/shap-e) | 12,230 | Python | Low | Generate 3D objects conditioned on text or images |
-| [codex-plugin-cc](https://github.com/openai/codex-plugin-cc) | 11,877 | JavaScript | Active | Use Codex from Claude Code to review code or delegate tasks. |
+| [codex-plugin-cc](https://github.com/openai/codex-plugin-cc) | 11,878 | JavaScript | Active | Use Codex from Claude Code to review code or delegate tasks. |
 | [openai-node](https://github.com/openai/openai-node) | 10,790 | TypeScript | Active | Official JavaScript / TypeScript library for the OpenAI API |
 | [grok](https://github.com/openai/grok) | 4,244 | Python | Inactive | — |
 | [glow](https://github.com/openai/glow) | 3,182 | Python | Low | Code for reproducing results in "Glow: Generative Flow with Invertible 1x1 Convo |
