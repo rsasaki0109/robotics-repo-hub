@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Robotics Repo Hub — Search</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #161b22;
+    --border: #30363d;
+    --text: #e6edf3;
+    --text-muted: #8b949e;
+    --accent: #58a6ff;
+    --accent-dim: #1f6feb33;
+    --tag-bg: #1f6feb22;
+    --star: #e3b341;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+  }
+  .container { max-width: 1100px; margin: 0 auto; padding: 24px 16px; }
+
+  header { margin-bottom: 24px; }
+  header h1 { font-size: 24px; font-weight: 600; }
+  header h1 a { color: var(--text); text-decoration: none; }
+  header p { color: var(--text-muted); margin-top: 4px; font-size: 14px; }
+
+  .controls {
+    display: flex; flex-wrap: wrap; gap: 10px;
+    margin-bottom: 20px; align-items: center;
+  }
+  .controls input[type="text"] {
+    flex: 1; min-width: 200px;
+    padding: 8px 12px; font-size: 14px;
+    background: var(--surface); color: var(--text);
+    border: 1px solid var(--border); border-radius: 6px;
+    outline: none;
+  }
+  .controls input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-dim); }
+  .controls select {
+    padding: 8px 10px; font-size: 13px;
+    background: var(--surface); color: var(--text);
+    border: 1px solid var(--border); border-radius: 6px;
+  }
+  .stats { color: var(--text-muted); font-size: 13px; white-space: nowrap; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  thead th {
+    text-align: left; padding: 8px 10px;
+    border-bottom: 1px solid var(--border);
+    color: var(--text-muted); font-weight: 600; font-size: 12px;
+    cursor: pointer; user-select: none; white-space: nowrap;
+  }
+  thead th:hover { color: var(--text); }
+  thead th.sorted-asc::after { content: " \u25b2"; }
+  thead th.sorted-desc::after { content: " \u25bc"; }
+  tbody tr { border-bottom: 1px solid var(--border); }
+  tbody tr:hover { background: var(--surface); }
+  td { padding: 8px 10px; vertical-align: top; }
+  td.name a { color: var(--accent); text-decoration: none; font-weight: 500; }
+  td.name a:hover { text-decoration: underline; }
+  td.org { color: var(--text-muted); font-size: 12px; }
+  td.stars { color: var(--star); white-space: nowrap; text-align: right; }
+  td.lang { white-space: nowrap; }
+  td.desc { color: var(--text-muted); max-width: 350px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  td.activity { font-size: 12px; }
+  .badge {
+    display: inline-block; padding: 1px 6px; border-radius: 10px;
+    font-size: 11px; font-weight: 500;
+  }
+  .badge-Active { background: #238636; color: #fff; }
+  .badge-Moderate { background: #9e6a03; color: #fff; }
+  .badge-Low { background: #6e4009; color: #ddd; }
+  .badge-Inactive { background: #30363d; color: #8b949e; }
+  .tag {
+    display: inline-block; background: var(--tag-bg); color: var(--accent);
+    padding: 0 6px; border-radius: 10px; font-size: 11px; margin: 1px 2px;
+  }
+  td.cat { font-size: 12px; }
+
+  .pagination {
+    display: flex; justify-content: center; gap: 8px;
+    margin-top: 16px; flex-wrap: wrap;
+  }
+  .pagination button {
+    padding: 4px 12px; font-size: 13px;
+    background: var(--surface); color: var(--text);
+    border: 1px solid var(--border); border-radius: 4px; cursor: pointer;
+  }
+  .pagination button:hover { border-color: var(--accent); }
+  .pagination button.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .pagination button:disabled { opacity: 0.4; cursor: default; }
+
+  @media (max-width: 700px) {
+    td.desc, td.cat { display: none; }
+    .controls { flex-direction: column; }
+    .controls input[type="text"] { min-width: 100%; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1><a href="https://github.com/rsasaki0109/robotics-repo-hub">robotics-repo-hub</a></h1>
+    <p>Search across notable repositories from major robotics GitHub organizations</p>
+  </header>
+
+  <div class="controls">
+    <input type="text" id="search" placeholder="Search repos, orgs, topics..." autofocus>
+    <select id="filterSection">
+      <option value="">All Sections</option>
+      <option value="Industry / OSS Projects">Industry</option>
+      <option value="AI / Embodied AI">AI</option>
+      <option value="University / Research Labs">University</option>
+    </select>
+    <select id="filterCategory">
+      <option value="">All Categories</option>
+    </select>
+    <select id="filterActivity">
+      <option value="">All Activity</option>
+      <option value="Active">Active</option>
+      <option value="Moderate">Moderate</option>
+      <option value="Low">Low</option>
+      <option value="Inactive">Inactive</option>
+    </select>
+    <select id="filterLang">
+      <option value="">All Languages</option>
+    </select>
+    <span class="stats" id="stats"></span>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th data-key="name">Repository</th>
+        <th data-key="org_name">Org</th>
+        <th data-key="stars" data-type="num">Stars</th>
+        <th data-key="language">Lang</th>
+        <th data-key="category" class="cat-col">Category</th>
+        <th data-key="activity">Activity</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+
+  <div class="pagination" id="pagination"></div>
+</div>
+
+<script>
+const PER_PAGE = 50;
+let allRepos = [];
+let filtered = [];
+let sortKey = "stars";
+let sortDir = -1; // -1 = desc
+let page = 0;
+
+async function init() {
+  const resp = await fetch("repos.json");
+  allRepos = await resp.json();
+  populateFilters();
+  applyFilters();
+  document.getElementById("search").addEventListener("input", () => { page = 0; applyFilters(); });
+  document.getElementById("filterSection").addEventListener("change", () => { page = 0; applyFilters(); });
+  document.getElementById("filterCategory").addEventListener("change", () => { page = 0; applyFilters(); });
+  document.getElementById("filterActivity").addEventListener("change", () => { page = 0; applyFilters(); });
+  document.getElementById("filterLang").addEventListener("change", () => { page = 0; applyFilters(); });
+  document.querySelectorAll("thead th[data-key]").forEach(th => {
+    th.addEventListener("click", () => {
+      const key = th.dataset.key;
+      if (sortKey === key) { sortDir *= -1; }
+      else { sortKey = key; sortDir = th.dataset.type === "num" ? -1 : 1; }
+      page = 0;
+      applyFilters();
+    });
+  });
+}
+
+function populateFilters() {
+  const cats = new Set(), langs = new Set();
+  allRepos.forEach(r => { cats.add(r.category); if (r.language) langs.add(r.language); });
+  const catSel = document.getElementById("filterCategory");
+  [...cats].sort().forEach(c => { const o = document.createElement("option"); o.value = c; o.textContent = c; catSel.appendChild(o); });
+  const langSel = document.getElementById("filterLang");
+  [...langs].sort().forEach(l => { const o = document.createElement("option"); o.value = l; o.textContent = l; langSel.appendChild(o); });
+}
+
+function applyFilters() {
+  const q = document.getElementById("search").value.toLowerCase().trim();
+  const sec = document.getElementById("filterSection").value;
+  const cat = document.getElementById("filterCategory").value;
+  const act = document.getElementById("filterActivity").value;
+  const lang = document.getElementById("filterLang").value;
+
+  filtered = allRepos.filter(r => {
+    if (sec && r.section !== sec) return false;
+    if (cat && r.category !== cat) return false;
+    if (act && r.activity !== act) return false;
+    if (lang && r.language !== lang) return false;
+    if (q) {
+      const hay = `${r.name} ${r.org} ${r.org_name} ${r.description} ${r.category} ${r.language} ${(r.topics||[]).join(" ")}`.toLowerCase();
+      return q.split(/\s+/).every(w => hay.includes(w));
+    }
+    return true;
+  });
+
+  // Sort
+  filtered.sort((a, b) => {
+    let va = a[sortKey] ?? "", vb = b[sortKey] ?? "";
+    if (typeof va === "number") return (va - vb) * sortDir;
+    return String(va).localeCompare(String(vb)) * sortDir;
+  });
+
+  render();
+}
+
+function render() {
+  // Stats
+  document.getElementById("stats").textContent = `${filtered.length} repos`;
+
+  // Sort indicators
+  document.querySelectorAll("thead th").forEach(th => {
+    th.classList.remove("sorted-asc", "sorted-desc");
+    if (th.dataset.key === sortKey) th.classList.add(sortDir === 1 ? "sorted-asc" : "sorted-desc");
+  });
+
+  // Table body
+  const tbody = document.getElementById("tbody");
+  const start = page * PER_PAGE;
+  const slice = filtered.slice(start, start + PER_PAGE);
+
+  tbody.innerHTML = slice.map(r => `
+    <tr>
+      <td class="name"><a href="${r.url}" target="_blank" rel="noopener">${esc(r.name)}</a></td>
+      <td class="org">${esc(r.org_name)}</td>
+      <td class="stars">${r.stars.toLocaleString()} ★</td>
+      <td class="lang">${esc(r.language || "—")}</td>
+      <td class="cat"><span class="tag">${esc(r.category)}</span></td>
+      <td class="activity"><span class="badge badge-${r.activity}">${r.activity}</span></td>
+      <td class="desc" title="${esc(r.description)}">${esc(r.description)}</td>
+    </tr>
+  `).join("");
+
+  // Pagination
+  const totalPages = Math.ceil(filtered.length / PER_PAGE);
+  const pag = document.getElementById("pagination");
+  if (totalPages <= 1) { pag.innerHTML = ""; return; }
+  let html = `<button ${page === 0 ? "disabled" : ""} onclick="goPage(${page - 1})">&lt;</button>`;
+  const maxBtns = 7;
+  let startP = Math.max(0, page - 3), endP = Math.min(totalPages, startP + maxBtns);
+  if (endP - startP < maxBtns) startP = Math.max(0, endP - maxBtns);
+  for (let i = startP; i < endP; i++) {
+    html += `<button class="${i === page ? "active" : ""}" onclick="goPage(${i})">${i + 1}</button>`;
+  }
+  html += `<button ${page >= totalPages - 1 ? "disabled" : ""} onclick="goPage(${page + 1})">&gt;</button>`;
+  pag.innerHTML = html;
+}
+
+function goPage(p) { page = p; render(); window.scrollTo(0, 0); }
+function esc(s) { const d = document.createElement("div"); d.textContent = s; return d.innerHTML; }
+
+init();
+</script>
+</body>
+</html>
