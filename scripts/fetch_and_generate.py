@@ -250,6 +250,31 @@ ORGANIZATIONS = {
         "url": "https://github.com/UZ-SLAMLab",
         "description": "ORB-SLAM3 — state-of-the-art visual/visual-inertial SLAM",
     },
+    # ── Individual Developers ─────────────────────────────────────
+    "rsasaki0109": {
+        "display_name": "Ryohei Sasaki",
+        "domain": "Individual / Localization & GNSS",
+        "url": "https://github.com/rsasaki0109",
+        "description": "eagleye contributor, GNSS/IMU localization, lidar_localization_ros2",
+    },
+    "facontidavide": {
+        "display_name": "Davide Faconti",
+        "domain": "Individual / ROS Tools",
+        "url": "https://github.com/facontidavide",
+        "description": "PlotJuggler, BehaviorTree.CPP — essential ROS dev tools",
+    },
+    "engcang": {
+        "display_name": "Engcang Choi",
+        "domain": "Individual / SLAM",
+        "url": "https://github.com/engcang",
+        "description": "SLAM comparison, LiDAR-visual SLAM integration, ROS tools",
+    },
+    "Livox-SDK": {
+        "display_name": "Livox SDK",
+        "domain": "Sensors / Industry",
+        "url": "https://www.livoxtech.com",
+        "description": "Livox LiDAR — SDK, ROS drivers, FAST-LIO integration",
+    },
 }
 
 
@@ -475,6 +500,8 @@ def _section_key(domain: str) -> str:
         return "University / Research Labs"
     if domain.startswith("AI /"):
         return "AI / Embodied AI"
+    if domain.startswith("Individual /"):
+        return "Individual Developers"
     return "Industry / OSS Projects"
 
 
@@ -494,7 +521,7 @@ def generate_readme(org_data: dict[str, dict]) -> str:
         sec = _section_key(info["domain"])
         sections.setdefault(sec, []).append((org_key, info))
 
-    section_order = ["Industry / OSS Projects", "AI / Embodied AI", "University / Research Labs"]
+    section_order = ["Industry / OSS Projects", "AI / Embodied AI", "University / Research Labs", "Individual Developers"]
 
     for section in section_order:
         orgs = sections.get(section, [])

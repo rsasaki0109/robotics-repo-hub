@@ -7,7 +7,7 @@
   "category": "ML / AI",
   "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
   "language": "Python",
-  "stars": 158842,
+  "stars": 158841,
   "forks": 32740,
   "activity": "Active",
   "pushed_at": "2026-04-05",
@@ -42,7 +42,7 @@
   "category": "Other",
   "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
   "language": "Python",
-  "stars": 97205,
+  "stars": 97206,
   "forks": 11981,
   "activity": "Active",
   "pushed_at": "2026-03-27",
@@ -122,7 +122,7 @@
   "category": "Simulation",
   "description": "A toolkit for developing and comparing reinforcement learning algorithms.",
   "language": "Python",
-  "stars": 37137,
+  "stars": 37138,
   "forks": 8706,
   "activity": "Active",
   "pushed_at": "2026-03-26",
@@ -238,7 +238,7 @@
   "description": "The official Python library for the OpenAI API",
   "language": "Python",
   "stars": 30365,
-  "forks": 4686,
+  "forks": 4687,
   "activity": "Active",
   "pushed_at": "2026-04-05",
   "url": "https://github.com/openai/openai-python",
@@ -573,7 +573,7 @@
   "category": "Learning / RL",
   "description": "OpenAI Baselines: high-quality implementations of reinforcement learning algorithms",
   "language": "Python",
-  "stars": 16687,
+  "stars": 16688,
   "forks": 4946,
   "activity": "Low",
   "pushed_at": "2024-08-01",
@@ -638,7 +638,7 @@
   "category": "Other",
   "description": "Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.",
   "language": "Elixir",
-  "stars": 14596,
+  "stars": 14597,
   "forks": 1212,
   "activity": "Active",
   "pushed_at": "2026-03-27",
@@ -732,7 +732,7 @@
   "category": "Other",
   "description": "Use Codex from Claude Code to review code or delegate tasks.",
   "language": "JavaScript",
-  "stars": 11870,
+  "stars": 11876,
   "forks": 622,
   "activity": "Active",
   "pushed_at": "2026-03-31",
@@ -1135,7 +1135,7 @@
   "category": "ML / AI",
   "description": "AlphaFold 3 inference pipeline.",
   "language": "Python",
-  "stars": 7805,
+  "stars": 7806,
   "forks": 1167,
   "activity": "Active",
   "pushed_at": "2026-04-01",
@@ -1308,7 +1308,7 @@
   "category": "Docs / Examples",
   "description": "Demo of a customer service use case implemented with the OpenAI Agents SDK",
   "language": "Python",
-  "stars": 5954,
+  "stars": 5953,
   "forks": 918,
   "activity": "Moderate",
   "pushed_at": "2025-12-18",
@@ -1332,6 +1332,35 @@
    "state-estimation",
    "vins",
    "vio"
+  ]
+ },
+ {
+  "name": "PlotJuggler",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Tools / Utilities",
+  "description": "The Time Series Visualization Tool that you deserve.",
+  "language": "C++",
+  "stars": 5802,
+  "forks": 775,
+  "activity": "Active",
+  "pushed_at": "2026-03-18",
+  "url": "https://github.com/facontidavide/PlotJuggler",
+  "topics": [
+   "chart",
+   "csv",
+   "labstreaminglayer",
+   "lua",
+   "mqtt",
+   "plot",
+   "px4",
+   "qt5",
+   "ros",
+   "rosbag",
+   "time-series",
+   "ulog",
+   "visualize-data"
   ]
  },
  {
@@ -1680,8 +1709,8 @@
   "category": "ML / AI",
   "description": "Train the smallest LM you can that fits in 16MB. Best model wins!",
   "language": "Python",
-  "stars": 4648,
-  "forks": 3003,
+  "stars": 4649,
+  "forks": 3004,
   "activity": "Active",
   "pushed_at": "2026-03-30",
   "url": "https://github.com/openai/parameter-golf",
@@ -1811,7 +1840,7 @@
   "category": "ML / AI",
   "description": "Gemma open-weight LLM library, from Google DeepMind",
   "language": "Python",
-  "stars": 4405,
+  "stars": 4407,
   "forks": 763,
   "activity": "Active",
   "pushed_at": "2026-04-04",
@@ -2060,7 +2089,7 @@
   "description": "The Hugging Face course on Transformers",
   "language": "MDX",
   "stars": 3819,
-  "forks": 1294,
+  "forks": 1295,
   "activity": "Active",
   "pushed_at": "2026-04-02",
   "url": "https://github.com/huggingface/course",
@@ -2795,7 +2824,7 @@
   "category": "Other",
   "description": "Omnilingual ASR Open-Source Multilingual SpeechRecognition for 1600+ Languages",
   "language": "Python",
-  "stars": 2748,
+  "stars": 2749,
   "forks": 246,
   "activity": "Moderate",
   "pushed_at": "2025-12-30",
@@ -3634,7 +3663,7 @@
   "category": "Simulation",
   "description": "Code for the MADDPG algorithm from the paper \"Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments\"",
   "language": "Python",
-  "stars": 1958,
+  "stars": 1959,
   "forks": 526,
   "activity": "Inactive",
   "pushed_at": "2024-04-01",
@@ -4415,7 +4444,7 @@
   "category": "ML / AI",
   "description": "This repository contains the code to train and evaluate TRIBE v2, a multimodal model for brain response prediction",
   "language": "Jupyter Notebook",
-  "stars": 1508,
+  "stars": 1510,
   "forks": 348,
   "activity": "Active",
   "pushed_at": "2026-03-30",
@@ -4466,7 +4495,7 @@
   "category": "Simulation",
   "description": "MLE-bench is a benchmark for measuring how well AI agents perform at machine learning engineering",
   "language": "Python",
-  "stars": 1440,
+  "stars": 1441,
   "forks": 236,
   "activity": "Active",
   "pushed_at": "2026-03-20",
@@ -4571,6 +4600,25 @@
    "node-mongodb",
    "typescript",
    "web"
+  ]
+ },
+ {
+  "name": "CPP_Optimizations_Diary",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "Tips and tricks to optimize your C++ code",
+  "language": "C++",
+  "stars": 1396,
+  "forks": 89,
+  "activity": "Inactive",
+  "pushed_at": "2023-12-21",
+  "url": "https://github.com/facontidavide/CPP_Optimizations_Diary",
+  "topics": [
+   "blog",
+   "cpp",
+   "optimization"
   ]
  },
  {
@@ -5092,6 +5140,29 @@
   "pushed_at": "2024-08-14",
   "url": "https://github.com/facebookresearch/co3d",
   "topics": []
+ },
+ {
+  "name": "SLAM-application",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "SLAM / Localization",
+  "description": "LeGO-LOAM, LIO-SAM, LVI-SAM, FAST-LIO2, Faster-LIO, VoxelMap, R3LIVE, Point-LIO, KISS-ICP, DLO, DLIO, Ada-LIO, PV-LIO, SLAMesh, ImMesh, FAST-LIO-MULTI, M-LOAM, LOCUS, SLICT, MA-LIO, CT-ICP, GenZ-ICP, iG-LIO, SR-LIO application and comparison on Gazebo and real-world datasets. Installation and config files are provided. ",
+  "language": "C++",
+  "stars": 1139,
+  "forks": 152,
+  "activity": "Low",
+  "pushed_at": "2025-01-31",
+  "url": "https://github.com/engcang/SLAM-application",
+  "topics": [
+   "lidar",
+   "lidar-inertial-odometry",
+   "lidar-odometry",
+   "multi-lidar-inertial-odometry",
+   "robotics",
+   "ros",
+   "slam"
+  ]
  },
  {
   "name": "Teach-Repeat-Replan",
@@ -6340,6 +6411,21 @@
   ]
  },
  {
+  "name": "Bonxai",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Mapping / 3D",
+  "description": "Fast, hierarchical, sparse Voxel Grid",
+  "language": "C++",
+  "stars": 834,
+  "forks": 85,
+  "activity": "Active",
+  "pushed_at": "2026-03-11",
+  "url": "https://github.com/facontidavide/Bonxai",
+  "topics": []
+ },
+ {
   "name": "large-scale-curiosity",
   "org": "openai",
   "org_name": "OpenAI",
@@ -6526,6 +6612,48 @@
   "activity": "Moderate",
   "pushed_at": "2025-12-15",
   "url": "https://github.com/openai/openai-responses-starter-app",
+  "topics": []
+ },
+ {
+  "name": "lidarslam_ros2",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "SLAM / Localization",
+  "description": "ROS 2 LiDAR SLAM for pointcloud-map authoring, benchmarking, and Autoware-compatible map workflows.",
+  "language": "HTML",
+  "stars": 799,
+  "forks": 160,
+  "activity": "Active",
+  "pushed_at": "2026-03-30",
+  "url": "https://github.com/rsasaki0109/lidarslam_ros2",
+  "topics": [
+   "autoware-compatible",
+   "benchmarking",
+   "gnss",
+   "lidar",
+   "lidar-slam",
+   "loop-closure",
+   "map-authoring",
+   "mapping",
+   "pointcloud-map",
+   "robotics",
+   "ros2"
+  ]
+ },
+ {
+  "name": "LIO-Livox",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "SLAM / Localization",
+  "description": "A Robust LiDAR-Inertial Odometry for Livox LiDAR",
+  "language": "C++",
+  "stars": 795,
+  "forks": 189,
+  "activity": "Low",
+  "pushed_at": "2024-05-23",
+  "url": "https://github.com/Livox-SDK/LIO-Livox",
   "topics": []
  },
  {
@@ -6916,6 +7044,21 @@
   "topics": []
  },
  {
+  "name": "plugins",
+  "org": "openai",
+  "org_name": "OpenAI",
+  "section": "AI / Embodied AI",
+  "category": "Other",
+  "description": "OpenAI Plugins",
+  "language": "Python",
+  "stars": 720,
+  "forks": 63,
+  "activity": "Active",
+  "pushed_at": "2026-04-05",
+  "url": "https://github.com/openai/plugins",
+  "topics": []
+ },
+ {
   "name": "ros2_controllers",
   "org": "ros-controls",
   "org_name": "ros2_control",
@@ -6938,21 +7081,6 @@
    "ros2-kilted",
    "ros2-rolling"
   ]
- },
- {
-  "name": "plugins",
-  "org": "openai",
-  "org_name": "OpenAI",
-  "section": "AI / Embodied AI",
-  "category": "Other",
-  "description": "OpenAI Plugins",
-  "language": "Python",
-  "stars": 719,
-  "forks": 63,
-  "activity": "Active",
-  "pushed_at": "2026-04-05",
-  "url": "https://github.com/openai/plugins",
-  "topics": []
  },
  {
   "name": "Stereo-RCNN",
@@ -6998,6 +7126,26 @@
   "pushed_at": "2026-04-02",
   "url": "https://github.com/google-deepmind/alphagenome_research",
   "topics": []
+ },
+ {
+  "name": "livox_ros_driver2",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "Sensor / Driver",
+  "description": "Livox device driver under Ros(Compatible with ros and ros2), support Lidar HAP and Mid-360.",
+  "language": "C++",
+  "stars": 704,
+  "forks": 564,
+  "activity": "Low",
+  "pushed_at": "2024-09-11",
+  "url": "https://github.com/Livox-SDK/livox_ros_driver2",
+  "topics": [
+   "hap",
+   "mid-360",
+   "ros",
+   "ros2"
+  ]
  },
  {
   "name": "audiobox-aesthetics",
@@ -7472,6 +7620,26 @@
   "topics": []
  },
  {
+  "name": "Livox-SDK",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "Sensor / Driver",
+  "description": "Drivers for receiving LiDAR data and more, support Lidar Mid-40, Mid-70, Tele-15, Horizon, Avia.",
+  "language": "C++",
+  "stars": 636,
+  "forks": 328,
+  "activity": "Low",
+  "pushed_at": "2024-12-17",
+  "url": "https://github.com/Livox-SDK/Livox-SDK",
+  "topics": [
+   "lidar",
+   "livox-sdk",
+   "mid-100",
+   "mid-40"
+  ]
+ },
+ {
   "name": "removert",
   "org": "gisbi-kim",
   "org_name": "Giseop Kim (SNU / SLAM)",
@@ -7608,6 +7776,21 @@
    "video",
    "watermarking"
   ]
+ },
+ {
+  "name": "livox_camera_lidar_calibration",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "Sensor / Driver",
+  "description": "Calibrate the extrinsic parameters between Livox LiDAR  and camera",
+  "language": "C++",
+  "stars": 617,
+  "forks": 149,
+  "activity": "Inactive",
+  "pushed_at": "2021-09-24",
+  "url": "https://github.com/Livox-SDK/livox_camera_lidar_calibration",
+  "topics": []
  },
  {
   "name": "ros_controllers",
@@ -7897,6 +8080,29 @@
    "qat",
    "yolov4",
    "yolov7"
+  ]
+ },
+ {
+  "name": "vins-application",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "SLAM / Localization",
+  "description": "VINS-Fusion, VINS-Fisheye, OpenVINS, EnVIO, ROVIO, S-MSCKF, ORB-SLAM2, NVIDIA Elbrus application of different sets of cameras and imu on different board including desktop and Jetson boards",
+  "language": "C++",
+  "stars": 591,
+  "forks": 97,
+  "activity": "Inactive",
+  "pushed_at": "2023-03-07",
+  "url": "https://github.com/engcang/vins-application",
+  "topics": [
+   "cuda",
+   "nvidia",
+   "ros",
+   "ros2",
+   "slam",
+   "vio",
+   "visual-slam"
   ]
  },
  {
@@ -8592,6 +8798,21 @@
   "topics": []
  },
  {
+  "name": "cloudini",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "Pointcloud compression library",
+  "language": "C++",
+  "stars": 522,
+  "forks": 31,
+  "activity": "Active",
+  "pushed_at": "2026-03-28",
+  "url": "https://github.com/facontidavide/cloudini",
+  "topics": []
+ },
+ {
   "name": "lt-mapper",
   "org": "gisbi-kim",
   "org_name": "Giseop Kim (SNU / SLAM)",
@@ -9026,6 +9247,28 @@
   "topics": []
  },
  {
+  "name": "lidar_localization_ros2",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "SLAM / Localization",
+  "description": "3D LIDAR Localization using NDT/GICP and pointcloud map in ROS 2 (Not SLAM)",
+  "language": "C++",
+  "stars": 484,
+  "forks": 105,
+  "activity": "Moderate",
+  "pushed_at": "2025-11-09",
+  "url": "https://github.com/rsasaki0109/lidar_localization_ros2",
+  "topics": [
+   "gicp",
+   "lidar",
+   "localization",
+   "ndt",
+   "pcl",
+   "ros2"
+  ]
+ },
+ {
   "name": "micro_ros_setup",
   "org": "micro-ROS",
   "org_name": "micro-ROS",
@@ -9039,6 +9282,23 @@
   "pushed_at": "2026-01-19",
   "url": "https://github.com/micro-ROS/micro_ros_setup",
   "topics": []
+ },
+ {
+  "name": "livox_ros_driver",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "Sensor / Driver",
+  "description": "Livox device driver under ros, support Lidar Mid-40, Mid-70, Tele-15, Horizon, Avia.",
+  "language": "C++",
+  "stars": 483,
+  "forks": 247,
+  "activity": "Inactive",
+  "pushed_at": "2024-01-25",
+  "url": "https://github.com/Livox-SDK/livox_ros_driver",
+  "topics": [
+   "livoxtech"
+  ]
  },
  {
   "name": "Onboard-SDK-ROS",
@@ -9186,6 +9446,21 @@
    "slam",
    "visualization"
   ]
+ },
+ {
+  "name": "livox_mapping",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "Mapping / 3D",
+  "description": "A mapping package for Livox LiDARs",
+  "language": "C++",
+  "stars": 468,
+  "forks": 123,
+  "activity": "Inactive",
+  "pushed_at": "2024-01-25",
+  "url": "https://github.com/Livox-SDK/livox_mapping",
+  "topics": []
  },
  {
   "name": "meta-agents-research-environments",
@@ -9427,6 +9702,25 @@
   "pushed_at": "2026-02-22",
   "url": "https://github.com/facebookresearch/vizseq",
   "topics": []
+ },
+ {
+  "name": "rosbag_editor",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Simulation",
+  "description": "Create a rosbag from a given one, using a simple GUI",
+  "language": "C++",
+  "stars": 448,
+  "forks": 86,
+  "activity": "Inactive",
+  "pushed_at": "2023-03-25",
+  "url": "https://github.com/facontidavide/rosbag_editor",
+  "topics": [
+   "qt",
+   "ros",
+   "rosbag"
+  ]
  },
  {
   "name": "rviz",
@@ -9821,6 +10115,25 @@
   "topics": []
  },
  {
+  "name": "Livox-SDK2",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "Planning / Control",
+  "description": "Drivers for receiving LiDAR data and controlling lidar, support Lidar HAP and Mid-360.",
+  "language": "C++",
+  "stars": 424,
+  "forks": 281,
+  "activity": "Low",
+  "pushed_at": "2024-08-01",
+  "url": "https://github.com/Livox-SDK/Livox-SDK2",
+  "topics": [
+   "hap",
+   "mid-360",
+   "sdk"
+  ]
+ },
+ {
   "name": "4DGT",
   "org": "facebookresearch",
   "org_name": "Meta FAIR",
@@ -9905,6 +10218,30 @@
   "pushed_at": "2026-04-02",
   "url": "https://github.com/facebookresearch/vrs",
   "topics": []
+ },
+ {
+  "name": "li_slam_ros2",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "SLAM / Localization",
+  "description": "ROS 2 package of tightly-coupled lidar inertial ndt/gicp slam",
+  "language": "C++",
+  "stars": 417,
+  "forks": 51,
+  "activity": "Moderate",
+  "pushed_at": "2025-12-23",
+  "url": "https://github.com/rsasaki0109/li_slam_ros2",
+  "topics": [
+   "g2o",
+   "gicp",
+   "gtsam",
+   "lidar",
+   "loop-closure",
+   "ndt",
+   "ros2",
+   "slam"
+  ]
  },
  {
   "name": "nanoowl",
@@ -10866,6 +11203,28 @@
   ]
  },
  {
+  "name": "kalman_filter_localization_ros2",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "SLAM / Localization",
+  "description": "gnss/imu localization using kalman filter",
+  "language": "C++",
+  "stars": 344,
+  "forks": 53,
+  "activity": "Active",
+  "pushed_at": "2026-03-13",
+  "url": "https://github.com/rsasaki0109/kalman_filter_localization_ros2",
+  "topics": [
+   "gnss",
+   "imu",
+   "localization",
+   "robotics",
+   "ros",
+   "ros2"
+  ]
+ },
+ {
   "name": "datablations",
   "org": "huggingface",
   "org_name": "Hugging Face",
@@ -11457,6 +11816,21 @@
   "topics": []
  },
  {
+  "name": "livox_detection",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "Perception",
+  "description": "Livox open source detection algorithm",
+  "language": "Python",
+  "stars": 315,
+  "forks": 59,
+  "activity": "Inactive",
+  "pushed_at": "2023-03-02",
+  "url": "https://github.com/Livox-SDK/livox_detection",
+  "topics": []
+ },
+ {
   "name": "micro_ros_platformio",
   "org": "micro-ROS",
   "org_name": "micro-ROS",
@@ -11502,6 +11876,21 @@
   "topics": []
  },
  {
+  "name": "livox_laser_simulation",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "Simulation",
+  "description": "A package to provide plug-in for Livox Series LiDAR.",
+  "language": "C++",
+  "stars": 313,
+  "forks": 83,
+  "activity": "Inactive",
+  "pushed_at": "2023-11-20",
+  "url": "https://github.com/Livox-SDK/livox_laser_simulation",
+  "topics": []
+ },
+ {
   "name": "leo",
   "org": "google-deepmind",
   "org_name": "Google DeepMind",
@@ -11515,6 +11904,28 @@
   "pushed_at": "2019-04-30",
   "url": "https://github.com/google-deepmind/leo",
   "topics": []
+ },
+ {
+  "name": "FAST-LIO-SAM-QN",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "SLAM / Localization",
+  "description": "A SLAM implementation combining FAST-LIO2 with pose graph optimization and loop closing based on Quatro and Nano-GICP",
+  "language": "C++",
+  "stars": 311,
+  "forks": 31,
+  "activity": "Low",
+  "pushed_at": "2024-10-27",
+  "url": "https://github.com/engcang/FAST-LIO-SAM-QN",
+  "topics": [
+   "lidar-inertial-odometry",
+   "lidar-slam",
+   "loop-closure",
+   "odometry",
+   "pose-estimation",
+   "slam"
+  ]
  },
  {
   "name": "robosumo",
@@ -11546,6 +11957,21 @@
   "activity": "Inactive",
   "pushed_at": "2021-03-21",
   "url": "https://github.com/openai/CLIP-featurevis",
+  "topics": []
+ },
+ {
+  "name": "livox_horizon_loam",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "Other",
+  "description": "Livox horizon porting for loam",
+  "language": "C++",
+  "stars": 310,
+  "forks": 78,
+  "activity": "Inactive",
+  "pushed_at": "2020-05-29",
+  "url": "https://github.com/Livox-SDK/livox_horizon_loam",
   "topics": []
  },
  {
@@ -11997,6 +12423,21 @@
   ]
  },
  {
+  "name": "Livox_automatic_calibration",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "Sensor / Driver",
+  "description": "An automatic calibration algorithm for livox LiDAR",
+  "language": "C++",
+  "stars": 292,
+  "forks": 64,
+  "activity": "Inactive",
+  "pushed_at": "2022-10-05",
+  "url": "https://github.com/Livox-SDK/Livox_automatic_calibration",
+  "topics": []
+ },
+ {
   "name": "R-VIO2",
   "org": "rpng",
   "org_name": "UD RPNG (OpenVINS)",
@@ -12038,6 +12479,26 @@
   "pushed_at": "2026-04-02",
   "url": "https://github.com/huggingface/huggingface-gemma-recipes",
   "topics": []
+ },
+ {
+  "name": "FAST-LIO-SAM",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "SLAM / Localization",
+  "description": "a SLAM implementation combining FAST-LIO2 with pose graph optimization and loop closing based on LIO-SAM paper",
+  "language": "C++",
+  "stars": 287,
+  "forks": 28,
+  "activity": "Low",
+  "pushed_at": "2024-10-27",
+  "url": "https://github.com/engcang/FAST-LIO-SAM",
+  "topics": [
+   "lidar",
+   "lidar-odometry",
+   "lidar-slam",
+   "slam"
+  ]
  },
  {
   "name": "lightplane",
@@ -12178,6 +12639,28 @@
   "pushed_at": "2025-05-16",
   "url": "https://github.com/HKUST-Aerial-Robotics/FALCON",
   "topics": []
+ },
+ {
+  "name": "FAST-LIO-Localization-QN",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "SLAM / Localization",
+  "description": "A Map-based localization implementation combining FAST-LIO2 as an odometry with Quatro + Nano-GICP as a map matching method",
+  "language": "C++",
+  "stars": 276,
+  "forks": 22,
+  "activity": "Low",
+  "pushed_at": "2024-10-28",
+  "url": "https://github.com/engcang/FAST-LIO-Localization-QN",
+  "topics": [
+   "lidar",
+   "lidar-inertial-odometry",
+   "lidar-slam",
+   "localization",
+   "loop-closure",
+   "slam"
+  ]
  },
  {
   "name": "ros-foxglove-bridge",
@@ -13032,6 +13515,29 @@
   ]
  },
  {
+  "name": "ros-yolo-sort",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "Perception",
+  "description": "YOLO v3, v4, v5, v6, v7 + SORT tracking + ROS platform. Supporting: YOLO with Darknet, OpenCV(DNN), OpenVINO, TensorRT(tkDNN). SORT supports python(original) and C++. (Not Deep SORT)",
+  "language": "C++",
+  "stars": 242,
+  "forks": 39,
+  "activity": "Inactive",
+  "pushed_at": "2024-03-01",
+  "url": "https://github.com/engcang/ros-yolo-sort",
+  "topics": [
+   "openvino",
+   "tensorrt",
+   "yolo",
+   "yolov4",
+   "yolov5",
+   "yolov6",
+   "yolov7"
+  ]
+ },
+ {
   "name": "torch-hdf5",
   "org": "google-deepmind",
   "org_name": "Google DeepMind",
@@ -13665,6 +14171,21 @@
    "person-tracking",
    "ros"
   ]
+ },
+ {
+  "name": "livox_relocalization",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "SLAM / Localization",
+  "description": "A relocalization package for Livox LiDARs.",
+  "language": "C++",
+  "stars": 217,
+  "forks": 33,
+  "activity": "Inactive",
+  "pushed_at": "2021-03-11",
+  "url": "https://github.com/Livox-SDK/livox_relocalization",
+  "topics": []
  },
  {
   "name": "jetcard",
@@ -14504,6 +15025,31 @@
   "topics": []
  },
  {
+  "name": "rust_robotics",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "SLAM / Localization",
+  "description": "Rust implementation of PythonRobotics, sample codes for robotics algorithms",
+  "language": "Rust",
+  "stars": 195,
+  "forks": 11,
+  "activity": "Active",
+  "pushed_at": "2026-04-05",
+  "url": "https://github.com/rsasaki0109/rust_robotics",
+  "topics": [
+   "algorithm",
+   "control",
+   "localization",
+   "navigation",
+   "path-planning",
+   "path-tracking",
+   "robotics",
+   "rust",
+   "slam"
+  ]
+ },
+ {
   "name": "rmw_fastrtps",
   "org": "ros2",
   "org_name": "ROS 2",
@@ -14624,6 +15170,21 @@
   "topics": []
  },
  {
+  "name": "livox_high_precision_mapping",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "Mapping / 3D",
+  "description": "High precision mapping with livox and apx-15",
+  "language": "C++",
+  "stars": 190,
+  "forks": 42,
+  "activity": "Inactive",
+  "pushed_at": "2020-11-27",
+  "url": "https://github.com/Livox-SDK/livox_high_precision_mapping",
+  "topics": []
+ },
+ {
   "name": "moveit_calibration",
   "org": "moveit",
   "org_name": "MoveIt",
@@ -14666,6 +15227,21 @@
   "activity": "Moderate",
   "pushed_at": "2025-09-13",
   "url": "https://github.com/facebookresearch/Mixture-of-Transformers",
+  "topics": []
+ },
+ {
+  "name": "ai4animationpy",
+  "org": "facebookresearch",
+  "org_name": "Meta FAIR",
+  "section": "AI / Embodied AI",
+  "category": "Other",
+  "description": "A Python framework for AI-driven character animation using neural networks.",
+  "language": "Python",
+  "stars": 189,
+  "forks": 11,
+  "activity": "Active",
+  "pushed_at": "2026-04-01",
+  "url": "https://github.com/facebookresearch/ai4animationpy",
   "topics": []
  },
  {
@@ -14765,18 +15341,36 @@
   "topics": []
  },
  {
-  "name": "ai4animationpy",
-  "org": "facebookresearch",
-  "org_name": "Meta FAIR",
-  "section": "AI / Embodied AI",
-  "category": "Other",
-  "description": "A Python framework for AI-driven character animation using neural networks.",
-  "language": "Python",
-  "stars": 187,
-  "forks": 11,
-  "activity": "Active",
-  "pushed_at": "2026-04-01",
-  "url": "https://github.com/facebookresearch/ai4animationpy",
+  "name": "lidar_localizer",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "Sensor / Driver",
+  "description": "lidar localizer in Autoware AI",
+  "language": "C++",
+  "stars": 188,
+  "forks": 67,
+  "activity": "Inactive",
+  "pushed_at": "2023-12-03",
+  "url": "https://github.com/rsasaki0109/lidar_localizer",
+  "topics": [
+   "lidar",
+   "ros1"
+  ]
+ },
+ {
+  "name": "livox_cloud_undistortion",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "Sensor / Driver",
+  "description": "This project is used for lidar point cloud undistortion. ",
+  "language": "C++",
+  "stars": 188,
+  "forks": 33,
+  "activity": "Inactive",
+  "pushed_at": "2023-05-26",
+  "url": "https://github.com/Livox-SDK/livox_cloud_undistortion",
   "topics": []
  },
  {
@@ -15212,6 +15806,26 @@
    "neural-network",
    "robotics",
    "verification"
+  ]
+ },
+ {
+  "name": "gazebo_maps",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "Mapping / 3D",
+  "description": "Self-made Gazebo maps and models for public",
+  "language": "",
+  "stars": 176,
+  "forks": 27,
+  "activity": "Moderate",
+  "pushed_at": "2025-05-29",
+  "url": "https://github.com/engcang/gazebo_maps",
+  "topics": [
+   "gazebo",
+   "gazebo-models",
+   "gazebo-simulator",
+   "simulation"
   ]
  },
  {
@@ -15906,6 +16520,27 @@
   "topics": []
  },
  {
+  "name": "FAST-LIO-SAM-SC-QN",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "SLAM / Localization",
+  "description": "A SLAM implementation combining FAST-LIO2 with pose graph optimization and loop closing based on ScanContext, Quatro, and Nano-GICP",
+  "language": "C++",
+  "stars": 158,
+  "forks": 17,
+  "activity": "Low",
+  "pushed_at": "2024-10-27",
+  "url": "https://github.com/engcang/FAST-LIO-SAM-SC-QN",
+  "topics": [
+   "lidar",
+   "lidar-inertial-odometry",
+   "lidar-slam",
+   "loop-closure",
+   "slam"
+  ]
+ },
+ {
   "name": "rcl",
   "org": "ros2",
   "org_name": "ROS 2",
@@ -16237,6 +16872,21 @@
   ]
  },
  {
+  "name": "livox_ros2_driver",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "Sensor / Driver",
+  "description": "Livox device driver under Ros2, support Lidar Mid-40, Mid-70, Tele-15, Horizon, Avia.",
+  "language": "C++",
+  "stars": 153,
+  "forks": 126,
+  "activity": "Low",
+  "pushed_at": "2024-12-17",
+  "url": "https://github.com/Livox-SDK/livox_ros2_driver",
+  "topics": []
+ },
+ {
   "name": "iopath",
   "org": "facebookresearch",
   "org_name": "Meta FAIR",
@@ -16264,6 +16914,21 @@
   "activity": "Low",
   "pushed_at": "2024-07-08",
   "url": "https://github.com/HKUST-Aerial-Robotics/UniQuad",
+  "topics": []
+ },
+ {
+  "name": "horizon_highway_slam",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "SLAM / Localization",
+  "description": "Horizon_Highway_Slam Demo in Docker",
+  "language": "C++",
+  "stars": 152,
+  "forks": 33,
+  "activity": "Inactive",
+  "pushed_at": "2021-06-01",
+  "url": "https://github.com/Livox-SDK/horizon_highway_slam",
   "topics": []
  },
  {
@@ -16357,6 +17022,21 @@
   "topics": []
  },
  {
+  "name": "swift-huggingface",
+  "org": "huggingface",
+  "org_name": "Hugging Face",
+  "section": "AI / Embodied AI",
+  "category": "ML / AI",
+  "description": "A Swift client for Hugging Face Hub and Inference Providers APIs",
+  "language": "Swift",
+  "stars": 147,
+  "forks": 17,
+  "activity": "Active",
+  "pushed_at": "2026-03-16",
+  "url": "https://github.com/huggingface/swift-huggingface",
+  "topics": []
+ },
+ {
   "name": "pointcloudTraj",
   "org": "HKUST-Aerial-Robotics",
   "org_name": "HKUST Aerial Robotics",
@@ -16399,21 +17079,6 @@
   "activity": "Active",
   "pushed_at": "2026-04-01",
   "url": "https://github.com/ros2/geometry2",
-  "topics": []
- },
- {
-  "name": "swift-huggingface",
-  "org": "huggingface",
-  "org_name": "Hugging Face",
-  "section": "AI / Embodied AI",
-  "category": "ML / AI",
-  "description": "A Swift client for Hugging Face Hub and Inference Providers APIs",
-  "language": "Swift",
-  "stars": 146,
-  "forks": 17,
-  "activity": "Active",
-  "pushed_at": "2026-03-16",
-  "url": "https://github.com/huggingface/swift-huggingface",
   "topics": []
  },
  {
@@ -16986,6 +17651,21 @@
    "semantic-scene-understanding",
    "slam"
   ]
+ },
+ {
+  "name": "livox_free_space",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "Perception",
+  "description": "Livox-Free-Space is a fast and effective free-space detection package using Livox LiDAR data. ",
+  "language": "C++",
+  "stars": 134,
+  "forks": 19,
+  "activity": "Inactive",
+  "pushed_at": "2021-12-02",
+  "url": "https://github.com/Livox-SDK/livox_free_space",
+  "topics": []
  },
  {
   "name": "ai_worker",
@@ -17967,6 +18647,32 @@
   ]
  },
  {
+  "name": "gnssplusplus-library",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "SLAM / Localization",
+  "description": "Modern C++ GNSS/RTK/PPP/CLAS toolkit.",
+  "language": "C++",
+  "stars": 119,
+  "forks": 9,
+  "activity": "Active",
+  "pushed_at": "2026-04-02",
+  "url": "https://github.com/rsasaki0109/gnssplusplus-library",
+  "topics": [
+   "c-plus-plus",
+   "gnss",
+   "localization",
+   "positioning",
+   "ppp",
+   "qzss",
+   "rinex",
+   "ros2",
+   "rtcm",
+   "rtk"
+  ]
+ },
+ {
   "name": "tensorflow-cpp",
   "org": "leggedrobotics",
   "org_name": "ETH RSL (Legged Robotics)",
@@ -17998,6 +18704,29 @@
   "pushed_at": "2022-12-18",
   "url": "https://github.com/borglab/SwiftFusion",
   "topics": []
+ },
+ {
+  "name": "FAST-LIO-Localization-SC-QN",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "SLAM / Localization",
+  "description": "A Map-based localization implementation combining FAST-LIO2 as an odometry with Quatro + Nano-GICP as a map matching method, and with ScanContext as a loop candidate detection method",
+  "language": "C++",
+  "stars": 118,
+  "forks": 13,
+  "activity": "Low",
+  "pushed_at": "2024-10-27",
+  "url": "https://github.com/engcang/FAST-LIO-Localization-SC-QN",
+  "topics": [
+   "lidar",
+   "lidar-inertial-odometry",
+   "lidar-slam",
+   "localization",
+   "loop-closure",
+   "odometry",
+   "slam"
+  ]
  },
  {
   "name": "flashy",
@@ -19515,6 +20244,21 @@
   "topics": []
  },
  {
+  "name": "repoprover",
+  "org": "facebookresearch",
+  "org_name": "Meta FAIR",
+  "section": "AI / Embodied AI",
+  "category": "Other",
+  "description": "Research code base for Automatic Textbook Formalization",
+  "language": "Python",
+  "stars": 97,
+  "forks": 6,
+  "activity": "Active",
+  "pushed_at": "2026-03-31",
+  "url": "https://github.com/facebookresearch/repoprover",
+  "topics": []
+ },
+ {
   "name": "jetson-stereo-depth",
   "org": "NVIDIA-AI-IOT",
   "org_name": "NVIDIA AI-IOT",
@@ -19788,6 +20532,21 @@
   "topics": []
  },
  {
+  "name": "rosx_introspection",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Middleware / ROS",
+  "description": "Deserialize any ROS message, without compilation time information.",
+  "language": "C++",
+  "stars": 95,
+  "forks": 25,
+  "activity": "Active",
+  "pushed_at": "2026-03-18",
+  "url": "https://github.com/facontidavide/rosx_introspection",
+  "topics": []
+ },
+ {
   "name": "SecAlign",
   "org": "facebookresearch",
   "org_name": "Meta FAIR",
@@ -19800,21 +20559,6 @@
   "activity": "Moderate",
   "pushed_at": "2025-07-24",
   "url": "https://github.com/facebookresearch/SecAlign",
-  "topics": []
- },
- {
-  "name": "repoprover",
-  "org": "facebookresearch",
-  "org_name": "Meta FAIR",
-  "section": "AI / Embodied AI",
-  "category": "Other",
-  "description": "Research code base for Automatic Textbook Formalization",
-  "language": "Python",
-  "stars": 94,
-  "forks": 6,
-  "activity": "Active",
-  "pushed_at": "2026-03-31",
-  "url": "https://github.com/facebookresearch/repoprover",
   "topics": []
  },
  {
@@ -20060,6 +20804,21 @@
    "lexicographic",
    "path-planning"
   ]
+ },
+ {
+  "name": "livox_detection_simu",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "Perception",
+  "description": "Trained on Simulated Data, Tested in the Real World",
+  "language": "Python",
+  "stars": 92,
+  "forks": 8,
+  "activity": "Inactive",
+  "pushed_at": "2021-06-01",
+  "url": "https://github.com/Livox-SDK/livox_detection_simu",
+  "topics": []
  },
  {
   "name": "OpenApps",
@@ -21025,6 +21784,21 @@
   "topics": []
  },
  {
+  "name": "mcap_editor",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "MCAP editor (GUI)",
+  "language": "C++",
+  "stars": 82,
+  "forks": 6,
+  "activity": "Low",
+  "pushed_at": "2024-12-19",
+  "url": "https://github.com/facontidavide/mcap_editor",
+  "topics": []
+ },
+ {
   "name": "domain_bridge",
   "org": "ros2",
   "org_name": "ROS 2",
@@ -21686,6 +22460,28 @@
   "pushed_at": "2026-03-26",
   "url": "https://github.com/openai/openai-guardrails-js",
   "topics": []
+ },
+ {
+  "name": "exploration-algorithms",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "Mapping / 3D",
+  "description": "[Docker provided] How to build, install and run open-source exploration algorithms",
+  "language": "C++",
+  "stars": 76,
+  "forks": 13,
+  "activity": "Inactive",
+  "pushed_at": "2023-04-18",
+  "url": "https://github.com/engcang/exploration-algorithms",
+  "topics": [
+   "docker",
+   "exploration",
+   "mapping",
+   "robotics",
+   "ros",
+   "sota"
+  ]
  },
  {
   "name": "hfapi",
@@ -22562,6 +23358,27 @@
   "topics": []
  },
  {
+  "name": "PoseOptimizationSLAM3D",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "SLAM / Localization",
+  "description": "Python sample code of 3D pose optimization SLAM",
+  "language": "Python",
+  "stars": 68,
+  "forks": 8,
+  "activity": "Inactive",
+  "pushed_at": "2023-05-04",
+  "url": "https://github.com/rsasaki0109/PoseOptimizationSLAM3D",
+  "topics": [
+   "localization",
+   "mapping",
+   "optimization",
+   "robotics",
+   "slam"
+  ]
+ },
+ {
   "name": "labmaze",
   "org": "google-deepmind",
   "org_name": "Google DeepMind",
@@ -22649,6 +23466,21 @@
   "activity": "Active",
   "pushed_at": "2026-03-17",
   "url": "https://github.com/leggedrobotics/sru-navigation-sim",
+  "topics": []
+ },
+ {
+  "name": "livox_lane_detection",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "Perception",
+  "description": "",
+  "language": "Python",
+  "stars": 67,
+  "forks": 11,
+  "activity": "Inactive",
+  "pushed_at": "2021-03-04",
+  "url": "https://github.com/Livox-SDK/livox_lane_detection",
   "topics": []
  },
  {
@@ -24465,7 +25297,7 @@
   "stars": 53,
   "forks": 35,
   "activity": "Active",
-  "pushed_at": "2026-04-03",
+  "pushed_at": "2026-04-05",
   "url": "https://github.com/ros2/ci",
   "topics": []
  },
@@ -24641,6 +25473,21 @@
   "activity": "Inactive",
   "pushed_at": "2023-10-09",
   "url": "https://github.com/UZ-SLAMLab/DrunkardsOdometry",
+  "topics": []
+ },
+ {
+  "name": "livox_scanner",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "Sensor / Driver",
+  "description": "Livox LiDAR 3D scanner",
+  "language": "C++",
+  "stars": 53,
+  "forks": 19,
+  "activity": "Inactive",
+  "pushed_at": "2020-06-08",
+  "url": "https://github.com/Livox-SDK/livox_scanner",
   "topics": []
  },
  {
@@ -25482,6 +26329,21 @@
   "topics": []
  },
  {
+  "name": "ros2_logging_fmt",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Middleware / ROS",
+  "description": "",
+  "language": "C++",
+  "stars": 47,
+  "forks": 7,
+  "activity": "Inactive",
+  "pushed_at": "2022-08-05",
+  "url": "https://github.com/facontidavide/ros2_logging_fmt",
+  "topics": []
+ },
+ {
   "name": "moveit.ros.org",
   "org": "moveit",
   "org_name": "MoveIt",
@@ -25640,6 +26502,28 @@
   "pushed_at": "2025-08-20",
   "url": "https://github.com/leggedrobotics/physical_terrain_parameter_learning",
   "topics": []
+ },
+ {
+  "name": "TensorRT_YOLOv9_ROS",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "Perception",
+  "description": "(ROS, C++) YOLOv9 detection using TensorRT, now supporting TensorRT 10",
+  "language": "C++",
+  "stars": 46,
+  "forks": 4,
+  "activity": "Low",
+  "pushed_at": "2024-05-11",
+  "url": "https://github.com/engcang/TensorRT_YOLOv9_ROS",
+  "topics": [
+   "computer-vision",
+   "cpp",
+   "object-detection",
+   "ros",
+   "yolo",
+   "yolov9"
+  ]
  },
  {
   "name": "gz-usd",
@@ -26089,6 +26973,21 @@
   "topics": []
  },
  {
+  "name": "cpp_swiss_army_knife",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "A collection of nice and tiny C++ libraries",
+  "language": "",
+  "stars": 43,
+  "forks": 5,
+  "activity": "Inactive",
+  "pushed_at": "2019-09-08",
+  "url": "https://github.com/facontidavide/cpp_swiss_army_knife",
+  "topics": []
+ },
+ {
   "name": "autocore_sim",
   "org": "autowarefoundation",
   "org_name": "Autoware Foundation",
@@ -26177,6 +27076,24 @@
   "pushed_at": "2022-01-19",
   "url": "https://github.com/StanfordASL/MATS",
   "topics": []
+ },
+ {
+  "name": "oakd-ros-simple",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "Simulation",
+  "description": "OAK-D (OpenCV AI Kit camera) ROS simple codes with C++",
+  "language": "C++",
+  "stars": 42,
+  "forks": 10,
+  "activity": "Inactive",
+  "pushed_at": "2024-01-12",
+  "url": "https://github.com/engcang/oakd-ros-simple",
+  "topics": [
+   "opencv",
+   "ros"
+  ]
  },
  {
   "name": "adversarialnlp",
@@ -26649,6 +27566,26 @@
   ]
  },
  {
+  "name": "littleslam_ros2",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "SLAM / Localization",
+  "description": "A ROS2 Wrapper for LittleSLAM, which is a 2D-LiDAR SLAM for educational use",
+  "language": "C++",
+  "stars": 39,
+  "forks": 8,
+  "activity": "Inactive",
+  "pushed_at": "2023-11-26",
+  "url": "https://github.com/rsasaki0109/littleslam_ros2",
+  "topics": [
+   "localization",
+   "robotics",
+   "ros2",
+   "slam"
+  ]
+ },
+ {
   "name": "gz-mujoco",
   "org": "gazebosim",
   "org_name": "Gazebo",
@@ -27106,6 +28043,28 @@
   "topics": []
  },
  {
+  "name": "NormalDistributionTransform2D",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "SLAM / Localization",
+  "description": "Python sample code of 2D NDT Scan Matching",
+  "language": "Python",
+  "stars": 37,
+  "forks": 2,
+  "activity": "Inactive",
+  "pushed_at": "2023-12-05",
+  "url": "https://github.com/rsasaki0109/NormalDistributionTransform2D",
+  "topics": [
+   "lidar",
+   "localization",
+   "mapping",
+   "ndt",
+   "robotics",
+   "slam"
+  ]
+ },
+ {
   "name": "autoware-launch-gui",
   "org": "autowarefoundation",
   "org_name": "Autoware Foundation",
@@ -27409,6 +28368,27 @@
   "pushed_at": "2025-01-30",
   "url": "https://github.com/gisbi-kim/strayscanner-ros2bag-converter",
   "topics": []
+ },
+ {
+  "name": "TROT-Q",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "Perception",
+  "description": "ASCC2022 - TROT-Q: TRaversability and Obstacle aware Target tracking system for Quadruped robots",
+  "language": "C++",
+  "stars": 36,
+  "forks": 3,
+  "activity": "Inactive",
+  "pushed_at": "2023-07-17",
+  "url": "https://github.com/engcang/TROT-Q",
+  "topics": [
+   "obstacle-avoidance",
+   "quadruped-robot",
+   "target-tracking",
+   "tracking",
+   "traversability"
+  ]
  },
  {
   "name": "tutorials",
@@ -28198,6 +29178,21 @@
   "topics": []
  },
  {
+  "name": "LivoxIntegration",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "Sensor / Driver",
+  "description": "Guidelines for integrating Livox LiDARs with other sensors",
+  "language": "",
+  "stars": 33,
+  "forks": 8,
+  "activity": "Inactive",
+  "pushed_at": "2020-02-12",
+  "url": "https://github.com/Livox-SDK/LivoxIntegration",
+  "topics": []
+ },
+ {
   "name": "spartan",
   "org": "RobotLocomotion",
   "org_name": "Drake (Robot Locomotion Group)",
@@ -28461,6 +29456,36 @@
   "topics": []
  },
  {
+  "name": "PointCloudProcessing",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "",
+  "language": "C++",
+  "stars": 32,
+  "forks": 13,
+  "activity": "Inactive",
+  "pushed_at": "2019-02-27",
+  "url": "https://github.com/facontidavide/PointCloudProcessing",
+  "topics": []
+ },
+ {
+  "name": "livox_autoware_driver",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "Sensor / Driver",
+  "description": "Livox lidar driver for Autoware",
+  "language": "C++",
+  "stars": 32,
+  "forks": 10,
+  "activity": "Inactive",
+  "pushed_at": "2021-06-01",
+  "url": "https://github.com/Livox-SDK/livox_autoware_driver",
+  "topics": []
+ },
+ {
   "name": "openrobotics_darknet_ros",
   "org": "ros2",
   "org_name": "ROS 2",
@@ -28705,6 +29730,21 @@
   ]
  },
  {
+  "name": "vins-fusion-gpu-no-ros",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "SLAM / Localization",
+  "description": "VINS-Fusion's non-ROS version (GPU version)",
+  "language": "C++",
+  "stars": 31,
+  "forks": 13,
+  "activity": "Low",
+  "pushed_at": "2024-05-28",
+  "url": "https://github.com/engcang/vins-fusion-gpu-no-ros",
+  "topics": []
+ },
+ {
   "name": "svo_probes",
   "org": "google-deepmind",
   "org_name": "Google DeepMind",
@@ -28912,6 +29952,21 @@
   ]
  },
  {
+  "name": "RANSAC-plus",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "(unofficial)(2025)RANSAC Revisited: An Improved Algorithm for Robust Subspace Recovery under Adversarial and Noisy Corruptions",
+  "language": "Python",
+  "stars": 30,
+  "forks": 0,
+  "activity": "Moderate",
+  "pushed_at": "2025-08-12",
+  "url": "https://github.com/rsasaki0109/RANSAC-plus",
+  "topics": []
+ },
+ {
   "name": "rcl_logging",
   "org": "ros2",
   "org_name": "ROS 2",
@@ -29089,6 +30144,48 @@
   "activity": "Active",
   "pushed_at": "2026-01-09",
   "url": "https://github.com/MIT-SPARK/pose_graph_tools",
+  "topics": []
+ },
+ {
+  "name": "dynamic-3d-object-removal",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "SLAM / Localization",
+  "description": "Numpy-only dynamic object removal for LiDAR point clouds. 3D box crop + temporal filtering, ROS2 realtime node, public AV2 demos.",
+  "language": "Python",
+  "stars": 29,
+  "forks": 0,
+  "activity": "Active",
+  "pushed_at": "2026-03-26",
+  "url": "https://github.com/rsasaki0109/dynamic-3d-object-removal",
+  "topics": [
+   "argoverse",
+   "autonomous-driving",
+   "dynamic-object-removal",
+   "kitti",
+   "lidar",
+   "mapping",
+   "numpy",
+   "point-cloud",
+   "point-cloud-processing",
+   "ros2",
+   "slam"
+  ]
+ },
+ {
+  "name": "pointcloud_compression",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "",
+  "language": "C++",
+  "stars": 29,
+  "forks": 2,
+  "activity": "Low",
+  "pushed_at": "2024-05-16",
+  "url": "https://github.com/facontidavide/pointcloud_compression",
   "topics": []
  },
  {
@@ -29299,6 +30396,21 @@
   "activity": "Active",
   "pushed_at": "2026-04-01",
   "url": "https://github.com/koide3/glil_pubdoc",
+  "topics": []
+ },
+ {
+  "name": "Special-Firmwares-for-Livox-LiDARs",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "Sensor / Driver",
+  "description": "Special Firmwares for Livox LiDARs",
+  "language": "",
+  "stars": 28,
+  "forks": 11,
+  "activity": "Inactive",
+  "pushed_at": "2019-10-21",
+  "url": "https://github.com/Livox-SDK/Special-Firmwares-for-Livox-LiDARs",
   "topics": []
  },
  {
@@ -30555,6 +31667,36 @@
   "topics": []
  },
  {
+  "name": "ros-docker-gazebo",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Simulation",
+  "description": "",
+  "language": "Shell",
+  "stars": 24,
+  "forks": 11,
+  "activity": "Inactive",
+  "pushed_at": "2017-02-23",
+  "url": "https://github.com/facontidavide/ros-docker-gazebo",
+  "topics": []
+ },
+ {
+  "name": "ROLAND",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "Perception",
+  "description": "ROLAND: Robust Landing of UAV on Moving Platform using Object Detection and UWB based Extended Kalman Filter",
+  "language": "C++",
+  "stars": 24,
+  "forks": 6,
+  "activity": "Inactive",
+  "pushed_at": "2023-07-17",
+  "url": "https://github.com/engcang/ROLAND",
+  "topics": []
+ },
+ {
   "name": "autoware_ai_documentation",
   "org": "autowarefoundation",
   "org_name": "Autoware Foundation",
@@ -31216,6 +32358,57 @@
   "topics": []
  },
  {
+  "name": "laser_deskew",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "Sensor / Driver",
+  "description": "ros1 package for 2d laser deskew using tf.",
+  "language": "C++",
+  "stars": 22,
+  "forks": 7,
+  "activity": "Inactive",
+  "pushed_at": "2023-11-28",
+  "url": "https://github.com/rsasaki0109/laser_deskew",
+  "topics": [
+   "deskew",
+   "laser",
+   "lidar",
+   "ros",
+   "undistortion"
+  ]
+ },
+ {
+  "name": "mavros-gazebo-application",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "Simulation",
+  "description": "mavros-gazebo-application",
+  "language": "Python",
+  "stars": 22,
+  "forks": 8,
+  "activity": "Inactive",
+  "pushed_at": "2023-02-22",
+  "url": "https://github.com/engcang/mavros-gazebo-application",
+  "topics": []
+ },
+ {
+  "name": "livox_wiki_cn",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "Other",
+  "description": "livox wiki cn",
+  "language": "Python",
+  "stars": 22,
+  "forks": 11,
+  "activity": "Low",
+  "pushed_at": "2025-03-14",
+  "url": "https://github.com/Livox-SDK/livox_wiki_cn",
+  "topics": []
+ },
+ {
   "name": "autoware-build-gui",
   "org": "autowarefoundation",
   "org_name": "Autoware Foundation",
@@ -31483,6 +32676,36 @@
   "activity": "Moderate",
   "pushed_at": "2025-11-14",
   "url": "https://github.com/robot-learning-freiburg/artipoint",
+  "topics": []
+ },
+ {
+  "name": "ProtectedValue",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "",
+  "language": "C++",
+  "stars": 21,
+  "forks": 2,
+  "activity": "Low",
+  "pushed_at": "2024-09-15",
+  "url": "https://github.com/facontidavide/ProtectedValue",
+  "topics": []
+ },
+ {
+  "name": "spdlog_ros",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "",
+  "language": "C++",
+  "stars": 21,
+  "forks": 4,
+  "activity": "Low",
+  "pushed_at": "2024-04-29",
+  "url": "https://github.com/facontidavide/spdlog_ros",
   "topics": []
  },
  {
@@ -32429,6 +33652,25 @@
   ]
  },
  {
+  "name": "lidar_undistortion",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "Sensor / Driver",
+  "description": "A header-only program of 3d rotary lidar undistortion using 9-axis imu",
+  "language": "C++",
+  "stars": 19,
+  "forks": 8,
+  "activity": "Low",
+  "pushed_at": "2024-07-01",
+  "url": "https://github.com/rsasaki0109/lidar_undistortion",
+  "topics": [
+   "imu",
+   "lidar",
+   "undistortion"
+  ]
+ },
+ {
   "name": "ros_testing",
   "org": "ros2",
   "org_name": "ROS 2",
@@ -32816,6 +34058,21 @@
   "topics": []
  },
  {
+  "name": "PS4_Joystick_teleop_Mobile_Robots_ROS_Python",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "Simulation",
+  "description": "Simple Joystic_teleop_Mobile_Robots_ROS_Python using PS4 from SONY",
+  "language": "Python",
+  "stars": 18,
+  "forks": 5,
+  "activity": "Inactive",
+  "pushed_at": "2023-01-25",
+  "url": "https://github.com/engcang/PS4_Joystick_teleop_Mobile_Robots_ROS_Python",
+  "topics": []
+ },
+ {
   "name": "moveit_ci",
   "org": "moveit",
   "org_name": "MoveIt",
@@ -33108,6 +34365,55 @@
   "activity": "Inactive",
   "pushed_at": "2021-04-02",
   "url": "https://github.com/gisbi-kim/ceres-tutorials",
+  "topics": []
+ },
+ {
+  "name": "imu_estimator",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "Sensor / Driver",
+  "description": "attitude estimator with gyro bias correction",
+  "language": "C++",
+  "stars": 17,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2023-11-29",
+  "url": "https://github.com/rsasaki0109/imu_estimator",
+  "topics": [
+   "bias-correction",
+   "ekf",
+   "imu"
+  ]
+ },
+ {
+  "name": "Livox-Viewer",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "Other",
+  "description": "Livox Viewer ",
+  "language": "",
+  "stars": 17,
+  "forks": 4,
+  "activity": "Inactive",
+  "pushed_at": "2019-08-14",
+  "url": "https://github.com/Livox-SDK/Livox-Viewer",
+  "topics": []
+ },
+ {
+  "name": "livox_apollo_driver",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "Sensor / Driver",
+  "description": "Livox driver for apollo",
+  "language": "C++",
+  "stars": 17,
+  "forks": 5,
+  "activity": "Inactive",
+  "pushed_at": "2020-06-29",
+  "url": "https://github.com/Livox-SDK/livox_apollo_driver",
   "topics": []
  },
  {
@@ -33679,6 +34985,55 @@
   "topics": []
  },
  {
+  "name": "gaussian_particle_filter",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "SLAM / Localization",
+  "description": "Python sample of Gaussian Particle Filter localization",
+  "language": "Python",
+  "stars": 16,
+  "forks": 2,
+  "activity": "Inactive",
+  "pushed_at": "2020-03-01",
+  "url": "https://github.com/rsasaki0109/gaussian_particle_filter",
+  "topics": [
+   "localization",
+   "particle-filter",
+   "robotics"
+  ]
+ },
+ {
+  "name": "HC-SR04-UltraSonicSensor-ROS-RaspberryPi",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "Sensor / Driver",
+  "description": "HC-SR04-UltraSonicSensor-ROS-RaspberryPi using Python",
+  "language": "Python",
+  "stars": 16,
+  "forks": 4,
+  "activity": "Inactive",
+  "pushed_at": "2023-01-25",
+  "url": "https://github.com/engcang/HC-SR04-UltraSonicSensor-ROS-RaspberryPi",
+  "topics": []
+ },
+ {
+  "name": "livox_calibration",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "Tools / Utilities",
+  "description": "Livox extrinsic calibration",
+  "language": "C++",
+  "stars": 16,
+  "forks": 5,
+  "activity": "Inactive",
+  "pushed_at": "2020-06-22",
+  "url": "https://github.com/Livox-SDK/livox_calibration",
+  "topics": []
+ },
+ {
   "name": "eigen3_cmake_module",
   "org": "ros2",
   "org_name": "ROS 2",
@@ -34141,6 +35496,32 @@
   ]
  },
  {
+  "name": "ieee_uav_2022",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "Perception",
+  "description": "IEEE UAV Competition 2022 - Low Power Computer Vision Challenges (LPCVC): Chase",
+  "language": "C",
+  "stars": 15,
+  "forks": 5,
+  "activity": "Inactive",
+  "pushed_at": "2022-09-13",
+  "url": "https://github.com/engcang/ieee_uav_2022",
+  "topics": [
+   "competition",
+   "drone",
+   "gazebo",
+   "obstacle-avoidance",
+   "path-planning",
+   "quadrotor",
+   "simulation",
+   "target-tracking",
+   "tracking",
+   "uav"
+  ]
+ },
+ {
   "name": "rmw_dds_common",
   "org": "ros2",
   "org_name": "ROS 2",
@@ -34584,6 +35965,21 @@
   "activity": "Low",
   "pushed_at": "2024-12-12",
   "url": "https://github.com/robot-learning-freiburg/DITTO",
+  "topics": []
+ },
+ {
+  "name": "livox-dataset-devkit",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "Tools / Utilities",
+  "description": "A development kit to read point cloud and display 3D target bounding boxes for the livox dataset",
+  "language": "C++",
+  "stars": 14,
+  "forks": 3,
+  "activity": "Inactive",
+  "pushed_at": "2020-09-02",
+  "url": "https://github.com/Livox-SDK/livox-dataset-devkit",
   "topics": []
  },
  {
@@ -35155,6 +36551,62 @@
    "rviz",
    "visualization"
   ]
+ },
+ {
+  "name": "localization_zoo",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "SLAM / Localization",
+  "description": "C++ implementations, derived variants, and compact baselines for localization papers with ROS 2, tests, and benchmarks.",
+  "language": "C++",
+  "stars": 13,
+  "forks": 0,
+  "activity": "Active",
+  "pushed_at": "2026-04-02",
+  "url": "https://github.com/rsasaki0109/localization_zoo",
+  "topics": [
+   "cpp",
+   "icp",
+   "lidar",
+   "lio",
+   "localization",
+   "odometry",
+   "point-cloud",
+   "robotics",
+   "ros2",
+   "slam"
+  ]
+ },
+ {
+  "name": "drone_auto_bag_record",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "MAVROS-PX4 drone auto ROS bag record on / off according to arming state",
+  "language": "Python",
+  "stars": 13,
+  "forks": 1,
+  "activity": "Low",
+  "pushed_at": "2024-10-30",
+  "url": "https://github.com/engcang/drone_auto_bag_record",
+  "topics": []
+ },
+ {
+  "name": "utm_to_pose_path",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "Sensor / Driver",
+  "description": "sensor_msgs/NavSatFix to geometry_msgs/PoseStamped and nav_msgs/Path",
+  "language": "Python",
+  "stars": 13,
+  "forks": 2,
+  "activity": "Inactive",
+  "pushed_at": "2023-12-04",
+  "url": "https://github.com/engcang/utm_to_pose_path",
+  "topics": []
  },
  {
   "name": "open-ad-kit-docs",
@@ -35784,6 +37236,59 @@
   ]
  },
  {
+  "name": "type_introspection_tests",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Docs / Examples",
+  "description": "Tests and examples related to https://github.com/facontidavide/ros_type_introspection",
+  "language": "C++",
+  "stars": 12,
+  "forks": 1,
+  "activity": "Inactive",
+  "pushed_at": "2019-10-01",
+  "url": "https://github.com/facontidavide/type_introspection_tests",
+  "topics": []
+ },
+ {
+  "name": "tkdnn-ros",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "Perception",
+  "description": "(ROS) YOLOv3, v4, v7 detection + Shelfnet semantic segmentation with TensorRT, utilizing tkDNN ",
+  "language": "C++",
+  "stars": 12,
+  "forks": 3,
+  "activity": "Inactive",
+  "pushed_at": "2024-03-13",
+  "url": "https://github.com/engcang/tkdnn-ros",
+  "topics": [
+   "cpp",
+   "darknet",
+   "detection",
+   "ros",
+   "semantic-segmentation",
+   "tensorrt",
+   "yolo"
+  ]
+ },
+ {
+  "name": "utility_codes",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "Tools / Utilities",
+  "description": "A collection of various utility codes coded myself",
+  "language": "Python",
+  "stars": 12,
+  "forks": 4,
+  "activity": "Moderate",
+  "pushed_at": "2025-10-10",
+  "url": "https://github.com/engcang/utility_codes",
+  "topics": []
+ },
+ {
   "name": "roscon_advanced_workshop",
   "org": "ros-controls",
   "org_name": "ros2_control",
@@ -36331,6 +37836,66 @@
    "sound",
    "voice"
   ]
+ },
+ {
+  "name": "slam-handbook-python",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "SLAM / Localization",
+  "description": "SLAM Handbookの内容をPython + Jupyter Notebookで学ぶハンズオン教材",
+  "language": "Jupyter Notebook",
+  "stars": 11,
+  "forks": 1,
+  "activity": "Active",
+  "pushed_at": "2026-04-05",
+  "url": "https://github.com/rsasaki0109/slam-handbook-python",
+  "topics": []
+ },
+ {
+  "name": "transfrom_velocity",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "C++ program for performing 3D and 2D velocity transformations using Lie algebra.",
+  "language": "C++",
+  "stars": 11,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2023-11-22",
+  "url": "https://github.com/rsasaki0109/transfrom_velocity",
+  "topics": []
+ },
+ {
+  "name": "PluginLoader",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "C++ plugin manager based on https://github.com/ros/class_loader",
+  "language": "C++",
+  "stars": 11,
+  "forks": 3,
+  "activity": "Inactive",
+  "pushed_at": "2018-09-19",
+  "url": "https://github.com/facontidavide/PluginLoader",
+  "topics": []
+ },
+ {
+  "name": "SerializeMe",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "C++ helper functions to deserialize data from a buffer",
+  "language": "C++",
+  "stars": 11,
+  "forks": 3,
+  "activity": "Inactive",
+  "pushed_at": "2023-10-10",
+  "url": "https://github.com/facontidavide/SerializeMe",
+  "topics": []
  },
  {
   "name": "tvm_vendor",
@@ -37828,6 +39393,21 @@
   "topics": []
  },
  {
+  "name": "NanoCDR",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "",
+  "language": "C++",
+  "stars": 9,
+  "forks": 0,
+  "activity": "Moderate",
+  "pushed_at": "2025-09-15",
+  "url": "https://github.com/facontidavide/NanoCDR",
+  "topics": []
+ },
+ {
   "name": "autoware-projects",
   "org": "autowarefoundation",
   "org_name": "Autoware Foundation",
@@ -38799,6 +40379,42 @@
   "topics": []
  },
  {
+  "name": "gnss_imu_wheel_localizer",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "Sensor / Driver",
+  "description": "gnss/imu/wheel localizer for autoware",
+  "language": "C++",
+  "stars": 8,
+  "forks": 0,
+  "activity": "Moderate",
+  "pushed_at": "2025-12-24",
+  "url": "https://github.com/rsasaki0109/gnss_imu_wheel_localizer",
+  "topics": [
+   "autoware",
+   "gnss",
+   "imu",
+   "ros",
+   "ros2"
+  ]
+ },
+ {
+  "name": "tf_to_trajectory",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "Planning / Control",
+  "description": "tf_to_trajectory: Convert ROS topics to nav_msgs/Path trajectory using simple rospy code for rviz",
+  "language": "Python",
+  "stars": 8,
+  "forks": 8,
+  "activity": "Inactive",
+  "pushed_at": "2022-08-11",
+  "url": "https://github.com/engcang/tf_to_trajectory",
+  "topics": []
+ },
+ {
   "name": "autoware_adapi_msgs",
   "org": "autowarefoundation",
   "org_name": "Autoware Foundation",
@@ -39580,6 +41196,88 @@
   "pushed_at": "2023-10-09",
   "url": "https://github.com/TixiaoShan/TixiaoShan",
   "topics": []
+ },
+ {
+  "name": "bagx",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "Perception",
+  "description": "Post-processing analysis engine for ROS2 rosbag — eval, compare, sync, anomaly detection, AI export",
+  "language": "Python",
+  "stars": 7,
+  "forks": 0,
+  "activity": "Active",
+  "pushed_at": "2026-03-24",
+  "url": "https://github.com/rsasaki0109/bagx",
+  "topics": [
+   "cli",
+   "python",
+   "robotics",
+   "ros2",
+   "rosbag",
+   "sensor-analysis"
+  ]
+ },
+ {
+  "name": "CloudAnalyzer",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "SLAM / Localization",
+  "description": "AI-friendly CLI tool for point cloud analysis and evaluation — F1/Chamfer/Hausdorff metrics, ICP/GICP registration, 22 commands",
+  "language": "Python",
+  "stars": 7,
+  "forks": 1,
+  "activity": "Active",
+  "pushed_at": "2026-04-05",
+  "url": "https://github.com/rsasaki0109/CloudAnalyzer",
+  "topics": [
+   "cli",
+   "evaluation",
+   "lidar",
+   "open3d",
+   "point-cloud",
+   "slam"
+  ]
+ },
+ {
+  "name": "particle_filtering_model_predictive_control",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "Planning / Control",
+  "description": "Particle filtering model predictive control simulation.",
+  "language": "Python",
+  "stars": 7,
+  "forks": 1,
+  "activity": "Moderate",
+  "pushed_at": "2025-08-11",
+  "url": "https://github.com/rsasaki0109/particle_filtering_model_predictive_control",
+  "topics": [
+   "mpc",
+   "particle-filter",
+   "robotics"
+  ]
+ },
+ {
+  "name": "SafeCppAny",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "Extension of std::any with small object optmization and safe numeric conversion.",
+  "language": "C++",
+  "stars": 7,
+  "forks": 2,
+  "activity": "Inactive",
+  "pushed_at": "2018-12-12",
+  "url": "https://github.com/facontidavide/SafeCppAny",
+  "topics": [
+   "any",
+   "cpp",
+   "safe"
+  ]
  },
  {
   "name": "qpoases_vendor",
@@ -40646,6 +42344,74 @@
    "microstrain-comm",
    "ros-driver"
   ]
+ },
+ {
+  "name": "mathematical_robotics",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "SLAM / Localization",
+  "description": "A C++ port of the MathematicalRobotics library",
+  "language": "C++",
+  "stars": 6,
+  "forks": 0,
+  "activity": "Active",
+  "pushed_at": "2026-03-12",
+  "url": "https://github.com/rsasaki0109/mathematical_robotics",
+  "topics": [
+   "bundle-adjustment",
+   "cpp",
+   "graph-optimization",
+   "lie-algebra",
+   "localization",
+   "robotics",
+   "slam"
+  ]
+ },
+ {
+  "name": "CanMove",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "CANOpen master library.",
+  "language": "C++",
+  "stars": 6,
+  "forks": 6,
+  "activity": "Inactive",
+  "pushed_at": "2019-02-27",
+  "url": "https://github.com/facontidavide/CanMove",
+  "topics": []
+ },
+ {
+  "name": "groot2_utils",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Tools / Utilities",
+  "description": "",
+  "language": "C++",
+  "stars": 6,
+  "forks": 1,
+  "activity": "Low",
+  "pushed_at": "2024-05-20",
+  "url": "https://github.com/facontidavide/groot2_utils",
+  "topics": []
+ },
+ {
+  "name": "KalmanFilter_Attitude",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "Animated Graph on Python code for LKF,EKF, and only accelerometer used attitude estimation",
+  "language": "Python",
+  "stars": 6,
+  "forks": 5,
+  "activity": "Inactive",
+  "pushed_at": "2023-01-25",
+  "url": "https://github.com/engcang/KalmanFilter_Attitude",
+  "topics": []
  },
  {
   "name": "applanix",
@@ -41792,6 +43558,85 @@
   "activity": "Inactive",
   "pushed_at": "2022-11-27",
   "url": "https://github.com/koide3/vscode_ros",
+  "topics": []
+ },
+ {
+  "name": "quaternion-based_kalman_filter",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "",
+  "language": "Python",
+  "stars": 5,
+  "forks": 3,
+  "activity": "Inactive",
+  "pushed_at": "2023-12-01",
+  "url": "https://github.com/rsasaki0109/quaternion-based_kalman_filter",
+  "topics": []
+ },
+ {
+  "name": "ROS_msg_to_PCL",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "",
+  "language": "C++",
+  "stars": 5,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2022-05-28",
+  "url": "https://github.com/facontidavide/ROS_msg_to_PCL",
+  "topics": []
+ },
+ {
+  "name": "rqt_console_plus",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Tools / Utilities",
+  "description": "Alternative implementation of rqt_console for ROS ",
+  "language": "C++",
+  "stars": 5,
+  "forks": 3,
+  "activity": "Inactive",
+  "pushed_at": "2019-02-27",
+  "url": "https://github.com/facontidavide/rqt_console_plus",
+  "topics": [
+   "console",
+   "debug",
+   "ros"
+  ]
+ },
+ {
+  "name": "husky",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "Planning / Control",
+  "description": "MATLAB-ROS and Python-ROS to control the Husky_Clearpath with Velodyne-VLP16 LiDAR Sensor and ZED stereo camera",
+  "language": "Python",
+  "stars": 5,
+  "forks": 4,
+  "activity": "Inactive",
+  "pushed_at": "2023-01-25",
+  "url": "https://github.com/engcang/husky",
+  "topics": []
+ },
+ {
+  "name": "khnp_competition2021",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "KHNP Robot Competition 2021 / Several Missions with Autonomous Quadruped Robot with Gripping Arm!",
+  "language": "C++",
+  "stars": 5,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2021-11-19",
+  "url": "https://github.com/engcang/khnp_competition2021",
   "topics": []
  },
  {
@@ -43087,6 +44932,96 @@
   "topics": []
  },
  {
+  "name": "gnss_gpu",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "Sensor / Driver",
+  "description": "GPU-accelerated GNSS signal processing library (CUDA + Python)",
+  "language": "Python",
+  "stars": 4,
+  "forks": 1,
+  "activity": "Active",
+  "pushed_at": "2026-04-05",
+  "url": "https://github.com/rsasaki0109/gnss_gpu",
+  "topics": []
+ },
+ {
+  "name": "ros_msg_parser-release",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "",
+  "language": "C++",
+  "stars": 4,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2021-12-29",
+  "url": "https://github.com/facontidavide/ros_msg_parser-release",
+  "topics": []
+ },
+ {
+  "name": "gazebo_maps_others",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "Mapping / 3D",
+  "description": "Gazebo map from others but slightly modified",
+  "language": "",
+  "stars": 4,
+  "forks": 0,
+  "activity": "Low",
+  "pushed_at": "2025-02-22",
+  "url": "https://github.com/engcang/gazebo_maps_others",
+  "topics": []
+ },
+ {
+  "name": "TUM_pcl_visualizer",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "",
+  "language": "C++",
+  "stars": 4,
+  "forks": 1,
+  "activity": "Low",
+  "pushed_at": "2025-04-01",
+  "url": "https://github.com/engcang/TUM_pcl_visualizer",
+  "topics": []
+ },
+ {
+  "name": "turtlebot3",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "ROS-MATALB and ROS-Python for Turtlebot3_burger, mobile robot from Robotis",
+  "language": "Python",
+  "stars": 4,
+  "forks": 4,
+  "activity": "Inactive",
+  "pushed_at": "2023-01-25",
+  "url": "https://github.com/engcang/turtlebot3",
+  "topics": []
+ },
+ {
+  "name": "livox_wiki_en",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "Other",
+  "description": "livox wiki en",
+  "language": "Python",
+  "stars": 4,
+  "forks": 4,
+  "activity": "Low",
+  "pushed_at": "2024-08-13",
+  "url": "https://github.com/Livox-SDK/livox_wiki_en",
+  "topics": []
+ },
+ {
   "name": "autoware_challenge_2024",
   "org": "autowarefoundation",
   "org_name": "Autoware Foundation",
@@ -44282,6 +46217,40 @@
    "microstrain",
    "ros"
   ]
+ },
+ {
+  "name": "q-method",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "Sensor / Driver",
+  "description": "estimator to minimize Wahba's loss function for satellite attitude ",
+  "language": "Python",
+  "stars": 3,
+  "forks": 0,
+  "activity": "Moderate",
+  "pushed_at": "2025-04-12",
+  "url": "https://github.com/rsasaki0109/q-method",
+  "topics": [
+   "attitude-determination",
+   "gnss",
+   "satellite"
+  ]
+ },
+ {
+  "name": "flightgoggles_angle_controller",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "Planning / Control",
+  "description": "flightgoggles_angle_controller",
+  "language": "Python",
+  "stars": 3,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2023-01-25",
+  "url": "https://github.com/engcang/flightgoggles_angle_controller",
+  "topics": []
  },
  {
   "name": "autoware_ai_messages-release",
@@ -46375,6 +48344,179 @@
   "activity": "Inactive",
   "pushed_at": "2021-06-28",
   "url": "https://github.com/koide3/tf_pose_ros_msgs",
+  "topics": []
+ },
+ {
+  "name": "robotics-repo-hub",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "Curated catalog of notable repositories from major robotics GitHub organizations",
+  "language": "Python",
+  "stars": 2,
+  "forks": 0,
+  "activity": "Active",
+  "pushed_at": "2026-04-05",
+  "url": "https://github.com/rsasaki0109/robotics-repo-hub",
+  "topics": []
+ },
+ {
+  "name": "tree-trunk-mapper",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "Perception",
+  "description": "Detect and map individual tree trunks from LiDAR point clouds",
+  "language": "Python",
+  "stars": 2,
+  "forks": 0,
+  "activity": "Active",
+  "pushed_at": "2026-03-19",
+  "url": "https://github.com/rsasaki0109/tree-trunk-mapper",
+  "topics": [
+   "dbscan",
+   "forest-inventory",
+   "forestry",
+   "geojson",
+   "lidar",
+   "ransac",
+   "tree-detection"
+  ]
+ },
+ {
+  "name": "AsyncSignals",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "Proof of concept implementation of signals pushed on a separate event loop",
+  "language": "C++",
+  "stars": 2,
+  "forks": 1,
+  "activity": "Inactive",
+  "pushed_at": "2016-10-07",
+  "url": "https://github.com/facontidavide/AsyncSignals",
+  "topics": []
+ },
+ {
+  "name": "cost_map_core",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Mapping / 3D",
+  "description": "Code extracted from https://github.com/stonier/cost_map",
+  "language": "C++",
+  "stars": 2,
+  "forks": 2,
+  "activity": "Inactive",
+  "pushed_at": "2019-04-01",
+  "url": "https://github.com/facontidavide/cost_map_core",
+  "topics": []
+ },
+ {
+  "name": "CppUnits11",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "Implementation of type safe units in C++11",
+  "language": "C++",
+  "stars": 2,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2017-12-15",
+  "url": "https://github.com/facontidavide/CppUnits11",
+  "topics": []
+ },
+ {
+  "name": "facontidavide",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "",
+  "language": "",
+  "stars": 2,
+  "forks": 3,
+  "activity": "Inactive",
+  "pushed_at": "2020-11-03",
+  "url": "https://github.com/facontidavide/facontidavide",
+  "topics": []
+ },
+ {
+  "name": "PCL_VoxelGrid_enhanced",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Mapping / 3D",
+  "description": "",
+  "language": "C++",
+  "stars": 2,
+  "forks": 1,
+  "activity": "Inactive",
+  "pushed_at": "2020-04-04",
+  "url": "https://github.com/facontidavide/PCL_VoxelGrid_enhanced",
+  "topics": []
+ },
+ {
+  "name": "plotjuggler-release",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "",
+  "language": "",
+  "stars": 2,
+  "forks": 1,
+  "activity": "Inactive",
+  "pushed_at": "2024-02-20",
+  "url": "https://github.com/facontidavide/plotjuggler-release",
+  "topics": []
+ },
+ {
+  "name": "Opencv_tutorial_Matlab_and_python",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "Docs / Examples",
+  "description": "Using Opencv tutorial and instructions for installing Opencv for MATLAB(Mexopencv)",
+  "language": "Python",
+  "stars": 2,
+  "forks": 1,
+  "activity": "Inactive",
+  "pushed_at": "2023-01-25",
+  "url": "https://github.com/engcang/Opencv_tutorial_Matlab_and_python",
+  "topics": []
+ },
+ {
+  "name": "orb-slam2-modified",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "SLAM / Localization",
+  "description": "",
+  "language": "C++",
+  "stars": 2,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2020-02-07",
+  "url": "https://github.com/engcang/orb-slam2-modified",
+  "topics": []
+ },
+ {
+  "name": "Turtlebot3Autorace_Eungchangho_Team",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "Sensor / Driver",
+  "description": "2018 R-BIZ Challenge, Turtlebot3 Autorace Special Prized Awarded Script files",
+  "language": "Python",
+  "stars": 2,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2023-01-25",
+  "url": "https://github.com/engcang/Turtlebot3Autorace_Eungchangho_Team",
   "topics": []
  },
  {
@@ -48706,6 +50848,321 @@
   "activity": "Inactive",
   "pushed_at": "2017-01-20",
   "url": "https://github.com/UZ-SLAMLab/ORB_SLAM",
+  "topics": []
+ },
+ {
+  "name": "game_product_ws",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "🎮 8 browser games + 11 Roblox games. Play now: https://rsasaki0109.github.io/game_product_ws/",
+  "language": "Luau",
+  "stars": 1,
+  "forks": 0,
+  "activity": "Active",
+  "pushed_at": "2026-03-25",
+  "url": "https://github.com/rsasaki0109/game_product_ws",
+  "topics": [
+   "browser-games",
+   "games",
+   "indie-games",
+   "react",
+   "roblox",
+   "threejs",
+   "typescript",
+   "webgl"
+  ]
+ },
+ {
+  "name": "roboclaw-rs",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "Simulation",
+  "description": "Rust-first, agent-first robotics workspace with ROS 2 hooks, YAML skills, simulator/hardware backends, and LLM-plannable execution.",
+  "language": "Rust",
+  "stars": 1,
+  "forks": 0,
+  "activity": "Active",
+  "pushed_at": "2026-04-02",
+  "url": "https://github.com/rsasaki0109/roboclaw-rs",
+  "topics": [
+   "ai-agent",
+   "autonomy",
+   "gazebo",
+   "llm",
+   "robotics",
+   "ros2",
+   "rust",
+   "simulation",
+   "yaml"
+  ]
+ },
+ {
+  "name": "rustclaw",
+  "org": "rsasaki0109",
+  "org_name": "Ryohei Sasaki",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "Memory search engine with hybrid vector/keyword search, MMR re-ranking, and temporal decay — Rust port of OpenClaw's memory system",
+  "language": "Rust",
+  "stars": 1,
+  "forks": 1,
+  "activity": "Active",
+  "pushed_at": "2026-04-01",
+  "url": "https://github.com/rsasaki0109/rustclaw",
+  "topics": [
+   "embeddings",
+   "fts5",
+   "mcp",
+   "memory",
+   "rust",
+   "search-engine"
+  ]
+ },
+ {
+  "name": "Barcelona-Cpp-Meetups",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "",
+  "language": "",
+  "stars": 1,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2017-11-10",
+  "url": "https://github.com/facontidavide/Barcelona-Cpp-Meetups",
+  "topics": []
+ },
+ {
+  "name": "Blackboard",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Planning / Control",
+  "description": "WIP implementation of a blackboard. To be used with Behavior-Tree",
+  "language": "C++",
+  "stars": 1,
+  "forks": 1,
+  "activity": "Inactive",
+  "pushed_at": "2018-08-20",
+  "url": "https://github.com/facontidavide/Blackboard",
+  "topics": []
+ },
+ {
+  "name": "BOR_laser_test",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "Programming test. Convert LaserScan",
+  "language": "",
+  "stars": 1,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2019-12-16",
+  "url": "https://github.com/facontidavide/BOR_laser_test",
+  "topics": []
+ },
+ {
+  "name": "btcpp_sample_project",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "ML / AI",
+  "description": "",
+  "language": "",
+  "stars": 1,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2022-11-19",
+  "url": "https://github.com/facontidavide/btcpp_sample_project",
+  "topics": []
+ },
+ {
+  "name": "data_tamer_msgs-release",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "",
+  "language": "",
+  "stars": 1,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2023-11-23",
+  "url": "https://github.com/facontidavide/data_tamer_msgs-release",
+  "topics": []
+ },
+ {
+  "name": "Meanshift",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Docs / Examples",
+  "description": "Implementation of MeanShift algorithm (including Qt Demo)",
+  "language": "C++",
+  "stars": 1,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2017-10-09",
+  "url": "https://github.com/facontidavide/Meanshift",
+  "topics": []
+ },
+ {
+  "name": "QtChaiScript",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "QT front-end for ChaiScript",
+  "language": "C++",
+  "stars": 1,
+  "forks": 1,
+  "activity": "Inactive",
+  "pushed_at": "2016-02-26",
+  "url": "https://github.com/facontidavide/QtChaiScript",
+  "topics": []
+ },
+ {
+  "name": "QtTreeEditor",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "",
+  "language": "",
+  "stars": 1,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2022-03-06",
+  "url": "https://github.com/facontidavide/QtTreeEditor",
+  "topics": []
+ },
+ {
+  "name": "rosbag_editor-release",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Tools / Utilities",
+  "description": "",
+  "language": "",
+  "stars": 1,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2019-10-26",
+  "url": "https://github.com/facontidavide/rosbag_editor-release",
+  "topics": []
+ },
+ {
+  "name": "ros_wrapper",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "",
+  "language": "C++",
+  "stars": 1,
+  "forks": 0,
+  "activity": "Low",
+  "pushed_at": "2024-04-29",
+  "url": "https://github.com/facontidavide/ros_wrapper",
+  "topics": []
+ },
+ {
+  "name": "StringTree",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "",
+  "language": "C++",
+  "stars": 1,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2019-03-03",
+  "url": "https://github.com/facontidavide/StringTree",
+  "topics": []
+ },
+ {
+  "name": "TimeseriesLogger",
+  "org": "facontidavide",
+  "org_name": "Davide Faconti",
+  "section": "Individual Developers",
+  "category": "Tools / Utilities",
+  "description": "WORK IN PROGRESS. C++ header-only library to log numerical values. Low overhead and low latency guaranteed. ",
+  "language": "C++",
+  "stars": 1,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2017-05-11",
+  "url": "https://github.com/facontidavide/TimeseriesLogger",
+  "topics": [
+   "logging",
+   "low-latency",
+   "tracing"
+  ]
+ },
+ {
+  "name": "AllowanceRobotics-Gazeboyz",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "Simulation",
+  "description": "Project page of AllowanceRobotics-Gazeboyz",
+  "language": "Ruby",
+  "stars": 1,
+  "forks": 0,
+  "activity": "Moderate",
+  "pushed_at": "2025-11-22",
+  "url": "https://github.com/engcang/AllowanceRobotics-Gazeboyz",
+  "topics": []
+ },
+ {
+  "name": "cpp-reconstruction-application",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "Planning / Control",
+  "description": "Build and applying Coverage Path Planners for 3D reconstruction with UAVs",
+  "language": "",
+  "stars": 1,
+  "forks": 1,
+  "activity": "Inactive",
+  "pushed_at": "2022-10-27",
+  "url": "https://github.com/engcang/cpp-reconstruction-application",
+  "topics": []
+ },
+ {
+  "name": "khnp_competition2022",
+  "org": "engcang",
+  "org_name": "Engcang Choi",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "KHNP Robot Competition 2022: KVRC2022 Autonomous drone challenge",
+  "language": "C++",
+  "stars": 1,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2022-10-12",
+  "url": "https://github.com/engcang/khnp_competition2022",
+  "topics": []
+ },
+ {
+  "name": "Livox-SDK-Doc",
+  "org": "Livox-SDK",
+  "org_name": "Livox SDK",
+  "section": "Industry / OSS Projects",
+  "category": "Docs / Examples",
+  "description": "Livox-SDK API Reference",
+  "language": "",
+  "stars": 1,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2020-10-26",
+  "url": "https://github.com/Livox-SDK/Livox-SDK-Doc",
   "topics": []
  }
 ]

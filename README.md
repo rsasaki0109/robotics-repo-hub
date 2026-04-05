@@ -18,6 +18,7 @@ Each organization page lists top repos by stars with activity status and languag
 | [Point Cloud Library (PCL)](https://github.com/PointCloudLibrary) | Perception / 3D | 9 | 11,389 | [View](orgs/PointCloudLibrary.md) |
 | [DJI SDK](https://github.com/dji-sdk) | Aerial / Drones | 43 | 8,004 | [View](orgs/dji-sdk.md) |
 | [ROBOTIS](https://github.com/ROBOTIS-GIT) | Hardware / Education | 111 | 7,032 | [View](orgs/ROBOTIS-GIT.md) |
+| [Livox SDK](https://github.com/Livox-SDK) | Sensors / Industry | 30 | 6,787 | [View](orgs/Livox-SDK.md) |
 | [MoveIt](https://github.com/moveit) | Manipulation | 41 | 6,274 | [View](orgs/moveit.md) |
 | [ANYbotics](https://github.com/ANYbotics) | Legged Robots / Industry | 26 | 6,134 | [View](orgs/ANYbotics.md) |
 | [Drake (Robot Locomotion Group)](https://github.com/RobotLocomotion) | Planning / Simulation | 35 | 6,014 | [View](orgs/RobotLocomotion.md) |
@@ -37,10 +38,10 @@ Each organization page lists top repos by stars with activity status and languag
 
 | Organization | Domain | Repos | Stars | Catalog |
 |---|---|---|---|---|
-| [OpenAI](https://github.com/openai) | Foundation Models | 198 | 797,469 | [View](orgs/openai.md) |
+| [OpenAI](https://github.com/openai) | Foundation Models | 198 | 797,482 | [View](orgs/openai.md) |
 | [Hugging Face](https://github.com/huggingface) | Foundation Models | 308 | 654,319 | [View](orgs/huggingface.md) |
-| [Meta FAIR](https://github.com/facebookresearch) | Research | 544 | 492,934 | [View](orgs/facebookresearch.md) |
-| [Google DeepMind](https://github.com/google-deepmind) | Research | 315 | 201,260 | [View](orgs/google-deepmind.md) |
+| [Meta FAIR](https://github.com/facebookresearch) | Research | 544 | 492,942 | [View](orgs/facebookresearch.md) |
+| [Google DeepMind](https://github.com/google-deepmind) | Research | 315 | 201,263 | [View](orgs/google-deepmind.md) |
 | [NVIDIA AI-IOT](https://github.com/NVIDIA-AI-IOT) | Edge & Robotics | 116 | 30,471 | [View](orgs/NVIDIA-AI-IOT.md) |
 | [Physical Intelligence (pi)](https://github.com/Physical-Intelligence) | Embodied Intelligence | 5 | 11,566 | [View](orgs/Physical-Intelligence.md) |
 
@@ -61,6 +62,14 @@ Each organization page lists top repos by stars with activity status and languag
 | [UT Austin ARISE (robosuite)](https://github.com/ARISE-Initiative) | Manipulation & Sim | 8 | 3,863 | [View](orgs/ARISE-Initiative.md) |
 | [Stanford ASL](https://github.com/StanfordASL) | Planning | 123 | 3,114 | [View](orgs/StanfordASL.md) |
 | [Univ. Freiburg Robot Learning](https://github.com/robot-learning-freiburg) | Robot Learning | 61 | 2,118 | [View](orgs/robot-learning-freiburg.md) |
+
+## Individual Developers
+
+| Organization | Domain | Repos | Stars | Catalog |
+|---|---|---|---|---|
+| [Davide Faconti](https://github.com/facontidavide) | Individual / ROS Tools | 61 | 9,496 | [View](orgs/facontidavide.md) |
+| [Engcang Choi](https://github.com/engcang) | Individual / SLAM | 42 | 3,722 | [View](orgs/engcang.md) |
+| [Ryohei Sasaki](https://github.com/rsasaki0109) | Individual / Localization & GNSS | 66 | 2,912 | [View](orgs/rsasaki0109.md) |
 
 ---
 
