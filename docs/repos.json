@@ -72,7 +72,7 @@
   "category": "ML / AI",
   "description": "Examples and guides for using the OpenAI API",
   "language": "Jupyter Notebook",
-  "stars": 72582,
+  "stars": 72581,
   "forks": 12252,
   "activity": "Active",
   "pushed_at": "2026-04-04",
@@ -284,7 +284,7 @@
   "category": "ML / AI",
   "description": "CLIP (Contrastive Language-Image Pretraining),  Predict the most relevant text snippet given an image",
   "language": "Jupyter Notebook",
-  "stars": 33075,
+  "stars": 33076,
   "forks": 3972,
   "activity": "Active",
   "pushed_at": "2026-03-25",
@@ -829,7 +829,7 @@
   "category": "Other",
   "description": "Use Codex from Claude Code to review code or delegate tasks.",
   "language": "JavaScript",
-  "stars": 11877,
+  "stars": 11878,
   "forks": 622,
   "activity": "Active",
   "pushed_at": "2026-03-31",
@@ -6058,6 +6058,40 @@
   ]
  },
  {
+  "name": "cupoch",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "SLAM / Localization",
+  "description": "Robotics with GPU computing",
+  "language": "C++",
+  "stars": 1044,
+  "forks": 116,
+  "activity": "Moderate",
+  "pushed_at": "2025-11-05",
+  "url": "https://github.com/neka-nat/cupoch",
+  "topics": [
+   "collision-detection",
+   "cuda",
+   "distance-transform",
+   "gpgpu",
+   "gpu",
+   "jetson",
+   "occupancy-grid-map",
+   "odometry",
+   "pathfinding",
+   "point-cloud",
+   "pybind11",
+   "python",
+   "registration",
+   "robotics",
+   "ros",
+   "triangle-mesh",
+   "visual-odometry",
+   "voxel"
+  ]
+ },
+ {
   "name": "pytorch-pretrained-BigGAN",
   "org": "huggingface",
   "org_name": "Hugging Face",
@@ -6343,6 +6377,36 @@
    "real-time",
    "ros",
    "velodyne"
+  ]
+ },
+ {
+  "name": "probreg",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Perception",
+  "description": "Python package for point cloud registration using probabilistic model (Coherent Point Drift, GMMReg, SVR, GMMTree, FilterReg, Bayesian CPD)",
+  "language": "Python",
+  "stars": 971,
+  "forks": 155,
+  "activity": "Active",
+  "pushed_at": "2026-03-31",
+  "url": "https://github.com/neka-nat/probreg",
+  "topics": [
+   "3d",
+   "coherent-point-drift",
+   "dual-quaternion",
+   "dual-quaternion-skinning",
+   "expectation-maximization-algorithm",
+   "filterreg",
+   "gaussian-mixture-models",
+   "non-rigid-registration",
+   "open3d",
+   "point-cloud",
+   "point-cloud-registration",
+   "registration",
+   "rigid-transformations",
+   "variational-inference"
   ]
  },
  {
@@ -8015,6 +8079,38 @@
   ]
  },
  {
+  "name": "python_simple_mppi",
+  "org": "MizuhoAOKI",
+  "org_name": "Mizuho Aoki",
+  "section": "Individual Developers",
+  "category": "Perception",
+  "description": "Python implementation of MPPI (Model Predictive Path-Integral) controller to understand the basic idea. Mandatory dependencies are numpy and matplotlib only.",
+  "language": "Jupyter Notebook",
+  "stars": 691,
+  "forks": 66,
+  "activity": "Active",
+  "pushed_at": "2026-03-19",
+  "url": "https://github.com/MizuhoAOKI/python_simple_mppi",
+  "topics": [
+   "animation",
+   "autonomous-driving",
+   "autonomous-vehicles",
+   "cartpole",
+   "control",
+   "model-predictive-control",
+   "mpc",
+   "mppi",
+   "nmpc",
+   "nonlinear-model-predictive-control",
+   "path-integral",
+   "path-tracking",
+   "pendulum",
+   "python",
+   "sampling-based-planning",
+   "stochastic-optimal-control"
+  ]
+ },
+ {
   "name": "mav_active_3d_planning",
   "org": "ethz-asl",
   "org_name": "ETH Zurich ASL",
@@ -8113,6 +8209,25 @@
   "pushed_at": "2024-05-16",
   "url": "https://github.com/NVIDIA-AI-IOT/cuPCL",
   "topics": []
+ },
+ {
+  "name": "freecad-mcp",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "ML / AI",
+  "description": "FreeCAD MCP(Model Context Protocol) server",
+  "language": "Python",
+  "stars": 679,
+  "forks": 121,
+  "activity": "Active",
+  "pushed_at": "2026-03-17",
+  "url": "https://github.com/neka-nat/freecad-mcp",
+  "topics": [
+   "claude",
+   "freecad",
+   "mcp"
+  ]
  },
  {
   "name": "long-form-factuality",
@@ -14682,6 +14797,42 @@
   ]
  },
  {
+  "name": "nullspace_mpc",
+  "org": "MizuhoAOKI",
+  "org_name": "Mizuho Aoki",
+  "section": "Individual Developers",
+  "category": "Planning / Control",
+  "description": "Nullspace MPC: A novel multi-objective control framework for explicitly handling task priorities, implemented in ROS Noetic for a Swerve Drive Robot.",
+  "language": "C++",
+  "stars": 254,
+  "forks": 27,
+  "activity": "Moderate",
+  "pushed_at": "2025-12-08",
+  "url": "https://github.com/MizuhoAOKI/nullspace_mpc",
+  "topics": [
+   "4wids-vehicle",
+   "autonomous-driving",
+   "autonomous-vehicles",
+   "model-predictive-control",
+   "mpc",
+   "mppi",
+   "nmpc",
+   "nonlinear-model-predictive-control",
+   "nullspace-mpc",
+   "obstacle-avoidance",
+   "obstacle-avoidance-robot",
+   "omnidirectional",
+   "path-integral",
+   "quadratic-programming",
+   "robotics",
+   "ros",
+   "ros-navigation",
+   "ros-noetic",
+   "stochastic-optimal-control",
+   "swerve-drive"
+  ]
+ },
+ {
   "name": "lagernvs",
   "org": "facebookresearch",
   "org_name": "Meta FAIR",
@@ -15023,6 +15174,29 @@
   "pushed_at": "2025-06-04",
   "url": "https://github.com/google-deepmind/perception_test",
   "topics": []
+ },
+ {
+  "name": "cad3dify",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "ML / AI",
+  "description": "2D to 3D CAD Conversion Using VLM",
+  "language": "Python",
+  "stars": 245,
+  "forks": 47,
+  "activity": "Moderate",
+  "pushed_at": "2025-12-02",
+  "url": "https://github.com/neka-nat/cad3dify",
+  "topics": [
+   "3d",
+   "3dcad",
+   "ai",
+   "cad",
+   "drawing",
+   "gpt-4o",
+   "vlm"
+  ]
  },
  {
   "name": "IPC",
@@ -15607,6 +15781,42 @@
   "pushed_at": "2024-08-30",
   "url": "https://github.com/google-deepmind/Temporal-3D-Pose-Kinetics",
   "topics": []
+ },
+ {
+  "name": "mppi_swerve_drive_ros",
+  "org": "MizuhoAOKI",
+  "org_name": "Mizuho Aoki",
+  "section": "Individual Developers",
+  "category": "Planning / Control",
+  "description": " [IROS 2024] MPPI (Model Predictive Path-Integral) Controller for a Swerve Drive Robot",
+  "language": "C++",
+  "stars": 226,
+  "forks": 25,
+  "activity": "Active",
+  "pushed_at": "2026-02-20",
+  "url": "https://github.com/MizuhoAOKI/mppi_swerve_drive_ros",
+  "topics": [
+   "4wids-vehicle",
+   "autonomous-driving",
+   "autonomous-vehicles",
+   "iros",
+   "iros2024",
+   "model-predictive-control",
+   "mpc",
+   "mppi",
+   "nmpc",
+   "nonlinear-model-predictive-control",
+   "obstacle-avoidance",
+   "obstacle-avoidance-robot",
+   "omnidirectional",
+   "path-integral",
+   "robotics",
+   "ros",
+   "ros-navigation",
+   "ros-noetic",
+   "stochastic-optimal-control",
+   "swerve-drive"
+  ]
  },
  {
   "name": "dm_memorytasks",
@@ -16856,6 +17066,42 @@
   "topics": []
  },
  {
+  "name": "path_tracking_catalog",
+  "org": "MizuhoAOKI",
+  "org_name": "Mizuho Aoki",
+  "section": "Individual Developers",
+  "category": "Perception",
+  "description": "25 path-tracking algorithms are (going to be) implemented with python.",
+  "language": "Jupyter Notebook",
+  "stars": 193,
+  "forks": 15,
+  "activity": "Low",
+  "pushed_at": "2024-05-18",
+  "url": "https://github.com/MizuhoAOKI/path_tracking_catalog",
+  "topics": [
+   "control",
+   "control-engineering",
+   "control-theory",
+   "controller",
+   "dynamic-window-approach",
+   "fuzzy-logic",
+   "fuzzy-logic-control",
+   "lqr",
+   "lqr-controller",
+   "mppi",
+   "path-following",
+   "path-tracking",
+   "pid",
+   "pid-control",
+   "pid-controller",
+   "pure-pursuit",
+   "purepursuit",
+   "python",
+   "stanley",
+   "vehicle-dynamics"
+  ]
+ },
+ {
   "name": "LAMM",
   "org": "hku-mars",
   "org_name": "HKU MARS Lab",
@@ -17399,6 +17645,32 @@
   "url": "https://github.com/openai/train-procgen",
   "topics": [
    "paper"
+  ]
+ },
+ {
+  "name": "kinpy",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Simulation",
+  "description": "Simple kinematics calculation toolkit for robotics",
+  "language": "Python",
+  "stars": 181,
+  "forks": 24,
+  "activity": "Moderate",
+  "pushed_at": "2025-12-20",
+  "url": "https://github.com/neka-nat/kinpy",
+  "topics": [
+   "forward-kinematics",
+   "inverse-kinematics",
+   "kinematics",
+   "manipulator",
+   "mujoco",
+   "python",
+   "robot",
+   "robotics",
+   "sdf",
+   "urdf"
   ]
  },
  {
@@ -23541,6 +23813,27 @@
   "topics": []
  },
  {
+  "name": "ddp-gym",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Planning / Control",
+  "description": "Differential Dynamic Programming controller operating in OpenAI Gym environment.",
+  "language": "Python",
+  "stars": 87,
+  "forks": 21,
+  "activity": "Inactive",
+  "pushed_at": "2020-06-11",
+  "url": "https://github.com/neka-nat/ddp-gym",
+  "topics": [
+   "control-theory",
+   "differential-dynamic-programming",
+   "lqr",
+   "model-predictive-control",
+   "openai-gym"
+  ]
+ },
+ {
   "name": "PyJSONViewer",
   "org": "AtsushiSakai",
   "org_name": "Atsushi Sakai",
@@ -23742,6 +24035,26 @@
    "ocekf",
    "robotics",
    "slam"
+  ]
+ },
+ {
+  "name": "mineru-api",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Docs / Examples",
+  "description": "MinerU API server",
+  "language": "Python",
+  "stars": 86,
+  "forks": 24,
+  "activity": "Low",
+  "pushed_at": "2024-12-20",
+  "url": "https://github.com/neka-nat/mineru-api",
+  "topics": [
+   "docx",
+   "markdown",
+   "pdf",
+   "xlsx"
   ]
  },
  {
@@ -24856,6 +25169,33 @@
    "robotics",
    "ros",
    "sota"
+  ]
+ },
+ {
+  "name": "distributed_rl",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Learning / RL",
+  "description": "Pytorch implementation of distributed deep reinforcement learning",
+  "language": "Python",
+  "stars": 76,
+  "forks": 8,
+  "activity": "Inactive",
+  "pushed_at": "2022-07-04",
+  "url": "https://github.com/neka-nat/distributed_rl",
+  "topics": [
+   "amazon-web-services",
+   "ape-x",
+   "deep-q-network",
+   "distributed-systems",
+   "double-dqn",
+   "dueling-dqn",
+   "openai-gym",
+   "prioritized-experience-replay",
+   "pytorch",
+   "r2d2",
+   "reinforcement-learning"
   ]
  },
  {
@@ -26516,6 +26856,28 @@
   "topics": []
  },
  {
+  "name": "jax_generative_models",
+  "org": "MizuhoAOKI",
+  "org_name": "Mizuho Aoki",
+  "section": "Individual Developers",
+  "category": "ML / AI",
+  "description": "Minimal JAX implementation unifying Diffusion and Flow Matching algorithms as alternative strategies for transporting data distributions.",
+  "language": "Python",
+  "stars": 63,
+  "forks": 3,
+  "activity": "Moderate",
+  "pushed_at": "2025-12-19",
+  "url": "https://github.com/MizuhoAOKI/jax_generative_models",
+  "topics": [
+   "deep-learning",
+   "diffusion",
+   "flow-matching",
+   "generative-model",
+   "jax",
+   "machine-learning"
+  ]
+ },
+ {
   "name": "slam3d_gx",
   "org": "gaoxiang12",
   "org_name": "Gao Xiang",
@@ -27648,6 +28010,25 @@
   ]
  },
  {
+  "name": "streamlit-mermaid",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "Streamlit component for mermaid",
+  "language": "TypeScript",
+  "stars": 56,
+  "forks": 11,
+  "activity": "Moderate",
+  "pushed_at": "2025-06-10",
+  "url": "https://github.com/neka-nat/streamlit-mermaid",
+  "topics": [
+   "mermaid",
+   "python",
+   "streamlit"
+  ]
+ },
+ {
   "name": "source-trace",
   "org": "ultralytics",
   "org_name": "Ultralytics",
@@ -27991,6 +28372,21 @@
   "topics": []
  },
  {
+  "name": "genesis_docker",
+  "org": "MizuhoAOKI",
+  "org_name": "Mizuho Aoki",
+  "section": "Individual Developers",
+  "category": "Simulation",
+  "description": "Docker environment to quickly try out \"Genesis\", a universal physics engine.",
+  "language": "Python",
+  "stars": 54,
+  "forks": 2,
+  "activity": "Low",
+  "pushed_at": "2024-12-20",
+  "url": "https://github.com/MizuhoAOKI/genesis_docker",
+  "topics": []
+ },
+ {
   "name": "mnist",
   "org": "ultralytics",
   "org_name": "Ultralytics",
@@ -28220,6 +28616,43 @@
   "pushed_at": "2023-10-09",
   "url": "https://github.com/UZ-SLAMLab/DrunkardsOdometry",
   "topics": []
+ },
+ {
+  "name": "control_barrier_function",
+  "org": "MizuhoAOKI",
+  "org_name": "Mizuho Aoki",
+  "section": "Individual Developers",
+  "category": "Planning / Control",
+  "description": "control barrier function examples",
+  "language": "Jupyter Notebook",
+  "stars": 53,
+  "forks": 2,
+  "activity": "Low",
+  "pushed_at": "2024-09-12",
+  "url": "https://github.com/MizuhoAOKI/control_barrier_function",
+  "topics": [
+   "control-barrier-functions"
+  ]
+ },
+ {
+  "name": "inv_rl",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Learning / RL",
+  "description": "Inverse Reinforcement Learning Argorithms",
+  "language": "Python",
+  "stars": 53,
+  "forks": 10,
+  "activity": "Inactive",
+  "pushed_at": "2019-05-13",
+  "url": "https://github.com/neka-nat/inv_rl",
+  "topics": [
+   "chainer",
+   "inverse-reinforcement-learning",
+   "openai-gym",
+   "reinforcement-learning"
+  ]
  },
  {
   "name": "lidar_car_platfrom",
@@ -30181,6 +30614,29 @@
   "topics": []
  },
  {
+  "name": "gazebo_domain_randomization",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Learning / RL",
+  "description": "Domain randomization for gazebo simulator",
+  "language": "C++",
+  "stars": 43,
+  "forks": 14,
+  "activity": "Inactive",
+  "pushed_at": "2019-09-11",
+  "url": "https://github.com/neka-nat/gazebo_domain_randomization",
+  "topics": [
+   "domain-randomization",
+   "gazebo",
+   "gazebo-plugin",
+   "machine-learning",
+   "reinforcement-learning",
+   "ros",
+   "simulation"
+  ]
+ },
+ {
   "name": "Eigen_for_Robotics",
   "org": "LimHyungTae",
   "org_name": "Hyungtae Lim (KAIST)",
@@ -30344,6 +30800,21 @@
    "opencv",
    "ros"
   ]
+ },
+ {
+  "name": "pycarsimlib",
+  "org": "MizuhoAOKI",
+  "org_name": "Mizuho Aoki",
+  "section": "Individual Developers",
+  "category": "Simulation",
+  "description": "An easy-to-use carsim wrapper library to call carsim solver from python scripts.",
+  "language": "Python",
+  "stars": 42,
+  "forks": 5,
+  "activity": "Inactive",
+  "pushed_at": "2023-10-13",
+  "url": "https://github.com/MizuhoAOKI/pycarsimlib",
+  "topics": []
  },
  {
   "name": "quatro-cpp-fpfh",
@@ -30692,6 +31163,25 @@
   ]
  },
  {
+  "name": "tensorboard-chainer",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "ML / AI",
+  "description": "tensorboard for chainer",
+  "language": "Python",
+  "stars": 40,
+  "forks": 10,
+  "activity": "Inactive",
+  "pushed_at": "2020-05-10",
+  "url": "https://github.com/neka-nat/tensorboard-chainer",
+  "topics": [
+   "chainer",
+   "tensorboard",
+   "tensorflow"
+  ]
+ },
+ {
   "name": "helloceres",
   "org": "LimHyungTae",
   "org_name": "Hyungtae Lim (KAIST)",
@@ -30909,6 +31399,24 @@
   ]
  },
  {
+  "name": "python-forexconnect",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "Python binding of forexconnect api",
+  "language": "C++",
+  "stars": 39,
+  "forks": 24,
+  "activity": "Inactive",
+  "pushed_at": "2018-02-15",
+  "url": "https://github.com/neka-nat/python-forexconnect",
+  "topics": [
+   "forex-trading",
+   "python-bindings"
+  ]
+ },
+ {
   "name": "gz-mujoco",
   "org": "gazebosim",
   "org_name": "Gazebo",
@@ -31079,6 +31587,27 @@
   "pushed_at": "2022-06-02",
   "url": "https://github.com/rpng/rosbags",
   "topics": []
+ },
+ {
+  "name": "daily_paper",
+  "org": "MizuhoAOKI",
+  "org_name": "Mizuho Aoki",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "100+ favorite papers from the fields of robotics, autonomous driving, and related areas, updated continuously.",
+  "language": "",
+  "stars": 38,
+  "forks": 7,
+  "activity": "Inactive",
+  "pushed_at": "2024-01-30",
+  "url": "https://github.com/MizuhoAOKI/daily_paper",
+  "topics": [
+   "autonomous-driving",
+   "paper",
+   "reading-list",
+   "robotics",
+   "survey"
+  ]
  },
  {
   "name": "ros_network_viz",
@@ -33233,6 +33762,79 @@
   "topics": []
  },
  {
+  "name": "pympc_panoc_ipopt",
+  "org": "MizuhoAOKI",
+  "org_name": "Mizuho Aoki",
+  "section": "Individual Developers",
+  "category": "Perception",
+  "description": "MPC pathtracking implementation with python, solved by PANOC/IPOPT",
+  "language": "Python",
+  "stars": 31,
+  "forks": 1,
+  "activity": "Inactive",
+  "pushed_at": "2023-10-25",
+  "url": "https://github.com/MizuhoAOKI/pympc_panoc_ipopt",
+  "topics": [
+   "autonomous-driving",
+   "autonomous-vehicles",
+   "casadi",
+   "ipopt",
+   "model-predictive-control",
+   "nmpc",
+   "nonlinear-model-predictive-control",
+   "panoc",
+   "path-tracking",
+   "python"
+  ]
+ },
+ {
+  "name": "dq3d",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "dual quaternion for 3d geometric operations",
+  "language": "C++",
+  "stars": 31,
+  "forks": 7,
+  "activity": "Moderate",
+  "pushed_at": "2025-09-13",
+  "url": "https://github.com/neka-nat/dq3d",
+  "topics": [
+   "dual-quaternion",
+   "dual-quaternion-skinning",
+   "dual-quaternions",
+   "eigen",
+   "pybind11",
+   "python",
+   "quaternion",
+   "sclerp",
+   "skinning"
+  ]
+ },
+ {
+  "name": "image_completion_tf2",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "ML / AI",
+  "description": "\"Globally and Locally Consistent Image Completion\" with Tensorflow2 Keras",
+  "language": "Python",
+  "stars": 31,
+  "forks": 11,
+  "activity": "Inactive",
+  "pushed_at": "2019-10-17",
+  "url": "https://github.com/neka-nat/image_completion_tf2",
+  "topics": [
+   "deep-learning",
+   "gan",
+   "image-completion",
+   "keras",
+   "tensorflow",
+   "tensorflow2"
+  ]
+ },
+ {
   "name": "Mesh-Learner",
   "org": "hku-mars",
   "org_name": "HKU MARS Lab",
@@ -33468,6 +34070,28 @@
   "pushed_at": "2025-08-12",
   "url": "https://github.com/rsasaki0109/RANSAC-plus",
   "topics": []
+ },
+ {
+  "name": "gaussian_process",
+  "org": "MizuhoAOKI",
+  "org_name": "Mizuho Aoki",
+  "section": "Individual Developers",
+  "category": "Planning / Control",
+  "description": "gaussian process examples",
+  "language": "Jupyter Notebook",
+  "stars": 30,
+  "forks": 2,
+  "activity": "Moderate",
+  "pushed_at": "2025-07-01",
+  "url": "https://github.com/MizuhoAOKI/gaussian_process",
+  "topics": [
+   "bayesian-optimization",
+   "gaussian-processes",
+   "path-following",
+   "pid",
+   "pid-control",
+   "python"
+  ]
  },
  {
   "name": "introlab-ros-pkg",
@@ -33962,6 +34586,29 @@
   "topics": []
  },
  {
+  "name": "pytorch-hdml",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "ML / AI",
+  "description": "Hardness-Aware Deep Metric Learning (CVPR2019) in pytorch",
+  "language": "Python",
+  "stars": 28,
+  "forks": 7,
+  "activity": "Inactive",
+  "pushed_at": "2021-05-02",
+  "url": "https://github.com/neka-nat/pytorch-hdml",
+  "topics": [
+   "cars196",
+   "cub200",
+   "cvpr2019",
+   "deep-learning",
+   "deep-metric-learning",
+   "pytorch",
+   "triplet-loss"
+  ]
+ },
+ {
   "name": "SciPy.jl",
   "org": "AtsushiSakai",
   "org_name": "Atsushi Sakai",
@@ -34209,6 +34856,27 @@
   "pushed_at": "2025-11-12",
   "url": "https://github.com/MIT-SPARK/Fast-ShapeAndPose",
   "topics": []
+ },
+ {
+  "name": "ur_ws",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Simulation",
+  "description": "Universal robot with robotiq hand workspace",
+  "language": "C++",
+  "stars": 27,
+  "forks": 10,
+  "activity": "Inactive",
+  "pushed_at": "2021-11-06",
+  "url": "https://github.com/neka-nat/ur_ws",
+  "topics": [
+   "gazebo",
+   "moveit",
+   "robotiq",
+   "ros",
+   "universal-robot"
+  ]
  },
  {
   "name": "Naverlabs-LiDAR-API",
@@ -35383,6 +36051,51 @@
   "topics": []
  },
  {
+  "name": "cmake_tutorial",
+  "org": "MizuhoAOKI",
+  "org_name": "Mizuho Aoki",
+  "section": "Individual Developers",
+  "category": "Learning / RL",
+  "description": "Easy tutorial to understand how to use GCC, Make, and CMake properly.",
+  "language": "C++",
+  "stars": 24,
+  "forks": 3,
+  "activity": "Low",
+  "pushed_at": "2024-04-16",
+  "url": "https://github.com/MizuhoAOKI/cmake_tutorial",
+  "topics": [
+   "build-tool",
+   "cmake",
+   "cpp",
+   "make",
+   "makefile",
+   "tutorial"
+  ]
+ },
+ {
+  "name": "mylangrobot",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "ML / AI",
+  "description": "Language instructions to mycobot using GPT-4V",
+  "language": "Python",
+  "stars": 24,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2023-12-11",
+  "url": "https://github.com/neka-nat/mylangrobot",
+  "topics": [
+   "chatgpt",
+   "gpt-4-vision",
+   "gpt-4-vision-preview",
+   "gpt4v",
+   "mycobot",
+   "segment-anything",
+   "whisper"
+  ]
+ },
+ {
   "name": "rendezvous",
   "org": "introlab",
   "org_name": "IntRoLab (Sherbrooke)",
@@ -36470,6 +37183,28 @@
   "pushed_at": "2024-04-29",
   "url": "https://github.com/facontidavide/spdlog_ros",
   "topics": []
+ },
+ {
+  "name": "awesome-cobots",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "A list of awesome collaborative robots.",
+  "language": "",
+  "stars": 21,
+  "forks": 2,
+  "activity": "Inactive",
+  "pushed_at": "2019-12-22",
+  "url": "https://github.com/neka-nat/awesome-cobots",
+  "topics": [
+   "awesome",
+   "awesome-list",
+   "cobot",
+   "robot",
+   "robotics",
+   "ros"
+  ]
  },
  {
   "name": "foxglove-cli",
@@ -37851,6 +38586,24 @@
   "topics": []
  },
  {
+  "name": "ros_np_multiarray",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "Convert between numpy ndarray and ros multiarray",
+  "language": "CMake",
+  "stars": 18,
+  "forks": 6,
+  "activity": "Inactive",
+  "pushed_at": "2022-08-23",
+  "url": "https://github.com/neka-nat/ros_np_multiarray",
+  "topics": [
+   "numpy",
+   "ros"
+  ]
+ },
+ {
   "name": "julia.vim",
   "org": "AtsushiSakai",
   "org_name": "Atsushi Sakai",
@@ -38228,6 +38981,48 @@
    "bias-correction",
    "ekf",
    "imu"
+  ]
+ },
+ {
+  "name": "sdrsac",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Perception",
+  "description": "Python package of SDRSAC(Global point cloud regitsration, CVPR2019 Oral)",
+  "language": "Python",
+  "stars": 17,
+  "forks": 4,
+  "activity": "Inactive",
+  "pushed_at": "2020-01-06",
+  "url": "https://github.com/neka-nat/sdrsac",
+  "topics": [
+   "cvpr2019",
+   "global-registration",
+   "point-cloud",
+   "point-cloud-registration",
+   "pybind11"
+  ]
+ },
+ {
+  "name": "vin-keras",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "ML / AI",
+  "description": "This is an implimentation of Value Iteration Networks (NIPS2016 best paper) in keras",
+  "language": "Python",
+  "stars": 17,
+  "forks": 7,
+  "activity": "Inactive",
+  "pushed_at": "2018-01-06",
+  "url": "https://github.com/neka-nat/vin-keras",
+  "topics": [
+   "deep-learning",
+   "keras",
+   "nips-2016",
+   "value-iteration",
+   "value-iteration-network"
   ]
  },
  {
@@ -42032,6 +42827,24 @@
   "topics": []
  },
  {
+  "name": "xurdf",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "Parser for urdf and xacro",
+  "language": "Rust",
+  "stars": 11,
+  "forks": 4,
+  "activity": "Active",
+  "pushed_at": "2026-01-11",
+  "url": "https://github.com/neka-nat/xurdf",
+  "topics": [
+   "urdf",
+   "xacro"
+  ]
+ },
+ {
   "name": "CeresSamples",
   "org": "AtsushiSakai",
   "org_name": "Atsushi Sakai",
@@ -42881,6 +43694,62 @@
   "topics": []
  },
  {
+  "name": "humanoid_robot",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "Read \"humanoid robot\" and implement some algorithms",
+  "language": "Python",
+  "stars": 10,
+  "forks": 3,
+  "activity": "Inactive",
+  "pushed_at": "2018-01-08",
+  "url": "https://github.com/neka-nat/humanoid_robot",
+  "topics": [
+   "biped",
+   "humanoid-robot",
+   "python",
+   "robotics",
+   "zmp"
+  ]
+ },
+ {
+  "name": "stenocaptioner",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Tools / Utilities",
+  "description": "CLI tool for automatic subtitling using whisper.",
+  "language": "Python",
+  "stars": 10,
+  "forks": 1,
+  "activity": "Inactive",
+  "pushed_at": "2023-12-23",
+  "url": "https://github.com/neka-nat/stenocaptioner",
+  "topics": [
+   "python",
+   "subtitles",
+   "subtitles-generator",
+   "whisper"
+  ]
+ },
+ {
+  "name": "web-sam",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "ML / AI",
+  "description": "React application using Segment Anything in browser",
+  "language": "TypeScript",
+  "stars": 10,
+  "forks": 1,
+  "activity": "Inactive",
+  "pushed_at": "2023-10-09",
+  "url": "https://github.com/neka-nat/web-sam",
+  "topics": []
+ },
+ {
   "name": "ABB-IRB120-MultiRobot-Downloader",
   "org": "SteveMacenski",
   "org_name": "Steve Macenski",
@@ -43690,6 +44559,26 @@
   "pushed_at": "2025-09-15",
   "url": "https://github.com/facontidavide/NanoCDR",
   "topics": []
+ },
+ {
+  "name": "mycobot-mcp",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "ML / AI",
+  "description": "myCobot MCP(Model Context Protocol) server ",
+  "language": "Python",
+  "stars": 9,
+  "forks": 4,
+  "activity": "Moderate",
+  "pushed_at": "2025-05-07",
+  "url": "https://github.com/neka-nat/mycobot-mcp",
+  "topics": [
+   "claude",
+   "mcp",
+   "mcp-server",
+   "mycobot"
+  ]
  },
  {
   "name": "CurvatureNumeric",
@@ -44742,6 +45631,101 @@
   "pushed_at": "2022-08-11",
   "url": "https://github.com/engcang/tf_to_trajectory",
   "topics": []
+ },
+ {
+  "name": "async-rl-noreward",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Learning / RL",
+  "description": "Keras implementation of Curiosity-driven Exploration by Self-supervised Prediction",
+  "language": "Python",
+  "stars": 8,
+  "forks": 4,
+  "activity": "Inactive",
+  "pushed_at": "2017-06-16",
+  "url": "https://github.com/neka-nat/async-rl-noreward",
+  "topics": [
+   "a3c",
+   "deep-reinforcement-learning",
+   "keras",
+   "super-mario"
+  ]
+ },
+ {
+  "name": "cuimage",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "Rust implementation of image processing library with CUDA",
+  "language": "Rust",
+  "stars": 8,
+  "forks": 1,
+  "activity": "Inactive",
+  "pushed_at": "2023-05-15",
+  "url": "https://github.com/neka-nat/cuimage",
+  "topics": [
+   "computer-vision",
+   "cuda",
+   "rust"
+  ]
+ },
+ {
+  "name": "mycobot-rs",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Middleware / ROS",
+  "description": "This is a Rust API for myCobot serial communication.",
+  "language": "Rust",
+  "stars": 8,
+  "forks": 1,
+  "activity": "Inactive",
+  "pushed_at": "2022-02-08",
+  "url": "https://github.com/neka-nat/mycobot-rs",
+  "topics": [
+   "mycobot",
+   "rust"
+  ]
+ },
+ {
+  "name": "pytorch-softtriple",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "ML / AI",
+  "description": "SoftTriple (ICCV2019) in pytorch ",
+  "language": "Python",
+  "stars": 8,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2019-10-11",
+  "url": "https://github.com/neka-nat/pytorch-softtriple",
+  "topics": [
+   "deep-learning",
+   "deep-metric-learning",
+   "iccv2019",
+   "pytorch"
+  ]
+ },
+ {
+  "name": "wgimage",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "Imageprocessing library with WebGPU",
+  "language": "Rust",
+  "stars": 8,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2023-07-09",
+  "url": "https://github.com/neka-nat/wgimage",
+  "topics": [
+   "image-processing",
+   "webgpu"
+  ]
  },
  {
   "name": "SimpleTkGUIKit",
@@ -46855,6 +47839,65 @@
   "topics": []
  },
  {
+  "name": "ez_interactive_marker",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Tools / Utilities",
+  "description": "Easily create interactive markers from yaml files.",
+  "language": "Python",
+  "stars": 6,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2018-02-17",
+  "url": "https://github.com/neka-nat/ez_interactive_marker",
+  "topics": [
+   "interactive-markers",
+   "python",
+   "ros",
+   "rviz",
+   "yaml"
+  ]
+ },
+ {
+  "name": "kokage-ui",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "FastAPI-based Web UI Framework",
+  "language": "Python",
+  "stars": 6,
+  "forks": 0,
+  "activity": "Active",
+  "pushed_at": "2026-03-28",
+  "url": "https://github.com/neka-nat/kokage-ui",
+  "topics": [
+   "fastapi",
+   "python",
+   "webui"
+  ]
+ },
+ {
+  "name": "lecturia",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "Your Learning, Your Way.",
+  "language": "Python",
+  "stars": 6,
+  "forks": 0,
+  "activity": "Active",
+  "pushed_at": "2026-03-20",
+  "url": "https://github.com/neka-nat/lecturia",
+  "topics": [
+   "claude",
+   "gemini",
+   "google-cloud"
+  ]
+ },
+ {
   "name": "fill_depth_colorization.python3",
   "org": "LimHyungTae",
   "org_name": "Hyungtae Lim (KAIST)",
@@ -48148,6 +49191,121 @@
   "pushed_at": "2021-11-19",
   "url": "https://github.com/engcang/khnp_competition2021",
   "topics": []
+ },
+ {
+  "name": "bayesian_inference",
+  "org": "MizuhoAOKI",
+  "org_name": "Mizuho Aoki",
+  "section": "Individual Developers",
+  "category": "ML / AI",
+  "description": "bayesian inference examples",
+  "language": "Jupyter Notebook",
+  "stars": 5,
+  "forks": 1,
+  "activity": "Low",
+  "pushed_at": "2025-01-05",
+  "url": "https://github.com/MizuhoAOKI/bayesian_inference",
+  "topics": []
+ },
+ {
+  "name": "jax_playground",
+  "org": "MizuhoAOKI",
+  "org_name": "Mizuho Aoki",
+  "section": "Individual Developers",
+  "category": "ML / AI",
+  "description": "A collection of hands-on examples for exploring numerical algorithms with JAX.",
+  "language": "",
+  "stars": 5,
+  "forks": 0,
+  "activity": "Moderate",
+  "pushed_at": "2025-10-13",
+  "url": "https://github.com/MizuhoAOKI/jax_playground",
+  "topics": [
+   "jax",
+   "machine-learning"
+  ]
+ },
+ {
+  "name": "mcmc",
+  "org": "MizuhoAOKI",
+  "org_name": "Mizuho Aoki",
+  "section": "Individual Developers",
+  "category": "Learning / RL",
+  "description": "Markov Chain Monte Carlo (MCMC) examples",
+  "language": "Jupyter Notebook",
+  "stars": 5,
+  "forks": 0,
+  "activity": "Low",
+  "pushed_at": "2024-08-03",
+  "url": "https://github.com/MizuhoAOKI/mcmc",
+  "topics": []
+ },
+ {
+  "name": "mmdetection3d-ros",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Perception",
+  "description": "",
+  "language": "Python",
+  "stars": 5,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2022-10-24",
+  "url": "https://github.com/neka-nat/mmdetection3d-ros",
+  "topics": []
+ },
+ {
+  "name": "reflex-firebase",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "A Reflex custom component firebase",
+  "language": "Python",
+  "stars": 5,
+  "forks": 0,
+  "activity": "Low",
+  "pushed_at": "2024-08-22",
+  "url": "https://github.com/neka-nat/reflex-firebase",
+  "topics": [
+   "firebase",
+   "python",
+   "reflex"
+  ]
+ },
+ {
+  "name": "sam-cpp-python",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "ML / AI",
+  "description": "Python bindings for sam.cpp",
+  "language": "C",
+  "stars": 5,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2024-01-14",
+  "url": "https://github.com/neka-nat/sam-cpp-python",
+  "topics": []
+ },
+ {
+  "name": "siskin",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Perception",
+  "description": "minimal pointcloud tools for Rust",
+  "language": "Rust",
+  "stars": 5,
+  "forks": 1,
+  "activity": "Inactive",
+  "pushed_at": "2022-06-11",
+  "url": "https://github.com/neka-nat/siskin",
+  "topics": [
+   "point-cloud",
+   "rust"
+  ]
  },
  {
   "name": "jsk_visualization_packages",
@@ -49671,6 +50829,106 @@
   "topics": []
  },
  {
+  "name": "path_integral",
+  "org": "MizuhoAOKI",
+  "org_name": "Mizuho Aoki",
+  "section": "Individual Developers",
+  "category": "Simulation",
+  "description": "numerical simulation with path integral",
+  "language": "Jupyter Notebook",
+  "stars": 4,
+  "forks": 2,
+  "activity": "Low",
+  "pushed_at": "2024-07-20",
+  "url": "https://github.com/MizuhoAOKI/path_integral",
+  "topics": [
+   "diffusion-process",
+   "path-integral"
+  ]
+ },
+ {
+  "name": "trajectory_svg_visualizer",
+  "org": "MizuhoAOKI",
+  "org_name": "Mizuho Aoki",
+  "section": "Individual Developers",
+  "category": "Planning / Control",
+  "description": "Simple visualization of vehicle trajectory with SVG animation. ",
+  "language": "Python",
+  "stars": 4,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2022-03-04",
+  "url": "https://github.com/MizuhoAOKI/trajectory_svg_visualizer",
+  "topics": []
+ },
+ {
+  "name": "freecad-mcp-use-client",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "FreeCAD MCP client using mcp-use",
+  "language": "Python",
+  "stars": 4,
+  "forks": 0,
+  "activity": "Moderate",
+  "pushed_at": "2025-04-19",
+  "url": "https://github.com/neka-nat/freecad-mcp-use-client",
+  "topics": []
+ },
+ {
+  "name": "kdtree-ts",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "KDTree for typescript",
+  "language": "TypeScript",
+  "stars": 4,
+  "forks": 3,
+  "activity": "Inactive",
+  "pushed_at": "2023-01-09",
+  "url": "https://github.com/neka-nat/kdtree-ts",
+  "topics": []
+ },
+ {
+  "name": "realsense-web-viewer",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Sensor / Driver",
+  "description": "Realsense pointcloud viewer with webgl",
+  "language": "TypeScript",
+  "stars": 4,
+  "forks": 1,
+  "activity": "Inactive",
+  "pushed_at": "2023-10-10",
+  "url": "https://github.com/neka-nat/realsense-web-viewer",
+  "topics": [
+   "react",
+   "webgl"
+  ]
+ },
+ {
+  "name": "stable-diffusion-tauri-ui",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "ML / AI",
+  "description": "WebGPU based stable diffusion GUI",
+  "language": "Rust",
+  "stars": 4,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2023-12-23",
+  "url": "https://github.com/neka-nat/stable-diffusion-tauri-ui",
+  "topics": [
+   "stable-diffusion",
+   "webgpu",
+   "wgpu"
+  ]
+ },
+ {
   "name": "cvxpy_benchmark",
   "org": "AtsushiSakai",
   "org_name": "Atsushi Sakai",
@@ -51140,6 +52398,187 @@
   "pushed_at": "2023-01-25",
   "url": "https://github.com/engcang/flightgoggles_angle_controller",
   "topics": []
+ },
+ {
+  "name": "cppcarsimlib",
+  "org": "MizuhoAOKI",
+  "org_name": "Mizuho Aoki",
+  "section": "Individual Developers",
+  "category": "Simulation",
+  "description": "An easy-to-use carsim wrapper library to call carsim solver from c++ programs",
+  "language": "C++",
+  "stars": 3,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2023-10-13",
+  "url": "https://github.com/MizuhoAOKI/cppcarsimlib",
+  "topics": []
+ },
+ {
+  "name": "chainer-videogan",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "ML / AI",
+  "description": "A chainer impelementation of Generating Videos with Scene Dynamics",
+  "language": "Python",
+  "stars": 3,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2019-07-31",
+  "url": "https://github.com/neka-nat/chainer-videogan",
+  "topics": [
+   "chainer",
+   "deep-learning",
+   "gan",
+   "video",
+   "videogan"
+  ]
+ },
+ {
+  "name": "fullbody-pose-maker",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Manipulation",
+  "description": "Full body IK Pose Editor",
+  "language": "TypeScript",
+  "stars": 3,
+  "forks": 0,
+  "activity": "Moderate",
+  "pushed_at": "2025-09-16",
+  "url": "https://github.com/neka-nat/fullbody-pose-maker",
+  "topics": [
+   "human-pose",
+   "inverse-kinematics",
+   "threejs"
+  ]
+ },
+ {
+  "name": "haremovie",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "AI Wedding Video Generation",
+  "language": "TypeScript",
+  "stars": 3,
+  "forks": 0,
+  "activity": "Moderate",
+  "pushed_at": "2025-10-02",
+  "url": "https://github.com/neka-nat/haremovie",
+  "topics": [
+   "gemini",
+   "google-cloud",
+   "nanobanana",
+   "veo3"
+  ]
+ },
+ {
+  "name": "img-to-dxf-ai",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "",
+  "language": "Python",
+  "stars": 3,
+  "forks": 2,
+  "activity": "Moderate",
+  "pushed_at": "2025-11-22",
+  "url": "https://github.com/neka-nat/img-to-dxf-ai",
+  "topics": []
+ },
+ {
+  "name": "manual-qa-bot",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Docs / Examples",
+  "description": "Local AI chat for manual documents",
+  "language": "Python",
+  "stars": 3,
+  "forks": 0,
+  "activity": "Low",
+  "pushed_at": "2025-02-07",
+  "url": "https://github.com/neka-nat/manual-qa-bot",
+  "topics": []
+ },
+ {
+  "name": "notionflow",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Perception",
+  "description": "Experiment tracking tool on Notion",
+  "language": "Python",
+  "stars": 3,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2023-05-09",
+  "url": "https://github.com/neka-nat/notionflow",
+  "topics": [
+   "mlops",
+   "notion",
+   "notion-api",
+   "notion-database",
+   "python"
+  ]
+ },
+ {
+  "name": "pyisheval",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "Python-like syntax eval",
+  "language": "Rust",
+  "stars": 3,
+  "forks": 1,
+  "activity": "Active",
+  "pushed_at": "2026-01-25",
+  "url": "https://github.com/neka-nat/pyisheval",
+  "topics": [
+   "eval",
+   "rust"
+  ]
+ },
+ {
+  "name": "tripo-python",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "Unofficial Tripo API python client",
+  "language": "Python",
+  "stars": 3,
+  "forks": 1,
+  "activity": "Moderate",
+  "pushed_at": "2025-04-20",
+  "url": "https://github.com/neka-nat/tripo-python",
+  "topics": [
+   "3d",
+   "ai",
+   "text-to-3d"
+  ]
+ },
+ {
+  "name": "vlm-recog",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Perception",
+  "description": "Object detection and segmentation using Vision Language Model (Gemini)",
+  "language": "Python",
+  "stars": 3,
+  "forks": 0,
+  "activity": "Moderate",
+  "pushed_at": "2025-12-21",
+  "url": "https://github.com/neka-nat/vlm-recog",
+  "topics": [
+   "gemini",
+   "vlm"
+  ]
  },
  {
   "name": "ArgMin.jl",
@@ -53640,6 +55079,349 @@
   "pushed_at": "2023-01-25",
   "url": "https://github.com/engcang/Turtlebot3Autorace_Eungchangho_Team",
   "topics": []
+ },
+ {
+  "name": "koopman_operator",
+  "org": "MizuhoAOKI",
+  "org_name": "Mizuho Aoki",
+  "section": "Individual Developers",
+  "category": "Docs / Examples",
+  "description": "koopman operator examples",
+  "language": "Jupyter Notebook",
+  "stars": 2,
+  "forks": 0,
+  "activity": "Low",
+  "pushed_at": "2024-09-17",
+  "url": "https://github.com/MizuhoAOKI/koopman_operator",
+  "topics": [
+   "koopman",
+   "koopman-operator",
+   "koopman-operator-theory",
+   "koopman-operators",
+   "koopmans-functionals"
+  ]
+ },
+ {
+  "name": "radar_chart",
+  "org": "MizuhoAOKI",
+  "org_name": "Mizuho Aoki",
+  "section": "Individual Developers",
+  "category": "Sensor / Driver",
+  "description": "radar chart example",
+  "language": "Jupyter Notebook",
+  "stars": 2,
+  "forks": 0,
+  "activity": "Low",
+  "pushed_at": "2024-10-02",
+  "url": "https://github.com/MizuhoAOKI/radar_chart",
+  "topics": []
+ },
+ {
+  "name": "burn-tutorial",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Docs / Examples",
+  "description": "",
+  "language": "Rust",
+  "stars": 2,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2023-02-23",
+  "url": "https://github.com/neka-nat/burn-tutorial",
+  "topics": []
+ },
+ {
+  "name": "fastmunk",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "Python package for fast munkres algorithm",
+  "language": "Rust",
+  "stars": 2,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2022-12-29",
+  "url": "https://github.com/neka-nat/fastmunk",
+  "topics": [
+   "pyo3",
+   "python",
+   "rust"
+  ]
+ },
+ {
+  "name": "feetech-servo-ts",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "feetech serveo sdk for typescript",
+  "language": "TypeScript",
+  "stars": 2,
+  "forks": 0,
+  "activity": "Moderate",
+  "pushed_at": "2025-07-22",
+  "url": "https://github.com/neka-nat/feetech-servo-ts",
+  "topics": [
+   "feetech",
+   "web-serial"
+  ]
+ },
+ {
+  "name": "karmarkar",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "Rust implementation of Karmarkar's algorithm",
+  "language": "Rust",
+  "stars": 2,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2022-02-17",
+  "url": "https://github.com/neka-nat/karmarkar",
+  "topics": [
+   "karmarkar",
+   "linear-programming",
+   "rust"
+  ]
+ },
+ {
+  "name": "mycobot-web",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Middleware / ROS",
+  "description": "myCobot serial communication in your browser",
+  "language": "TypeScript",
+  "stars": 2,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2023-11-30",
+  "url": "https://github.com/neka-nat/mycobot-web",
+  "topics": [
+   "mycobot",
+   "react",
+   "typescript"
+  ]
+ },
+ {
+  "name": "pandas-query-mcp",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Manipulation",
+  "description": "",
+  "language": "Python",
+  "stars": 2,
+  "forks": 0,
+  "activity": "Moderate",
+  "pushed_at": "2025-05-25",
+  "url": "https://github.com/neka-nat/pandas-query-mcp",
+  "topics": []
+ },
+ {
+  "name": "pendulum-rs",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Simulation",
+  "description": "Pendulum simulations",
+  "language": "Rust",
+  "stars": 2,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2021-01-25",
+  "url": "https://github.com/neka-nat/pendulum-rs",
+  "topics": [
+   "physics-simulation",
+   "rust"
+  ]
+ },
+ {
+  "name": "realtime-audio-translator",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "",
+  "language": "Python",
+  "stars": 2,
+  "forks": 0,
+  "activity": "Active",
+  "pushed_at": "2026-03-23",
+  "url": "https://github.com/neka-nat/realtime-audio-translator",
+  "topics": []
+ },
+ {
+  "name": "rfdetr-doclayout",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Docs / Examples",
+  "description": "RF-DETR for Docment Layout Analysis",
+  "language": "Python",
+  "stars": 2,
+  "forks": 0,
+  "activity": "Active",
+  "pushed_at": "2026-01-14",
+  "url": "https://github.com/neka-nat/rfdetr-doclayout",
+  "topics": [
+   "document-layout-analysis",
+   "document-parser",
+   "pdf-to-text",
+   "rf-detr"
+  ]
+ },
+ {
+  "name": "ros-noetic-docker-compose",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Docs / Examples",
+  "description": "Docker compose for ROS noetic",
+  "language": "Dockerfile",
+  "stars": 2,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2023-08-16",
+  "url": "https://github.com/neka-nat/ros-noetic-docker-compose",
+  "topics": [
+   "docker",
+   "docker-compose",
+   "ros"
+  ]
+ },
+ {
+  "name": "ros_cvdnn",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "ML / AI",
+  "description": "ROS packages for OpenCV DNN module",
+  "language": "C++",
+  "stars": 2,
+  "forks": 1,
+  "activity": "Inactive",
+  "pushed_at": "2022-08-22",
+  "url": "https://github.com/neka-nat/ros_cvdnn",
+  "topics": [
+   "deep-learning",
+   "opencv",
+   "ros"
+  ]
+ },
+ {
+  "name": "rust_cuda_test",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "",
+  "language": "Rust",
+  "stars": 2,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2022-12-15",
+  "url": "https://github.com/neka-nat/rust_cuda_test",
+  "topics": []
+ },
+ {
+  "name": "sgm-rs",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "Semi-global matching for Rust",
+  "language": "Rust",
+  "stars": 2,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2021-08-21",
+  "url": "https://github.com/neka-nat/sgm-rs",
+  "topics": [
+   "rust",
+   "semi-global-matching"
+  ]
+ },
+ {
+  "name": "snapfiction-ai",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "AI agent for short story movies",
+  "language": "Python",
+  "stars": 2,
+  "forks": 2,
+  "activity": "Moderate",
+  "pushed_at": "2025-09-06",
+  "url": "https://github.com/neka-nat/snapfiction-ai",
+  "topics": [
+   "adk",
+   "ai-agents",
+   "imagen",
+   "lyria",
+   "veo2"
+  ]
+ },
+ {
+  "name": "tts-clients",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "Various TTS clients for Python",
+  "language": "Python",
+  "stars": 2,
+  "forks": 0,
+  "activity": "Moderate",
+  "pushed_at": "2025-12-25",
+  "url": "https://github.com/neka-nat/tts-clients",
+  "topics": [
+   "gemini",
+   "minimax",
+   "openai",
+   "tts"
+  ]
+ },
+ {
+  "name": "urdf-spherizer",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "Convert URDF's collision geometries to spheres",
+  "language": "Python",
+  "stars": 2,
+  "forks": 0,
+  "activity": "Active",
+  "pushed_at": "2026-02-04",
+  "url": "https://github.com/neka-nat/urdf-spherizer",
+  "topics": [
+   "collision",
+   "robotics",
+   "urdf"
+  ]
+ },
+ {
+  "name": "wgstd",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "WebGPU based standard algorithms",
+  "language": "Rust",
+  "stars": 2,
+  "forks": 0,
+  "activity": "Low",
+  "pushed_at": "2024-12-22",
+  "url": "https://github.com/neka-nat/wgstd",
+  "topics": [
+   "rust",
+   "webgpu"
+  ]
  },
  {
   "name": "bookmarklet.vim",
@@ -56654,6 +58436,223 @@
   "activity": "Inactive",
   "pushed_at": "2022-10-12",
   "url": "https://github.com/engcang/khnp_competition2022",
+  "topics": []
+ },
+ {
+  "name": "maniviz",
+  "org": "MizuhoAOKI",
+  "org_name": "Mizuho Aoki",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "manipulator visualizer",
+  "language": "Python",
+  "stars": 1,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2023-09-29",
+  "url": "https://github.com/MizuhoAOKI/maniviz",
+  "topics": []
+ },
+ {
+  "name": "MizuhoAOKI.github.io",
+  "org": "MizuhoAOKI",
+  "org_name": "Mizuho Aoki",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "MizuhoAOKI's portfolio",
+  "language": "HTML",
+  "stars": 1,
+  "forks": 0,
+  "activity": "Active",
+  "pushed_at": "2026-03-26",
+  "url": "https://github.com/MizuhoAOKI/MizuhoAOKI.github.io",
+  "topics": []
+ },
+ {
+  "name": "neural_network",
+  "org": "MizuhoAOKI",
+  "org_name": "Mizuho Aoki",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "neural network playground",
+  "language": "Jupyter Notebook",
+  "stars": 1,
+  "forks": 0,
+  "activity": "Low",
+  "pushed_at": "2024-11-30",
+  "url": "https://github.com/MizuhoAOKI/neural_network",
+  "topics": []
+ },
+ {
+  "name": "pyudp_trans",
+  "org": "MizuhoAOKI",
+  "org_name": "Mizuho Aoki",
+  "section": "Individual Developers",
+  "category": "Sensor / Driver",
+  "description": "Minimum udp sender/receiver exchanging messages in the json format with python ",
+  "language": "Python",
+  "stars": 1,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2021-09-09",
+  "url": "https://github.com/MizuhoAOKI/pyudp_trans",
+  "topics": []
+ },
+ {
+  "name": "anylabel-web",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Tools / Utilities",
+  "description": "Web annotation tool",
+  "language": "TypeScript",
+  "stars": 1,
+  "forks": 0,
+  "activity": "Moderate",
+  "pushed_at": "2025-05-19",
+  "url": "https://github.com/neka-nat/anylabel-web",
+  "topics": []
+ },
+ {
+  "name": "nanobbox",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Perception",
+  "description": "faster bounding box overlap calculation",
+  "language": "C++",
+  "stars": 1,
+  "forks": 2,
+  "activity": "Inactive",
+  "pushed_at": "2022-09-24",
+  "url": "https://github.com/neka-nat/nanobbox",
+  "topics": [
+   "faster-rcnn",
+   "iou",
+   "object-detection",
+   "python"
+  ]
+ },
+ {
+  "name": "neka-nat.github.io",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "neka-nat homepage",
+  "language": "",
+  "stars": 1,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2021-02-25",
+  "url": "https://github.com/neka-nat/neka-nat.github.io",
+  "topics": []
+ },
+ {
+  "name": "player_zoo",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Learning / RL",
+  "description": "Deep reinforcement learning implementations",
+  "language": "Python",
+  "stars": 1,
+  "forks": 2,
+  "activity": "Inactive",
+  "pushed_at": "2019-08-26",
+  "url": "https://github.com/neka-nat/player_zoo",
+  "topics": [
+   "a3c",
+   "cem",
+   "ddpg",
+   "deep-q-network",
+   "deep-reinforcement-learning",
+   "double-dqn",
+   "dueling-dqn",
+   "prioritized-replay",
+   "pytorch",
+   "reinforcement-learning",
+   "visdom"
+  ]
+ },
+ {
+  "name": "qwen-image-layered-modal",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "",
+  "language": "Python",
+  "stars": 1,
+  "forks": 0,
+  "activity": "Moderate",
+  "pushed_at": "2025-12-21",
+  "url": "https://github.com/neka-nat/qwen-image-layered-modal",
+  "topics": [
+   "qwen-image"
+  ]
+ },
+ {
+  "name": "ros-drcsim",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Simulation",
+  "description": "Docker image to provide DRCSim environment.",
+  "language": "",
+  "stars": 1,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2018-01-15",
+  "url": "https://github.com/neka-nat/ros-drcsim",
+  "topics": [
+   "docker-image",
+   "ros"
+  ]
+ },
+ {
+  "name": "roslib-react-tutorials",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Docs / Examples",
+  "description": "",
+  "language": "TypeScript",
+  "stars": 1,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2022-06-09",
+  "url": "https://github.com/neka-nat/roslib-react-tutorials",
+  "topics": []
+ },
+ {
+  "name": "sagemaker-custom-pytorch-container",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "ML / AI",
+  "description": "",
+  "language": "Python",
+  "stars": 1,
+  "forks": 0,
+  "activity": "Inactive",
+  "pushed_at": "2023-11-13",
+  "url": "https://github.com/neka-nat/sagemaker-custom-pytorch-container",
+  "topics": []
+ },
+ {
+  "name": "urdf-to-usd",
+  "org": "neka-nat",
+  "org_name": "neka-nat",
+  "section": "Individual Developers",
+  "category": "Other",
+  "description": "",
+  "language": "Python",
+  "stars": 1,
+  "forks": 0,
+  "activity": "Low",
+  "pushed_at": "2024-12-17",
+  "url": "https://github.com/neka-nat/urdf-to-usd",
   "topics": []
  },
  {
