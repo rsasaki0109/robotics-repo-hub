@@ -6,7 +6,7 @@
 - **Website**: https://ai.meta.com
 - **GitHub**: https://github.com/facebookresearch
 - **Repos (non-fork)**: 544
-- **Total Stars**: 943,823
+- **Total Stars**: 943,831
 
 ## SLAM / Localization
 
@@ -191,7 +191,7 @@
 | [MetaCLIP](https://github.com/facebookresearch/MetaCLIP) | 1,828 | Python | Moderate | NeurIPS 2025 Spotlight; ICLR2024 Spotlight; CVPR 2024; EMNLP 2024 |
 | [multimodal](https://github.com/facebookresearch/multimodal) | 1,712 | Python | Active | TorchMultimodal is a PyTorch library for training state-of-the-art multimodal mu |
 | [coconut](https://github.com/facebookresearch/coconut) | 1,554 | Python | Moderate | Training Large Language Model to Reason in a Continuous Latent Space |
-| [tribev2](https://github.com/facebookresearch/tribev2) | 1,508 | Jupyter Notebook | Active | This repository contains the code to train and evaluate TRIBE v2, a multimodal m |
+| [tribev2](https://github.com/facebookresearch/tribev2) | 1,510 | Jupyter Notebook | Active | This repository contains the code to train and evaluate TRIBE v2, a multimodal m |
 
 ## Learning / RL
 
@@ -276,7 +276,7 @@
 | [Kats](https://github.com/facebookresearch/Kats) | 6,294 | Python | Active | Kats, a kit to analyze time series data, a lightweight, easy-to-use, generalizab |
 | [AugLy](https://github.com/facebookresearch/AugLy) | 5,070 | Python | Active | A data augmentations library for audio, image, text, and video. |
 | [encodec](https://github.com/facebookresearch/encodec) | 3,933 | Python | Inactive | State-of-the-art deep learning based audio codec supporting both mono 24 kHz aud |
-| [omnilingual-asr](https://github.com/facebookresearch/omnilingual-asr) | 2,748 | Python | Moderate | Omnilingual ASR Open-Source Multilingual SpeechRecognition for 1600+ Languages |
+| [omnilingual-asr](https://github.com/facebookresearch/omnilingual-asr) | 2,749 | Python | Moderate | Omnilingual ASR Open-Source Multilingual SpeechRecognition for 1600+ Languages |
 | [fvcore](https://github.com/facebookresearch/fvcore) | 2,233 | Python | Active | Collection of common code that's shared among different research projects in FAI |
 | [HyperAgents](https://github.com/facebookresearch/HyperAgents) | 2,130 | Python | Active | Self-referential self-improving agents that can optimize for any computable task |
 | [fairchem](https://github.com/facebookresearch/fairchem) | 2,036 | Python | Active | FAIR Chemistry's library of machine learning methods for chemistry  |

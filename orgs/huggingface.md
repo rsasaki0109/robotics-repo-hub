@@ -93,7 +93,7 @@
 
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
-| [transformers](https://github.com/huggingface/transformers) | 158,842 | Python | Active | 🤗 Transformers: the model-definition framework for state-of-the-art machine lear |
+| [transformers](https://github.com/huggingface/transformers) | 158,841 | Python | Active | 🤗 Transformers: the model-definition framework for state-of-the-art machine lear |
 | [pytorch-image-models](https://github.com/huggingface/pytorch-image-models) | 36,599 | Python | Active | The largest collection of PyTorch image encoders / backbones. Including train, e |
 | [diffusers](https://github.com/huggingface/diffusers) | 33,269 | Python | Active | 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio gener |
 | [peft](https://github.com/huggingface/peft) | 20,892 | Python | Active | 🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning. |

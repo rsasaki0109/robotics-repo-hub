@@ -6,7 +6,7 @@
 - **Website**: https://openai.com
 - **GitHub**: https://github.com/openai
 - **Repos (non-fork)**: 198
-- **Total Stars**: 824,794
+- **Total Stars**: 824,807
 
 ## SLAM / Localization
 
@@ -38,7 +38,7 @@
 
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
-| [gym](https://github.com/openai/gym) | 37,137 | Python | Active | A toolkit for developing and comparing reinforcement learning algorithms. |
+| [gym](https://github.com/openai/gym) | 37,138 | Python | Active | A toolkit for developing and comparing reinforcement learning algorithms. |
 | [evals](https://github.com/openai/evals) | 18,131 | Python | Active | Evals is a framework for evaluating LLMs and LLM systems, and an open-source reg |
 | [openai-realtime-agents](https://github.com/openai/openai-realtime-agents) | 6,814 | TypeScript | Active | This is a simple demonstration of more advanced, agentic patterns built on top o |
 | [simple-evals](https://github.com/openai/simple-evals) | 4,425 | Python | Moderate | — |
@@ -46,11 +46,11 @@
 | [mujoco-py](https://github.com/openai/mujoco-py) | 3,125 | Cython | Inactive | MuJoCo is a physics engine for detailed, efficient rigid body simulations with c |
 | [multiagent-particle-envs](https://github.com/openai/multiagent-particle-envs) | 2,747 | Python | Low | Code for a multi-agent particle environment used in the paper "Multi-Agent Actor |
 | [roboschool](https://github.com/openai/roboschool) | 2,168 | Python | Inactive | DEPRECATED: Open-source software for robot simulation, integrated with OpenAI Gy |
-| [maddpg](https://github.com/openai/maddpg) | 1,958 | Python | Inactive | Code for the MADDPG algorithm from the paper "Multi-Agent Actor-Critic for Mixed |
+| [maddpg](https://github.com/openai/maddpg) | 1,959 | Python | Inactive | Code for the MADDPG algorithm from the paper "Multi-Agent Actor-Critic for Mixed |
 | [multi-agent-emergence-environments](https://github.com/openai/multi-agent-emergence-environments) | 1,788 | Python | Low | Environment generation code for the paper "Emergent Tool Use From Multi-Agent Au |
 | [openai-cua-sample-app](https://github.com/openai/openai-cua-sample-app) | 1,675 | TypeScript | Active | Learn how to use CUA (our Computer Using Agent) via the API on multiple computer |
 | [neural-mmo](https://github.com/openai/neural-mmo) | 1,651 | Python | Inactive | Code for the paper "Neural MMO: A Massively Multiagent Game Environment for Trai |
-| [mle-bench](https://github.com/openai/mle-bench) | 1,440 | Python | Active | MLE-bench is a benchmark for measuring how well AI agents perform at machine lea |
+| [mle-bench](https://github.com/openai/mle-bench) | 1,441 | Python | Active | MLE-bench is a benchmark for measuring how well AI agents perform at machine lea |
 | [procgen](https://github.com/openai/procgen) | 1,153 | C++ | Active | Procgen Benchmark: Procedurally-Generated Game-Like Gym-Environments |
 | [codex-universal](https://github.com/openai/codex-universal) | 855 | Dockerfile | Active | Base docker image used in Codex environments |
 | [safety-gym](https://github.com/openai/safety-gym) | 595 | Python | Inactive | Tools for accelerating safe exploration research. |
@@ -84,7 +84,7 @@
 | [guided-diffusion](https://github.com/openai/guided-diffusion) | 7,336 | Python | Low | — |
 | [point-e](https://github.com/openai/point-e) | 6,873 | Python | Low | Point cloud diffusion for 3D model synthesis |
 | [consistency_models](https://github.com/openai/consistency_models) | 6,475 | Python | Inactive | Official repo for consistency models. |
-| [parameter-golf](https://github.com/openai/parameter-golf) | 4,648 | Python | Active | Train the smallest LM you can that fits in 16MB. Best model wins! |
+| [parameter-golf](https://github.com/openai/parameter-golf) | 4,649 | Python | Active | Train the smallest LM you can that fits in 16MB. Best model wins! |
 | [harmony](https://github.com/openai/harmony) | 4,258 | Rust | Active | Renderer for the harmony response format to be used with gpt-oss |
 | [plugins-quickstart](https://github.com/openai/plugins-quickstart) | 4,235 | Python | Inactive | Get a ChatGPT plugin up and running in under 5 minutes! |
 | [transformer-debugger](https://github.com/openai/transformer-debugger) | 4,109 | Python | Low | — |
@@ -107,7 +107,7 @@
 
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
-| [baselines](https://github.com/openai/baselines) | 16,687 | Python | Low | OpenAI Baselines: high-quality implementations of reinforcement learning algorit |
+| [baselines](https://github.com/openai/baselines) | 16,688 | Python | Low | OpenAI Baselines: high-quality implementations of reinforcement learning algorit |
 | [spinningup](https://github.com/openai/spinningup) | 11,696 | Python | Low | An educational resource to help anyone learn deep reinforcement learning. |
 | [evolution-strategies-starter](https://github.com/openai/evolution-strategies-starter) | 1,628 | Python | Inactive | Code for the paper "Evolution Strategies as a Scalable Alternative to Reinforcem |
 | [imitation](https://github.com/openai/imitation) | 731 | Python | Inactive |  Code for the paper "Generative Adversarial Imitation Learning" |
@@ -142,7 +142,7 @@
 
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
-| [openai-cs-agents-demo](https://github.com/openai/openai-cs-agents-demo) | 5,954 | Python | Moderate | Demo of a customer service use case implemented with the OpenAI Agents SDK |
+| [openai-cs-agents-demo](https://github.com/openai/openai-cs-agents-demo) | 5,953 | Python | Moderate | Demo of a customer service use case implemented with the OpenAI Agents SDK |
 | [openai-fm](https://github.com/openai/openai-fm) | 2,839 | TypeScript | Active | Code for openai.fm, a demo for the OpenAI Speech API |
 | [openai-quickstart-node](https://github.com/openai/openai-quickstart-node) | 2,632 | JavaScript | Moderate | Node.js example app from the OpenAI API quickstart tutorial |
 | [openai-apps-sdk-examples](https://github.com/openai/openai-apps-sdk-examples) | 2,174 | TypeScript | Active | Example apps for the Apps SDK |
@@ -158,14 +158,14 @@
 
 | Repository | Stars | Language | Activity | Description |
 |---|---|---|---|---|
-| [whisper](https://github.com/openai/whisper) | 97,205 | Python | Active | Robust Speech Recognition via Large-Scale Weak Supervision |
+| [whisper](https://github.com/openai/whisper) | 97,206 | Python | Active | Robust Speech Recognition via Large-Scale Weak Supervision |
 | [codex](https://github.com/openai/codex) | 73,295 | Rust | Active | Lightweight coding agent that runs in your terminal |
 | [openai-python](https://github.com/openai/openai-python) | 30,365 | Python | Active | The official Python library for the OpenAI API |
 | [swarm](https://github.com/openai/swarm) | 21,276 | Python | Low | Educational framework exploring ergonomic, lightweight multi-agent orchestration |
 | [skills](https://github.com/openai/skills) | 16,186 | Python | Active | Skills Catalog for Codex |
-| [symphony](https://github.com/openai/symphony) | 14,596 | Elixir | Active | Symphony turns project work into isolated, autonomous implementation runs, allow |
+| [symphony](https://github.com/openai/symphony) | 14,597 | Elixir | Active | Symphony turns project work into isolated, autonomous implementation runs, allow |
 | [shap-e](https://github.com/openai/shap-e) | 12,230 | Python | Low | Generate 3D objects conditioned on text or images |
-| [codex-plugin-cc](https://github.com/openai/codex-plugin-cc) | 11,870 | JavaScript | Active | Use Codex from Claude Code to review code or delegate tasks. |
+| [codex-plugin-cc](https://github.com/openai/codex-plugin-cc) | 11,876 | JavaScript | Active | Use Codex from Claude Code to review code or delegate tasks. |
 | [openai-node](https://github.com/openai/openai-node) | 10,790 | TypeScript | Active | Official JavaScript / TypeScript library for the OpenAI API |
 | [grok](https://github.com/openai/grok) | 4,244 | Python | Inactive | — |
 | [glow](https://github.com/openai/glow) | 3,182 | Python | Low | Code for reproducing results in "Glow: Generative Flow with Invertible 1x1 Convo |
